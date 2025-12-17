@@ -9,9 +9,9 @@ const About = () => {
 
         {/* LEFT – BACKGROUND IMAGE CONTENT */}
         <div
-          className=" md:w-1/2 l flex-center bg-no-repeat  bg-contain bg-center"
+          className=" md:w-1/2 flex-center bg-no-repeat  bg-contain bg-center"
           style={{
-            backgroundImage: "url('images/home/plane.png')",
+            backgroundImage: "url('/images/home/plane.png')",
           }}
         >
 
@@ -31,7 +31,7 @@ const About = () => {
         <div className="flex  mt-5  md:w-1/2 flex-col px-8 md:px-16 bg-white">
           <div className="relative rounded-xl overflow-hidden shadow-lg">
             <img
-              src="images/home/education-globe.jpg"
+              src="/images/home/education-globe.jpg"
               alt="Study Abroad"
               className="w-full h-auto object-cover"
             />
