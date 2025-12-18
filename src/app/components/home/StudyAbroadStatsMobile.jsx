@@ -32,7 +32,7 @@ export function StudyAbroadStatsMobile({ stats }) {
           <CarouselItem key={index} className="basis-full">
             <div className="p-2">
               <Card>
-                <CardContent className="flex flex-col items-center justify-center py-4">
+                <CardContent className="flex flex-col items-center justify-center">
                   <p className="text-primary-red text-2xl font-semibold">
                     {item.value}
                   </p>

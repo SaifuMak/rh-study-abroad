@@ -9,6 +9,7 @@
 
 @theme{
     --color-primary-red: #771D40;
+    --color-light-black: #2D2D2D;
 }
 
 @theme inline {

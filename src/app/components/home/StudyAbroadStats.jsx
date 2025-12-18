@@ -10,13 +10,14 @@ const stats = [
     { value: "700+", label: "Universities" },
 ];
 
+
 const StudyAbroadStats = () => {
     return (
         <section className={`${sansita.className} w-full bg-white`}>
             <div className="">
 
                 {/* upto 676px  */}
-                <div className="flex  flex-row overflow-hidden justify-between xl:space-x-10 2xl:space-x-16 items-center max-md:mx-auto md:w-11/12  md:gap-x-10  lg:gap-x-16">
+                <div className="flex  flex-row overflow-hidden justify-between xl:space-x-10  2xl:space-x-16 items-center max-md:mx-auto md:w-11/12  md:gap-x-10  lg:gap-x-16">
 
                     {/* LEFT BLOCK */}
                     <div className=" bg-primary-red text-white  rounded-r-3xl px-10 xl:py-12 py-8 flex items-center  justify-end w-1/3 md:min-w-[200px] lg:min-w-[350px] xl:min-w-[400px] 2xl:min-w-[450px]">
@@ -41,7 +42,7 @@ const StudyAbroadStats = () => {
                     </div>
 
                     {/* MOBILE STATS */}
-                    <div className="md:hidden  w-2/3">
+                    <div className="md:hidden px-6 mt-2 w-2/3">
                         <StudyAbroadStatsMobile stats={stats} />
                     </div>
 
