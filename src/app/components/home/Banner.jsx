@@ -16,9 +16,9 @@ function Banner() {
           <h1 className={`${istokWeb.className} text-3xl md:text-5xl lg:text-7xl xl:leading-20 `}>Study Abroad,<br />
             Live your Dream Life</h1>
           <div className="flex mt-5 items-center max-lg:text-xs  space-x-5">
-            <button className=" px-8 lg:px-12 md:py-2 py-1.5 flex-center  text-primary-red bg-white rounded-full">CONTACT US</button>
+            <button className=" btn-primary flex-center  text-primary-red bg-white rounded-full">CONTACT US</button>
 
-            <button className="px-8 lg:px-12 md:py-2 py-1.5 flex-center bg-primary-red text-white rounded-full">OUR STORY</button>
+            <button className=" btn-primary flex-center bg-primary-red text-white rounded-full">OUR STORY</button>
           </div>
         </div>
 

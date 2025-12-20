@@ -8,12 +8,12 @@ import CountriesList from './components/home/CountriesList';
 export default function Home() {
 
   return (
-    <div className="">
+    <div className=" overflow-x-hidden">
       <Banner />
       <About />
       <StudyAbroadStats/>
       <UnlockingDoorSection/>
-      {/* <CountriesList /> */}
+      <CountriesList />
     </div>
   );
 }

@@ -13,39 +13,71 @@ import { countries } from "@/app/data/countries"
 export function CountriesCarousal() {
   const autoplayRef = React.useRef(
     Autoplay({
-      delay: 2500,           // time between slides (ms)
+      delay: 2500,
       stopOnInteraction: false,
       stopOnMouseEnter: true,
     })
   )
 
-  return (
-    <Carousel
-      className=" "
-      opts={{
-        loop: true,
-        align: "center",
-      }}
-      plugins={[autoplayRef.current]}
-    >
-      <CarouselContent>
-        {countries.map((item, index) => (
-          <CarouselItem key={index} className="basis-1/5  ">
-            <div className="">
-              <Card className='py-0  px-3 border-none shadow-none bg-transparent ' >
-                <CardContent className=" px-0  ">
-                  <div className=" w-full h-[350px] ">
-                    <img src={item.image} alt={item.name} className="w-full  rounded-2xl h-full object-cover " />
-                  </div>
-                  <p className="mt-3 text-xl">{item.name}</p>
+  const [api, setApi] = React.useState(null)
+  const [current, setCurrent] = React.useState(0)
 
+  React.useEffect(() => {
+    if (!api) return
+
+    setCurrent(api.selectedScrollSnap())
+
+    api.on("select", () => {
+      setCurrent(api.selectedScrollSnap())
+    })
+  }, [api])
+
+  return (
+    <div className="w-full ">
+      <Carousel
+        setApi={setApi}
+        opts={{
+          loop: true,
+          align: "center",
+        }}
+        plugins={[autoplayRef.current]}
+      >
+        <CarouselContent>
+          {countries.map((item, index) => (
+            <CarouselItem key={index} className=" md:basis-1/3 lg:basis-1/3 xl:basis-1/5 2xl:basis-1/5">
+              <Card className="py-0  lg:px-4 xl:px-1 2xl:px-3 border-none shadow-none bg-transparent">
+                <CardContent className="px-0">
+                  <div className="w-full lg:h-[330px] xl:h-[320px] 2xl:h-[360px] lg:h-[310px] h-[280px]">
+                    <img
+                      src={item.image}
+                      alt={item.name}
+                      className="w-full h-full rounded-2xl xl:object-cover"
+                    />
+                  </div>
+                  <p className="mt-3 lg:text-xl text-white">{item.name}</p>
                 </CardContent>
               </Card>
-            </div>
-          </CarouselItem>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+      </Carousel>
+
+      {/* INDICATOR LINES */}
+      <div className="flex md:ml-3 max-md:w-10/12 max-md:mx-auto  gap-2 mt-5 md:mt-10 md:w-3/12">
+        {countries.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => api?.scrollTo(index)}
+            aria-label={`Go to slide ${index + 1}`}
+            className={`h-[3px] flex-1 rounded-full transition-all duration-300 cursor-pointer
+        ${index === current ? "bg-white" : "bg-white/30 hover:bg-white/60"}
+      `}
+          />
         ))}
-      </CarouselContent>
-    </Carousel>
+      </div>
+
+    </div>
   )
 }
+
 export default CountriesCarousal

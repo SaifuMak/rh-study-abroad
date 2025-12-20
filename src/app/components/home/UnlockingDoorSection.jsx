@@ -21,7 +21,7 @@ function UnlockingDoorSection() {
 
                 {/* Left content */}
                 <div className="sm:w-7/12  md:px-6">
-                    <h1 className={` text-3xl md:text-4xl  xl:text-6xl text-light-black max-w-xl 2xl:max-w-2xl md:leading-10 xl:leading-18  ${sansita.className}`}>
+                    <h1 className={`heading text-light-black max-w-xl 2xl:max-w-2xl   ${sansita.className}`}>
                         Unlocking doors to worldwide opportunities
                     </h1>
                     {/*  image only on the mobile */}
@@ -47,7 +47,7 @@ function UnlockingDoorSection() {
                         networks, and top-tier education come together to shape a truly
                         international future.
                     </p>
-                    <button className="xl:mt-8 mt-5 cursor-pointer px-12 py-2 text-sm rounded-full bg-primary-red text-white">
+                    <button className="xl:mt-8 mt-5 btn-primary cursor-pointer  text-sm rounded-full bg-primary-red text-white">
                         CONTACT US
                     </button>
                 </div>
