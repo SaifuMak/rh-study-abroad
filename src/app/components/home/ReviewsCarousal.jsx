@@ -154,8 +154,8 @@ export default function ReviewsCarousel() {
                                                 <span
                                                     key={i}
                                                     className={`text-lg ${i < review.rating
-                                                            ? "text-yellow-400"
-                                                            : "text-gray-300"
+                                                        ? "text-yellow-400"
+                                                        : "text-gray-300"
                                                         }`}
                                                 >
                                                     ★
