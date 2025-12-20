@@ -4,7 +4,7 @@ import About from './components/home/About';
 import StudyAbroadStats from './components/home/StudyAbroadStats';
 import UnlockingDoorSection from './components/home/UnlockingDoorSection';
 import CountriesList from './components/home/CountriesList';
-
+import ReviewsSection from './components/home/ReviewsSection';
 export default function Home() {
 
   return (
@@ -14,6 +14,7 @@ export default function Home() {
       <StudyAbroadStats/>
       <UnlockingDoorSection/>
       <CountriesList />
+      <ReviewsSection/>
     </div>
   );
 }

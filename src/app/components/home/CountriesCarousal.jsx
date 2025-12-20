@@ -63,7 +63,7 @@ export function CountriesCarousal() {
       </Carousel>
 
       {/* INDICATOR LINES */}
-      <div className="flex md:ml-3 max-md:w-10/12 max-md:mx-auto  gap-2 mt-5 md:mt-10 md:w-3/12">
+      <div className="flex md:ml-3 max-w-[200px]  md:max-w-[400px] max-md:mx-auto  gap-2 mt-5 md:mt-10 md:w-3/12">
         {countries.map((_, index) => (
           <button
             key={index}
