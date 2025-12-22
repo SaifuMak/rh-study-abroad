@@ -6,17 +6,22 @@ import UnlockingDoorSection from './components/home/UnlockingDoorSection';
 import CountriesList from './components/home/CountriesList';
 import ReviewsSection from './components/home/ReviewsSection';
 import ContactSection from './components/home/ContactSection';
+import Footer from './components/Footer';
+import SmoothScroll from './components/SmoothScroll';
 export default function Home() {
 
   return (
-    <div className=" overflow-x-hidden">
-      <Banner />
-      <About />
-      <StudyAbroadStats/>
-      <UnlockingDoorSection/>
-      <CountriesList />
-      <ReviewsSection/>
-      <ContactSection/>
-    </div>
+    <SmoothScroll>
+      <div className=" overflow-x-hidden">
+        <Banner />
+        <About />
+        <StudyAbroadStats/>
+        <UnlockingDoorSection/>
+        <CountriesList />
+        <ReviewsSection/>
+        <ContactSection/>
+        <Footer />
+      </div>
+    </SmoothScroll>
   );
 }

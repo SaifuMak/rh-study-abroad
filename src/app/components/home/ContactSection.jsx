@@ -11,11 +11,10 @@ export default function ContactSection() {
         style={{ backgroundImage: "url('images/home/laughing-men.png')" }}
       />
 
-      <div className="absolute inset-0 bg-black/30" />
 
       {/* CONTENT */}
-      <div className="relative z-10 flex items-center justify-center min-h-[450px]  py-10 px-4">
-        <div className="2xl:max-w-5xl max-w-4xl w-full rounded-2xl border border-white/20 bg-white/10 backdrop-blur-xl px-8  py-10 lg:py-16 text-white">
+      <div className="relative z-10 flex items-center justify-center min-h-[450px]  py-10 2xl:py-12 px-4">
+        <div className="2xl:max-w-5xl max-w-4xl w-full rounded-2xl border border-white/40 backdrop-blur-xl px-8  py-10 lg:py-16 text-white">
 
           <h1 className={`${sansita.className} text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl 2xl:leading-snug text-center`}>
             Don’t just dream of the world—go explore it.
