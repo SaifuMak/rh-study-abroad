@@ -1,8 +1,11 @@
 import React from "react";
 import {inriaSans } from '../../fonts';
-
+import useGsapFadeIn from "@/app/hooks/gsap/useGsapFadeIn";
+import useGsapOpacity from "@/app/hooks/gsap/useGsapOpacity";
 
 const About = () => {
+  const sectionRef = useGsapFadeIn();
+  const imageRef = useGsapOpacity();
   return ( 
     <section className={` ${inriaSans.className} w-full max-sm:text-center`}>
       <div className="flex max-sm:flex-col py-12 xl:py-20  2xl:py-32 w-11/12 2xl:w-10/12   mx-auto ">
@@ -17,7 +20,7 @@ const About = () => {
 
 
           {/* Text */}
-          <p className=" text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl  font-light  leading-relaxed  xl:leading-14  2xl:leading-16  text-center md:max-w-md xl:max-w-lg">
+          <p ref={sectionRef} className=" text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl  font-light  leading-relaxed  xl:leading-14  2xl:leading-16  text-center md:max-w-md xl:max-w-lg">
             <span className=" text-primary-red font-semibold">
               RH Study Abroad
             </span>{" "}
@@ -28,7 +31,7 @@ const About = () => {
         </div>
 
         {/* RIGHT – IMAGE CARD */}
-        <div className="flex  mt-5  md:w-1/2 flex-col px-8 md:px-16 bg-white">
+        <div ref={imageRef} className="flex  mt-5  md:w-1/2 flex-col px-8 md:px-16 bg-white">
           <div className="relative rounded-xl overflow-hidden shadow-lg">
             <img
               src="/images/home/education-globe.jpg"

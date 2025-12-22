@@ -1,3 +1,4 @@
+'use client';
 import { sansita } from './fonts';
 import Banner from './components/home/Banner';
 import About from './components/home/About';
@@ -8,6 +9,8 @@ import ReviewsSection from './components/home/ReviewsSection';
 import ContactSection from './components/home/ContactSection';
 import Footer from './components/Footer';
 import SmoothScroll from './components/SmoothScroll';
+
+
 export default function Home() {
 
   return (

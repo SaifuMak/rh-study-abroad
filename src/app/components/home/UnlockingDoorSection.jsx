@@ -1,7 +1,11 @@
 import { sansita } from '../../fonts';
-
+import useGsapFadeIn from "@/app/hooks/gsap/useGsapFadeIn";
+import useGsapOpacity from "@/app/hooks/gsap/useGsapOpacity";
 
 function UnlockingDoorSection() {
+
+    const contentRef = useGsapFadeIn();
+    const imageRef = useGsapOpacity({start: "top 75%"});
 
     const pillBase =
         "xl:w-[180px] lg:w-[150px] w-[110px] md:py-2 py-1 h-fit  text-nowrap  border-[#E8E8E8] shadow-md shadow-[#0000001A] rounded-full bg-white"
@@ -20,7 +24,7 @@ function UnlockingDoorSection() {
             <div className="relative z-10 bg-white/97 max-sm:space-x-0 max-xl:space-x-10 flex  h-full items-center">
 
                 {/* Left content */}
-                <div className="sm:w-7/12  md:px-6">
+                <div ref={contentRef} className="sm:w-7/12  md:px-6">
                     <h1 className={`heading text-light-black max-w-xl 2xl:max-w-2xl   ${sansita.className}`}>
                         Unlocking doors to worldwide opportunities
                     </h1>
@@ -53,7 +57,7 @@ function UnlockingDoorSection() {
                 </div>
 
                 {/* Right image */}
-                <div className="sm:w-5/12 max-sm:hidden  h-full  relative flex  ">
+                <div ref={imageRef} className="sm:w-5/12 max-sm:hidden  h-full  relative flex  ">
                     <div className="absolute text-xs lg:text-sm lg:-left-30 -left-16  xl:-left-34 text-center top-1/2 flex flex-col items-end gap-5 xl:gap-8 -translate-y-1/2 ">
                         <span className={pillBase}>Global Exposure</span>
 

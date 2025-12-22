@@ -1,6 +1,8 @@
 import React from "react";
 import { sansita } from '../../fonts';
 import { StudyAbroadStatsMobile } from "./StudyAbroadStatsMobile";
+import useGsapFadeIn from "@/app/hooks/gsap/useGsapFadeIn";
+import useGsapOpacity from "@/app/hooks/gsap/useGsapOpacity";
 
 const stats = [
     { value: "17+", label: "Years of Excellence" },
@@ -11,7 +13,12 @@ const stats = [
 ];
 
 
+
+
 const StudyAbroadStats = () => {
+
+    const sectionRef = useGsapFadeIn();
+    const titleRef = useGsapOpacity();
     return (
         <section className={`${sansita.className} w-full bg-white`}>
             <div className="">
@@ -20,7 +27,7 @@ const StudyAbroadStats = () => {
                 <div className="flex  flex-row overflow-hidden justify-between xl:space-x-10  2xl:space-x-16 items-center max-md:mx-auto md:w-11/12  md:gap-x-10  lg:gap-x-16">
 
                     {/* LEFT BLOCK */}
-                    <div className=" bg-primary-red text-white  rounded-r-3xl px-10 xl:py-12 py-8 flex items-center  justify-end w-1/3 md:min-w-[200px] lg:min-w-[350px] xl:min-w-[400px] 2xl:min-w-[450px]">
+                    <div ref={titleRef} className=" bg-primary-red text-white  rounded-r-3xl px-10 xl:py-12 py-8 flex items-center  justify-end w-1/3 md:min-w-[200px] lg:min-w-[350px] xl:min-w-[400px] 2xl:min-w-[450px]">
                         <h2 className="text-2xl lg:text-4xl 2xl:text-5xl  leading-tight ">
                             Study <br />
                             <span className=" lg:text-6xl 2xl:text-7xl">Abroad</span>
@@ -28,7 +35,7 @@ const StudyAbroadStats = () => {
                     </div>
 
                     {/* STATS */}
-                    <div className="flex max-md:hidden flex-wrap md:flex-nowrap justify-between w-full pr-5  gap-x-5">
+                    <div ref={sectionRef} className="flex max-md:hidden flex-wrap md:flex-nowrap justify-between w-full pr-5  gap-x-5">
                         {stats.map((item, index) => (
                             <div key={index} className="text-center  ">
                                 <p className=" text-primary-red text-2xl xl:text-3xl font-semibold">
