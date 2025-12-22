@@ -39,7 +39,7 @@ export default function Footer() {
                             </span>
 
                             <div className=" flex  w-full ">
-                                <div className=" flex text-black  items-center w-full justify-between px-4  rounded-sm w-full bg-white">
+                                <div className=" flex text-black  items-center w-full justify-between lg:px-4 px-2  rounded-sm w-full bg-white">
                                     <input
                                         type="email"
                                         placeholder="Email Address"
@@ -48,13 +48,13 @@ export default function Footer() {
                                         onKeyDown={handleKeyDown}
                                         className=" lg:py-3 py-2 outline-none w-full"
                                     />
-                                    {email && <span onClick={() => setEmail('')} className=" ml-5 p-1 hover:bg-slate-50 cursor-pointer text-xl"><RxCross2 /></span>}
+                                    {email && <span onClick={() => setEmail('')} className=" ml-2 lg:ml-5 p-1 hover:bg-slate-50 cursor-pointer text-xl"><RxCross2 /></span>}
 
                                 </div>
 
                                 <button
                                     onClick={handleBrochureDownload}
-                                    className="bg-primary-red cursor-pointer ml-4 xl:px-10 px-5 lg:py-3 py-2 max-lg:text-sm rounded-sm"
+                                    className="bg-primary-red cursor-pointer ml-4 xl:px-10 px-5 lg:py-3 py-2 max-md:text-xs rounded-sm"
                                 >
                                     DOWNLOAD
                                 </button>

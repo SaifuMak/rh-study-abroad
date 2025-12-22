@@ -10,7 +10,9 @@ import {
 import { Card, CardContent } from "@/components/ui/card"
 import { countries } from "@/app/data/countries"
 
+
 export function CountriesCarousal() {
+
   const autoplayRef = React.useRef(
     Autoplay({
       delay: 2500,

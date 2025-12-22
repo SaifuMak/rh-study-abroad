@@ -9,7 +9,7 @@ import ReviewsSection from './components/home/ReviewsSection';
 import ContactSection from './components/home/ContactSection';
 import Footer from './components/Footer';
 import SmoothScroll from './components/SmoothScroll';
-
+import Testimonials from './components/home/Testimonials';
 
 export default function Home() {
 
@@ -21,6 +21,7 @@ export default function Home() {
         <StudyAbroadStats/>
         <UnlockingDoorSection/>
         <CountriesList />
+        <Testimonials/>
         <ReviewsSection/>
         <ContactSection/>
         <Footer />

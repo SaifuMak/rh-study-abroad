@@ -1,8 +1,12 @@
 'use client'
 import React from "react"
 import { sansita } from '../../fonts';
+import useGsapFadeIn from '@/app/hooks/gsap/useGsapFadeIn';
 
 export default function ContactSection() {
+
+  const contentRef = useGsapFadeIn();
+
   return (
     <section className=" mx-10 max-lg:mx-4 min-h-[450px] my-12 relative  rounded-3xl overflow-hidden">
 
@@ -14,7 +18,7 @@ export default function ContactSection() {
 
       {/* CONTENT */}
       <div className="relative z-10 flex items-center justify-center min-h-[450px]  py-10 2xl:py-12 px-4">
-        <div className="2xl:max-w-5xl max-w-4xl w-full rounded-2xl border border-white/40 backdrop-blur-xl px-8  py-10 lg:py-16 text-white">
+        <div ref={contentRef} className="2xl:max-w-5xl max-w-4xl w-full rounded-2xl border border-white/40 backdrop-blur-xl px-8  py-10 lg:py-16 text-white">
 
           <h1 className={`${sansita.className} text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl 2xl:leading-snug text-center`}>
             Don’t just dream of the world—go explore it.
