@@ -34,7 +34,6 @@ export default function TopBar() {
           trigger: "#banner",
           start: "top bottom",
           toggleActions: "play reverse play reverse",
-          markers: true,
         },
       })
     })
@@ -42,30 +41,29 @@ export default function TopBar() {
     return () => ctx.revert()
   }, [])
 
-  
+
   return (
     <div
       ref={barRef}
-      className="w-full text-white font-light backdrop-blur-md transition-colors"
+      className="w-full text-white font-light backdrop-blur-md transition-colors z-999 max-sm:text-xs max-xl:text-sm"
     >
-      <div className="max-w-9/12 mx-auto px-4 py-4 flex justify-between items-center">
+      <div className="xl:max-w-9/12 lg:max-w-10/12 max-lg:px-5 mx-auto px-4 py-4 flex max-md:flex-col justify-between  md:items-center">
 
         {/* Left */}
-        <div className="flex items-center gap-6">
+        <div className="flex max-md:flex-col  justify-between md:items-center gap-2 md:gap-6">
           <span className="flex items-center">
-            <IoMdMail className="mr-1 text-xl" />
+            <IoMdMail className="mr-1 md:text-xl " />
             mail@rhstudyabroad.com
           </span>
 
-          <span className="flex items-center">
-            <HiLocationMarker className="mr-1 text-xl" />
+          <span className="flex md:items-center">
+            <HiLocationMarker className="mr-1 md:text-xl" />
             Ambakkadan Jn, P.I.K Tower, St Thomas College Rd, Thrissur
           </span>
         </div>
 
-
         {/* Right */}
-        <div className="flex items-center text-xl gap-4">
+        <div className="flex md:items-center text-base md:text-xl max-md:mt-2  gap-4">
           <Link href="#"><IoLogoFacebook /></Link>
           <Link href="#"><FaInstagram /></Link>
           <Link href="#"><FaWhatsapp /></Link>
