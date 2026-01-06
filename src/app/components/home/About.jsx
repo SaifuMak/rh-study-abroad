@@ -7,7 +7,7 @@ const About = () => {
   const sectionRef = useGsapFadeIn();
   const imageRef = useGsapOpacity();
   return ( 
-    <section className={` ${inriaSans.className} w-full max-sm:text-center`}>
+    <section id='about' className={` ${inriaSans.className} w-full max-sm:text-center`}>
       <div className="flex max-sm:flex-col py-12 xl:py-20  2xl:py-32 w-11/12 2xl:w-10/12   mx-auto ">
 
         {/* LEFT – BACKGROUND IMAGE CONTENT */}

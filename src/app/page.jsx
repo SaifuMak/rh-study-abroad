@@ -10,20 +10,26 @@ import ContactSection from './components/home/ContactSection';
 import Footer from './components/Footer';
 import SmoothScroll from './components/SmoothScroll';
 import Testimonials from './components/home/Testimonials';
+import TopBar from './components/TopBar';
+import MainHeader from './components/MainHeader';
 
 export default function Home() {
 
   return (
     <SmoothScroll>
+      <div className=" fixed top-0 w-full z-999">
+        <TopBar />
+        <MainHeader/>
+      </div>
       <div className=" overflow-x-hidden">
         <Banner />
         <About />
-        <StudyAbroadStats/>
-        <UnlockingDoorSection/>
+        <StudyAbroadStats />
+        <UnlockingDoorSection />
         <CountriesList />
-        <Testimonials/>
-        <ReviewsSection/>
-        <ContactSection/>
+        <Testimonials />
+        <ReviewsSection />
+        <ContactSection />
         <Footer />
       </div>
     </SmoothScroll>

@@ -11,7 +11,7 @@ function CountriesList() {
   return (
     <div className=" my-10 w-full max-sm:text-center text-white  ">
       <div className="w-full relative  lg:ml-5 2xl:ml-10 py-12 md:py-16 xl:py-20 flex justify-center md:justify-end sm:rounded-l-3xl bg-primary-red border ">
-       
+
         <div className=" z-10 max-sm:w-11/12   xl:mr-3 sm:pl-10 xl:pl-24 2xl:pl-28">
           <h1 ref={titleRef} className={`heading md:ml-4 ${sansita.className}`}>Top Countries to Study Abroad</h1>
           <div ref={descriptionRef} className=" flex max-sm:flex-col md:ml-4 justify-between items-center sm:w-11/12 mt-4 md:mt-6 mb-10 lg:mb-16 ">
