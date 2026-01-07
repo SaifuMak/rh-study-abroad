@@ -4,6 +4,7 @@ import Image from "next/image"
 import { sansita } from '../../fonts'
 import { GoDotFill } from "react-icons/go";
 
+
 export default function IntroSection() {
     return (
         <section className="relative w-full py-24 mt-22 lg:mt-28 2xl:mt-36 overflow-hidden">
@@ -38,7 +39,7 @@ export default function IntroSection() {
                             <h3 className={`2xl:text-3xl text-2xl  mb-4 ${sansita.className}`}>
                                 Values we Cherish
                             </h3>
-                            <ul className="space-y-2 2xl:text-lg">
+                            <ul className="space-y-3 2xl:text-lg">
                                 {["Passion", "Commitment", "Reliability", "Transparency"].map(item => (
                                     <li key={item} className="flex items-center">
                                         <GoDotFill className="text-xs mr-2" />
@@ -52,19 +53,19 @@ export default function IntroSection() {
                         {/* Small image */}
                         <div className="mt-6  max-lg:hidden flex justify-end ">
 
-                            <img src="/images/home/banner.jpg" alt="Study abroad" className=" w-44 h-32  rounded-xl" />
+                            <img src="/images/about/girl-with-books.jpg" alt="Study abroad" className=" w-48 h-36  rounded-xl" />
                         </div>
                     </div>
 
                     {/* Center image (fake video) */}
                     <div className="lg:col-span-6 w-full relative order-1 lg:order-0 lg:h-full">
-                        <div className="relative w-full h-[300px] lg:h-full rounded-3xl overflow-hidden shadow-xl">
+                        <div className="relative w-full h-[300px] lg:h-[105%] rounded-3xl overflow-hidden shadow-xl">
                             <Image
-                                src="/images/home/banner.jpg"
+                                src="/images/about/gir-with-map-2.jpg"
                                 alt="Student exploring city"
                                 fill
                                 priority
-                                className="object-cover"
+                                className=" object-cover"
                             />
 
                             {/* Play icon overlay */}
@@ -88,9 +89,9 @@ export default function IntroSection() {
                         </div>
 
                         {/* Students image */}
-                        <div className="relative h-[180px] max-lg:hidden rounded-2xl overflow-hidden ">
+                        <div className="relative h-[230px] max-lg:hidden rounded-2xl overflow-hidden ">
                             <Image
-                                src="/images/home/banner.jpg"
+                                src="/images/about/group-of-students.jpg"
                                 alt="Students group"
                                 fill
                                 className="object-cover"

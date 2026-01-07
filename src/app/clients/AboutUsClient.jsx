@@ -3,6 +3,7 @@ import IntroSection from '../components/about-us/IntroSection'
 import TopBar from '../components/TopBar'
 import MainHeader from '../components/MainHeader'
 import SmoothScroll from '../components/SmoothScroll'
+import WhoWeAre from '../components/about-us/WhoWeAre'
 
 function AboutUsClient() {
     return (
@@ -14,6 +15,7 @@ function AboutUsClient() {
             </div>
             <div className="overflow-x-hidden">
                 <IntroSection/>
+                <WhoWeAre/>
             </div>
         </SmoothScroll>
     )
