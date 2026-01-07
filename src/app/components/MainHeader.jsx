@@ -40,8 +40,8 @@ export default function MainHeader() {
   return (
     <>
       <header className="w-full lg:py-3 xl:py-6 z-50 relative">
-        <div ref={navRef} className="xl:max-w-9/12 lg:max-w-10/12 mx-auto lg:px-4">
-          <div className="bg-white lg:rounded-full px-5 lg:px-12 py-3 lg:py-5 flex items-center justify-between shadow">
+        <div ref={navRef} className="xl:max-w-10/12 lg:max-w-10/12 mx-auto lg:px-4">
+          <div className="bg-white lg:rounded-full px-5 lg:px-12 py-3 lg:py-5 flex items-center justify-between  border">
 
             {/* Logo */}
             <img

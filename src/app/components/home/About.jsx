@@ -8,7 +8,7 @@ const About = () => {
   const imageRef = useGsapOpacity();
   return ( 
     <section id='about' className={` ${inriaSans.className} w-full max-sm:text-center`}>
-      <div className="flex max-sm:flex-col py-12 xl:py-20  2xl:py-32 w-11/12 2xl:w-10/12   mx-auto ">
+      <div className="flex max-sm:flex-col mx-auto ">
 
         {/* LEFT – BACKGROUND IMAGE CONTENT */}
         <div
@@ -17,7 +17,6 @@ const About = () => {
             backgroundImage: "url('/images/home/plane.png')",
           }}
         >
-
 
           {/* Text */}
           <p ref={sectionRef} className=" text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl  font-light  leading-relaxed  xl:leading-14  2xl:leading-16  text-center md:max-w-md xl:max-w-lg">
@@ -40,7 +39,7 @@ const About = () => {
             />
           </div>
 
-          <p className="mt-4 text-sm   lg:text-base xl:text-xl xl:leading-10 font-light xl:pr-4  ">
+          <p className="mt-4 text-sm lg:text-base xl:text-xl xl:leading-10 font-light xl:pr-4  ">
             Since its establishment in 2007 the institution has been the
             frontrunner in catalyzing the admissions of scores of students to
             various foreign universities / colleges.

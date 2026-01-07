@@ -16,7 +16,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger"
 
 gsap.registerPlugin(ScrollTrigger)
 
-export default function TopBar() {
+export default function TopBar({isDark=false}) {
   const barRef = useRef(null)
 
   useEffect(() => {
@@ -25,6 +25,8 @@ export default function TopBar() {
       gsap.set(barRef.current, {
         backgroundColor: "#771D40",
       })
+
+      if(isDark) return
 
       gsap.to(barRef.current, {
         backgroundColor: "rgba(255, 255, 255, 0.15)", // light glass
@@ -47,7 +49,7 @@ export default function TopBar() {
       ref={barRef}
       className="w-full text-white font-light backdrop-blur-md transition-colors z-999 max-sm:text-xs max-xl:text-sm"
     >
-      <div className="xl:max-w-9/12 lg:max-w-10/12 max-lg:px-5 mx-auto px-4 py-4 flex max-md:flex-col justify-between  md:items-center">
+      <div className="xl:max-w-10/12 lg:max-w-10/12 max-lg:px-5 mx-auto px-4 py-4 flex max-md:flex-col justify-between  md:items-center">
 
         {/* Left */}
         <div className="flex max-md:flex-col  justify-between md:items-center gap-2 md:gap-6">
