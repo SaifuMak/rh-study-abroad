@@ -4,6 +4,9 @@ import TopBar from '../components/TopBar'
 import MainHeader from '../components/MainHeader'
 import SmoothScroll from '../components/SmoothScroll'
 import WhoWeAre from '../components/about-us/WhoWeAre'
+import MissionVision from '../components/about-us/MissionVision'
+import GallerySection from '../components/about-us/GallerySection'
+import Footer from '../components/Footer'
 
 function AboutUsClient() {
     return (
@@ -16,6 +19,9 @@ function AboutUsClient() {
             <div className="overflow-x-hidden">
                 <IntroSection/>
                 <WhoWeAre/>
+                <MissionVision/>
+                <GallerySection/>
+                <Footer/>
             </div>
         </SmoothScroll>
     )
