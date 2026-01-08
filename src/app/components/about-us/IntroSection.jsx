@@ -15,7 +15,7 @@ export default function IntroSection() {
     return (
         <section className="relative w-full py-24 mt-22 lg:mt-28 2xl:mt-36 overflow-hidden">
             {/* Background illustration */}
-            <div className="absolute inset-0  -z-10 bg-white">
+            <div className="absolute inset-0 -z-10 bg-white">
                 <Image
                     src="/images/about/into-banner.png"
                     alt="Background illustration"

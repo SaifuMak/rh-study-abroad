@@ -47,7 +47,7 @@ export default function TopBar({isDark=false}) {
   return (
     <div
       ref={barRef}
-      className="w-full text-white font-light backdrop-blur-md transition-colors z-999 max-sm:text-xs max-xl:text-sm"
+      className={`w-full text-white font-light backdrop-blur-md transition-colors z-999 max-sm:text-xs max-xl:text-sm`}
     >
       <div className="xl:max-w-10/12 lg:max-w-10/12 max-lg:px-5 mx-auto px-4 py-4 flex max-md:flex-col justify-between  md:items-center">
 
