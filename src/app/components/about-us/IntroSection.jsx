@@ -1,11 +1,17 @@
-'use client'
 
 import Image from "next/image"
 import { sansita } from '../../fonts'
 import { GoDotFill } from "react-icons/go";
+import useGsapFadeIn from "@/app/hooks/gsap/useGsapFadeIn";
+import useGsapOpacity from "@/app/hooks/gsap/useGsapOpacity";
 
 
 export default function IntroSection() {
+    const contentRef = useGsapFadeIn()
+    const rightContentRef = useGsapOpacity()
+    const centerContentRef = useGsapOpacity()
+    const leftContentRef = useGsapOpacity()
+
     return (
         <section className="relative w-full py-24 mt-22 lg:mt-28 2xl:mt-36 overflow-hidden">
             {/* Background illustration */}
@@ -20,7 +26,7 @@ export default function IntroSection() {
 
             <div className="max-w-10/12 mx-auto px-4">
                 {/* Heading */}
-                <div className="text-center mb-16">
+                <div ref={contentRef} className="text-center opacity-0 mb-16">
                     <h2 className="heading font-semibold text-[#7A0026] mb-4">
                         About Us
                     </h2>
@@ -34,7 +40,7 @@ export default function IntroSection() {
                 <div className="relative w-full flex flex-col lg:grid lg:grid-cols-12 gap-6 lg:gap-8 lg:items-center">
 
                     {/* Left card */}
-                    <div className="lg:col-span-3 w-full order-2 lg:order-0">
+                    <div ref={rightContentRef} className="lg:col-span-3 w-full order-2 lg:order-0 opacity-0">
                         <div className="bg-gradient-to-b from-[#E2558B] to-[#771D40] text-white rounded-2xl px-8 2xl:px-12 py-6 shadow-lg">
                             <h3 className={`2xl:text-3xl text-2xl  mb-4 ${sansita.className}`}>
                                 Values we Cherish
@@ -58,7 +64,7 @@ export default function IntroSection() {
                     </div>
 
                     {/* Center image (fake video) */}
-                    <div className="lg:col-span-6 w-full relative order-1 lg:order-0 lg:h-full">
+                    <div ref={centerContentRef} className="lg:col-span-6 w-full relative order-1 lg:order-0 lg:h-full opacity-0">
                         <div className="relative w-full h-[300px] lg:h-[105%] rounded-3xl overflow-hidden shadow-xl">
                             <Image
                                 src="/images/about/gir-with-map-2.jpg"
@@ -78,7 +84,7 @@ export default function IntroSection() {
                     </div>
 
                     {/* Right side */}
-                    <div className="lg:col-span-3 lg:space-y-6 w-full order-3 lg:order-0">
+                    <div  ref={leftContentRef} className="lg:col-span-3 lg:space-y-6 w-full order-3 lg:order-0 opacity-0">
                         {/* Countries card */}
                         <div className=" flex lg:justify-end ">
 

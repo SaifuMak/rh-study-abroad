@@ -1,7 +1,17 @@
+
+
 import { TbTargetArrow } from "react-icons/tb";
 import { sansita } from '../../fonts'
+import useGsapFadeIn from "@/app/hooks/gsap/useGsapFadeIn";
+import useGsapOpacity from "@/app/hooks/gsap/useGsapOpacity";
 
 export default function MissionVision() {
+
+    const contentRef = useGsapFadeIn()
+    const rightContentRef = useGsapOpacity()
+    const centerContentRef = useGsapFadeIn({start : "top 99%"})
+    const leftContentRef = useGsapOpacity()
+
     return (
         <section className="w-full py-12 flex justify-end lg:py-20 lg:mt-10">
             <div className="w-11/12 max-lg:mx-auto xl:pl-10 lg:pr-5">
@@ -10,7 +20,7 @@ export default function MissionVision() {
 
                     <div className=" flex max-md:flex-col  md:items-center md:justify-between   w-full ">
                         {/* Left Image */}
-                        <div className="relative md:w-[460px] lg:w-[560px] xl:h-[570px] lg:h-[420px] h-[340px] rounded-2xl overflow-hidden shadow-xl">
+                        <div ref={rightContentRef} className="relative md:w-[460px] lg:w-[560px] xl:h-[570px] lg:h-[420px] h-[340px] rounded-2xl overflow-hidden shadow-xl">
                             <img
                                 src="/images/about/girl-with-globe.jpg"
                                 alt="Student with globe"
@@ -19,7 +29,7 @@ export default function MissionVision() {
                         </div>
 
                         {/* Right Content */}
-                        <div className="md:mx-10 max-md:text-center max-md:mt-5 ">
+                        <div ref={contentRef} className="md:mx-10 max-md:text-center max-md:mt-5 ">
                             <h2 className="text-3xl md:text-4xl  xl:text-6xl font-bold text-gray-900 mb-4 xl:mb-5">
                                 Our Mission and Vision
                             </h2>
@@ -32,7 +42,7 @@ export default function MissionVision() {
 
 
                     {/* Floating Book Image - Desktop Only */}
-                    <div className="">
+                    <div ref={leftContentRef} className="">
                         <div className="relative  max-lg:hidden lg:size-36 xl:size-44 2xl:size-56">
                             <img
                                 src="/images/about/fly.jpg"
@@ -45,13 +55,13 @@ export default function MissionVision() {
                 </div>
 
                 {/* Mission and Vision Cards */}
-                <div className="lg:relative xl:h-64 lg:h-60  2xl:max-w-9/12 lg:max-w-11/12 mx-auto ">
+                <div ref={centerContentRef} className="lg:relative xl:h-64 lg:h-60  2xl:max-w-9/12 lg:max-w-11/12 mx-auto ">
                     <div className="grid md:grid-cols-2 gap-6 lg:gap-8 lg:absolute lg:-top-32 lg:left-0 lg:right-0 ">
                         {/* Mission Card */}
                         <div className="bg-gradient-to-b from-[#E2558B] to-[#771D40] rounded-3xl p-6 md:p-8 xl:p-10 text-white shadow-xl hover:shadow-2xl transition-shadow duration-300">
                             <div className=" items-center gap-3 xl:mb-6 mb-4">
                                 <TbTargetArrow className="size-8 text-white" />
-                               <h3 className={` ${sansita.className} text-2xl lg:text-3xl font-light`}>Mission</h3>
+                                <h3 className={` ${sansita.className} text-2xl lg:text-3xl font-light`}>Mission</h3>
                             </div>
                             <p className="text-white/95 leading-relaxed  font-light xl:text-lg">
                                 To inculcate a holistic view among the student community across

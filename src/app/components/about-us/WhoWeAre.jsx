@@ -1,4 +1,7 @@
+
 import Image from 'next/image';
+import useGsapFadeIn from "@/app/hooks/gsap/useGsapFadeIn";
+import useGsapOpacity from "@/app/hooks/gsap/useGsapOpacity";
 
 export default function WhoWeAre() {
     const teamMembers = [
@@ -19,17 +22,23 @@ export default function WhoWeAre() {
         }
     ];
 
+     const firstRef = useGsapFadeIn()
+     const contentRef = useGsapFadeIn()
+     const foundersRef = useGsapFadeIn()
+     const secondContentRef = useGsapFadeIn()
+
+
     return (
         <section className="w-full lg:pr-6">
             <div className="bg-[#771D400D] lg:rounded-r-xl xl:py-20 py-12 lg:mt-10 px-4 sm:px-6 lg:px-8">
                 <div className="2xl:max-w-5xl md:max-w-10/12 max-w-11/12 mx-auto">
                     {/* Header */}
-                    <h2 className="heading xl:mb-8 mb-4 text-center  font-semibold text-[#7A0026]">
+                    <h2 ref={firstRef} className="heading xl:mb-8 mb-4 text-center  font-semibold text-[#7A0026]">
                         Who We Are
                     </h2>
 
                     {/* Description */}
-                    <p className="description text-center !max-w-11/12">
+                    <p ref={contentRef} className="description text-center !max-w-11/12">
                         RH Study Abroad is an academic consultancy organization providing every suitable advice and
                         assistance to the requirements of those who desire to pursue their higher education abroad. Since
                         its establishment in 2007 the institution has been the frontrunner in catalyzing the admissions of
@@ -37,7 +46,7 @@ export default function WhoWeAre() {
                     </p>
 
                     {/* Team Members */}
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 my-8 xl:my-12">
+                    <div ref={foundersRef} className="grid grid-cols-1 md:grid-cols-3 gap-8 my-8 xl:my-12">
                         {teamMembers.map((member, index) => (
                             <div key={index} className="flex flex-col items-center">
                                 <div className="relative w-full  aspect-9/10 rounded-lg overflow-hidden mb-4">
@@ -57,7 +66,7 @@ export default function WhoWeAre() {
                     </div>
 
                     {/* Founder Description */}
-                    <p className="  mx-auto xl:text-xl lg:leading-8 xl:leading-10 font-light text-center !max-w-11/12">
+                    <p ref={secondContentRef} className="  mx-auto xl:text-xl lg:leading-8 xl:leading-10 font-light text-center !max-w-11/12">
                         Mr Sebastian Antony, the Founder and CEO of the Organization, has enormous experience of nearly two decades to his
                         credit in this arena. Our office at Ambakkadan Junction in Thrissur is a testimony to the reputation and recognition we
                         possess in the spectrum of overseas higher education. The persistent patronage by our benefactors has been the

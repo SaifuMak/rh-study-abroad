@@ -1,4 +1,6 @@
 import React from 'react'
+import useGsapFadeIn from "@/app/hooks/gsap/useGsapFadeIn";
+import useGsapOpacity from "@/app/hooks/gsap/useGsapOpacity";
 
 function GallerySection() {
 
@@ -35,6 +37,10 @@ function GallerySection() {
         },
     ];
 
+     const contentRef = useGsapFadeIn()
+    const centerContentRef = useGsapOpacity()
+    const leftContentRef = useGsapOpacity()
+
     return (
         <section className="w-full  py-12 flex justify-end lg:py-20 lg:mt-10 bg-[#F3F3F3]">
             <div className="w-11/12 relative max-lg:mx-auto xl:pl-10 lg:pr-5 ">
@@ -43,7 +49,7 @@ function GallerySection() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 xl:gap-44 2xl:gap-56 mb-8 lg:mb-14">
 
                     {/* Left Text */}
-                    <div className=' max-lg:text-center'>
+                    <div ref={contentRef} className=' max-lg:text-center'>
                         <h2 className="heading font-semibold mb-4">
                             Gallery
                         </h2>
@@ -54,7 +60,7 @@ function GallerySection() {
                     </div>
 
                     {/* Right Tall Image */}
-                    <div className="hidden lg:block ">
+                    <div ref={leftContentRef} className="hidden lg:block ">
                         <div className="relative h-[420px] lg:h-[620px] xl:h-[820px] rounded-3xl overflow-hidden shadow-xl">
                             <img
                                 src="/images/about/girl-with-globe.jpg"
@@ -69,7 +75,7 @@ function GallerySection() {
                 {/* Image Grid */}
                 <div className=" lg:absolute lg:inset-0 ">
                     <div className=" w-full h-full lg:relative 2xl:pl-5  ">
-                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2  md:gap-5  lg:w-9/12 2xl:w-8/12 rounded-2xl lg:p-3 2xl:p-5 bg-[#F3F3F3] lg:absolute lg:bottom-10 lg:2xl:bottom-0 lg:2xl:bottom-0 lg:right-0 lg:left-0  ">
+                        <div ref={centerContentRef} className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2  md:gap-5  lg:w-9/12 2xl:w-8/12 rounded-2xl lg:p-3 2xl:p-5 bg-[#F3F3F3] lg:absolute lg:bottom-10 lg:2xl:bottom-0 lg:2xl:bottom-0 lg:right-0 lg:left-0  ">
                             {galleryImages.map((image) => (
                                 <div
                                     key={image.id}
