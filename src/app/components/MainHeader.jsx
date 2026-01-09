@@ -41,7 +41,7 @@ export default function MainHeader() {
     <>
       <header className="w-full lg:py-3 xl:py-6 z-50 relative">
         <div ref={navRef} className="xl:max-w-10/12 lg:max-w-10/12 mx-auto lg:px-4">
-          <div className="bg-white lg:rounded-full px-5 lg:px-12 py-3 lg:py-5 flex items-center justify-between  border">
+          <div className="bg-white lg:rounded-full px-5 lg:px-12 py-3 lg:py-5 flex items-center justify-between  lg:border">
 
             {/* Logo */}
             <img
@@ -56,11 +56,10 @@ export default function MainHeader() {
                 <Link
                   key={i}
                   href={item.href}
-                  className={`font-medium ${
-                    item.label === "HOME"
+                  className={`font-medium ${item.label === "HOME"
                       ? "text-[#7A0026]"
                       : "text-gray-800 hover:text-[#7A0026]"
-                  }`}
+                    }`}
                 >
                   {item.label}
                 </Link>

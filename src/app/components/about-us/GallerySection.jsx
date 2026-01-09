@@ -37,7 +37,7 @@ function GallerySection() {
         },
     ];
 
-     const contentRef = useGsapFadeIn()
+    const contentRef = useGsapFadeIn()
     const centerContentRef = useGsapOpacity()
     const leftContentRef = useGsapOpacity()
 
