@@ -7,32 +7,32 @@ function GallerySection() {
     const galleryImages = [
         {
             id: 1,
-            src: "/images/about/girl-with-globe.jpg",
+            src: "/images/about/gallery-1.jpg",
             alt: "Student exploring the world",
         },
         {
             id: 2,
-            src: "/images/about/girl-with-globe.jpg",
+            src: "/images/about/gallery-1.jpg",
             alt: "International study experience",
         },
         {
             id: 3,
-            src: "/images/about/girl-with-globe.jpg",
+            src: "/images/about/gallery-1.jpg",
             alt: "Campus life abroad",
         },
         {
             id: 4,
-            src: "/images/about/girl-with-globe.jpg",
+            src: "/images/about/gallery-1.jpg",
             alt: "Students collaborating",
         },
         {
             id: 5,
-            src: "/images/about/girl-with-globe.jpg",
+            src: "/images/about/gallery-1.jpg",
             alt: "Global education journey",
         },
         {
             id: 6,
-            src: "/images/about/girl-with-globe.jpg",
+            src: "/images/about/gallery-1.jpg",
             alt: "Learning without borders",
         },
     ];
@@ -63,7 +63,7 @@ function GallerySection() {
                     <div ref={leftContentRef} className="hidden lg:block ">
                         <div className="relative h-[420px] lg:h-[620px] xl:h-[820px] rounded-3xl overflow-hidden shadow-xl">
                             <img
-                                src="/images/about/girl-with-globe.jpg"
+                                src="/images/about/paris.jpg"
                                 alt="Gallery highlight"
                                 className="w-full h-full object-cover"
                             />
