@@ -44,7 +44,7 @@ export default function IntroSection() {
                         {/* Left big image */}
                         <div className="col-span-12 lg:col-span-7 2xl:col-span-5 row-span-2 relative h-[300px] lg:h-[340px] xl:h-[400px] 2xl:h-[460px] rounded-2xl overflow-hidden">
                             <Image
-                                src="/images/about/girl-with-globe.jpg"
+                                src="/images/contact-us/friends-exploring.jpg"
                                 alt="Students exploring"
                                 fill
                                 className="object-cover"
@@ -53,7 +53,8 @@ export default function IntroSection() {
                         {/* middle image for above xl  */}
                         <div className="col-span-12 md:col-span-2 max-2xl:hidden row-span-2 relative h-[260px] xl:h-[400px] 2xl:h-[460px] rounded-2xl overflow-hidden">
                             <Image
-                                src="/images/about/girl-with-globe.jpg"
+                                src="/images/contact-us/studens-with-tab.jpg
+                                "
                                 alt="Students exploring"
                                 fill
                                 className="object-cover"
@@ -63,7 +64,7 @@ export default function IntroSection() {
                         {/*right image  for above lg */}
                         <div className="col-span-6 lg:col-span-5 2xl:col-span-5 max-lg:hidden  relative h-[300px] rounded-2xl overflow-hidden">
                             <Image
-                                src="/images/about/girl-with-globe.jpg"
+                                src="/images/contact-us/students.jpg"
                                 alt="Students together"
                                 fill
                                 className="object-cover"
@@ -80,21 +81,6 @@ export default function IntroSection() {
                             </p>
                         </div>
                     </div>
-
-                    {/* <div className="
-                        absolute 
-                        bottom-6 right-6
-                        bg-gradient-to-r from-pink-500 to-purple-700
-                        text-white
-                        px-8 py-6
-                        rounded-2xl
-                        shadow-xl
-                        max-w-xs
-                        ">
-                        <p className="text-lg font-medium leading-snug">
-                            Reach out for expert study abroad support.
-                        </p>
-                    </div> */}
 
                 </div>
             </div>
