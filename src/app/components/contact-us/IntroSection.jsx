@@ -19,7 +19,7 @@ export default function IntroSection() {
                     src="/images/contact-us/cities-1.png"
                     alt="Background illustration"
                     fill
-                    className="opacity-10   grayscale scale-x-[-1] "
+                    className="opacity-10   grayscale  "
                 />
             </div>
 
