@@ -1,6 +1,5 @@
 'use client'
 
-
 import React from 'react'
 import IntroSection from '../components/about-us/IntroSection'
 import TopBar from '../components/TopBar'

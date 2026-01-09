@@ -9,10 +9,10 @@ export default function IntroSection() {
 
     const contentRef = useGsapFadeIn()
     const imageContainerRef = useGsapOpacity()
-    const rightContentRef = useGsapFadeIn({start : "top 100%"})
+    const rightContentRef = useGsapFadeIn({ start: "top 100%" })
 
     return (
-        <section className="relative w-full py-24 mt-22 lg:mt-28 2xl:mt-36 overflow-hidden">
+        <section className="relative w-full pt-24 mt-20 lg:mt-28 2xl:mt-36 overflow-hidden">
             {/* Background illustration */}
             <div className="absolute inset-0 h-[50%] lg:h-[70%] -z-10 bg-white">
                 <Image
@@ -42,7 +42,7 @@ export default function IntroSection() {
                     <div ref={imageContainerRef} className="grid opacity-0 grid-cols-12 lg:gap-6 rounded-3xl overflow-hidden">
 
                         {/* Left big image */}
-                        <div  className="col-span-12 lg:col-span-7 2xl:col-span-5 row-span-2 relative h-[300px] lg:h-[340px] xl:h-[400px] 2xl:h-[460px] rounded-2xl overflow-hidden">
+                        <div className="col-span-12 lg:col-span-7 2xl:col-span-5 row-span-2 relative h-[300px] lg:h-[340px] xl:h-[400px] 2xl:h-[460px] rounded-2xl overflow-hidden">
                             <Image
                                 src="/images/about/girl-with-globe.jpg"
                                 alt="Students exploring"
@@ -73,7 +73,6 @@ export default function IntroSection() {
                     </div>
 
                     {/* CTA */}
-
                     <div ref={rightContentRef} className=" opacity-0 bg-white rounded-3xl text-white lg:absolute p-3 max-lg:mt-3 max-lg:text-center  lg:bottom-0 lg:-right-10  xl:-right-16">
                         <div className="bg-gradient-to-r from-[#E2558B] to-[#771D40] px-5 xl:px-8 xl:py-10 py-8 rounded-3xl">
                             <p className=" text-2xl lg:text-xl xl:text-3xl 2xl:text-4xl 2xl:max-w-lg xl:max-w-sm lg:max-w-xs font-semibold leading-snug">
@@ -81,6 +80,7 @@ export default function IntroSection() {
                             </p>
                         </div>
                     </div>
+
                     {/* <div className="
                         absolute 
                         bottom-6 right-6
