@@ -1,7 +1,5 @@
 
 import Image from "next/image"
-import { sansita } from '../../fonts'
-import { GoDotFill } from "react-icons/go";
 import useGsapFadeIn from "@/app/hooks/gsap/useGsapFadeIn";
 import useGsapOpacity from "@/app/hooks/gsap/useGsapOpacity";
 
@@ -23,7 +21,7 @@ export default function IntroSection() {
                 />
             </div>
 
-            <div className="lg:max-w-10/12   mx-auto px-4">
+            <div className="lg:max-w-10/12  mx-auto px-4">
                 {/* Heading */}
                 <div ref={contentRef} className="text-center opacity-0 xl:mb-16 mb-10">
                     <h2 className="heading font-semibold text-[#7A0026] mb-4">

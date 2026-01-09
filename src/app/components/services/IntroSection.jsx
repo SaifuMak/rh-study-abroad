@@ -20,7 +20,7 @@ export default function IntroSection() {
                         src="/images/services/city-1.png"
                         alt="Background illustration"
                         fill
-                        className="opacity-10 grayscale scale-x-[-1] "
+                        className="opacity-10 grayscale "
                     />
                 </div>
             </div>
@@ -39,10 +39,10 @@ export default function IntroSection() {
 
                 <div ref={imgRef} className=" mt-10 opacity-0 relative w-11/12 h-[220px] lg:h-[400px] xl:h-[600px] mx-auto">
                     <Image
-                        src="/images/about/girl-with-globe.jpg"
+                        src="/images/services/service-banner.jpg"
                         alt="Background illustration"
                         fill
-                        className=" rounded-3xl"
+                        className=" rounded-3xl object-cover"
                     />
                 </div>
 
