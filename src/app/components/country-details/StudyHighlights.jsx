@@ -3,7 +3,7 @@ import { Check } from "lucide-react"
 
 export default function StudyHighlights() {
   return (
-    <section className="w-full flex  justify-end bg-[#F3F3F3] mb-20">
+    <section className="w-full flex  justify-end bg-[#F3F3F3] mb-10">
       <div className=" max-md:max-w-11/12 lg:pl-10  2xl:w-11/12 max-lg:mx-auto ">
 
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-12 max-lg:py-6 items-center">
