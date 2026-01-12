@@ -45,7 +45,7 @@ export default function WhyStudyIn() {
         },
     ]
     return (
-        <section className="w-full lg:py-20 flex ">
+        <section className="w-full 2xl:pt-10  lg:pt-5  flex ">
             <div className=" lg:pr-10">
 
                 {/* Background Container */}

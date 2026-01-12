@@ -10,12 +10,12 @@ export default function StudyHighlights() {
 
           {/* LEFT SIDE – Background Image + Content */}
           <div
-            className="relative rounded-3xl lg:p-12 h-full max-lg:mt-8  max-lg:order-2 bg-cover bg-center"
+            className="relative  lg:p-12 h-full max-lg:mt-8  max-lg:order-2 bg-cover bg-center"
             style={{ backgroundImage: "url('/images/services/city-1.png')" }}
             
           >
             {/* Optional overlay for readability */}
-            <div className="absolute inset-0 bg-[#F3F3F3]/90 rounded-3xl"></div>
+            <div className="absolute inset-0 bg-[#F3F3F3]/90"></div>
 
             <div className="relative z-10">
               <ul className="xl:space-y-5 space-y-3 text-[#4A4A4A] xl:text-lg 2xl:text-xl leading-relaxed">
