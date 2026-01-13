@@ -18,7 +18,10 @@ export default function MainHeader() {
 
   /* hide / show navbar on scroll */
   useEffect(() => {
+    
     const handleScroll = () => {
+      if (!navRef.current) return
+
       const current = window.scrollY
       if (current > lastScrollY.current + 15) {
         navRef.current.style.opacity = "0"
@@ -57,8 +60,8 @@ export default function MainHeader() {
                   key={i}
                   href={item.href}
                   className={`font-medium ${item.label === "HOME"
-                      ? "text-[#7A0026]"
-                      : "text-gray-800 hover:text-[#7A0026]"
+                    ? "text-[#7A0026]"
+                    : "text-gray-800 hover:text-[#7A0026]"
                     }`}
                 >
                   {item.label}

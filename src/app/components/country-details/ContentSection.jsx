@@ -6,15 +6,15 @@ import WorkRightsStayBack from './WorkRightsStayBack'
 import IntakesSection from './IntakesSection'
 import FAQ from './FAQ'
 
-function ContentSection() {
+function ContentSection({ country }) {
   return (
     <>
-      <IntroSection />
-      <StudyHighlights />
-      <WhyStudyIn />
-      <WorkRightsStayBack/>
-      <IntakesSection/>
-      <FAQ/>
+      <IntroSection data={country?.details?.intro} country={country?.name} />
+      <StudyHighlights data={country?.details?.features} />
+      <WhyStudyIn data={country?.details?.whyStudyIn} />
+      <WorkRightsStayBack />
+      <IntakesSection />
+      <FAQ />
     </>
   )
 }

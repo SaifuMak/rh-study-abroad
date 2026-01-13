@@ -1,49 +1,9 @@
 import Image from "next/image"
 import { GraduationCap } from "lucide-react"
 
-export default function WhyStudyIn() {
-    const usaStudyFeatures = [
-        {
-            title: "Vibrant Campus Life and Student Support Systems",
-            icon: GraduationCap,
-        },
-        {
-            title: "Abundant Scholarship and Financial Aid Options",
-            icon: GraduationCap,
-        },
-        {
-            title: "Multicultural Environment and Global Networking",
-            icon: GraduationCap,
-        },
-        {
-            title: "Excellent Career Opportunities and High Earning Potential",
-            icon: GraduationCap,
-        },
-        {
-            title: "Optional Practical Training (OPT) and STEM OPT Extension",
-            icon: GraduationCap,
-        },
-        {
-            title: "Work Rights and Stay Back",
-            icon: GraduationCap,
-        },
-        {
-            title: "Strong Emphasis on Practical Learning and Skill Development",
-            icon: GraduationCap,
-        },
-        {
-            title: "Pioneering Research Opportunities",
-            icon: GraduationCap,
-        },
-        {
-            title: "Diverse Programs and Flexible Education System",
-            icon: GraduationCap,
-        },
-        {
-            title: "World-Class Academic Excellence",
-            icon: GraduationCap,
-        },
-    ]
+export default function WhyStudyIn({ data }) {
+
+
     return (
         <section className="w-full 2xl:pt-10  lg:pt-5  flex ">
             <div className=" lg:pr-10">
@@ -55,44 +15,36 @@ export default function WhyStudyIn() {
 
                         {/* Background Image */}
                         <Image
-                            src="/images/services/service-banner.jpg"
+                            src={data?.bgImg}
                             alt="USA background"
                             fill
                             priority
-                            className="object-cover"
+                            className="object-cover "
                         />
 
                         {/* Overlay */}
-                        <div className="absolute inset-0 bg-[#3B3F7A]/70" />
+                        <div className="absolute inset-0 bg-[#3B3F7A]/40  " />
 
                         <div className="relative z-10 py-10 lg:py-16 xl:py-20  2xl:py-24 text-white">
 
                             <h2 className=" heading mb-4 lg:mb-6">
-                                Why study in USA
+                                {data?.title}
                             </h2>
 
                             <p className="xl:max-w-5xl lg:max-w-4xl  xl:text-xl font-light text-white leading-relaxed mb-12">
-                                Pursue your education within one of the world’s most esteemed higher
-                                education systems, where you’ll engage with advanced technology and
-                                groundbreaking research for a deeply immersive and collaborative
-                                learning experience. With a vast selection of institutions, diverse
-                                academic disciplines, and specialised programs often unavailable
-                                elsewhere, the U.S. offers unparalleled educational opportunities.
-                                Its uniquely adaptable system allows you to tailor your studies to
-                                align with your academic ambitions and career objectives.
+                                {data?.description}
                             </p>
 
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-                                {usaStudyFeatures.map((feature, index) => {
-                                    const Icon = feature.icon
-
+                                {data?.points.map((feature, index) => {
+                                    
                                     return (
                                         <div
                                             key={index}
                                             className="bg-[#B1275D] rounded-2xl max-md:py-6 max-md:px-4 md:p-5 xl:p-6 text-center shadow-lg hover:scale-[1.02] transition"
                                         >
                                             <div className="flex justify-center mb-2 xl:mb-4">
-                                                <Icon className="size-7 text-white" />
+                                               <img src={feature.icon} alt="" className=" size-9" />
                                             </div>
 
                                             <p className="2xl:text-lg max-xl:text-xs font-light leading-snug text-white">

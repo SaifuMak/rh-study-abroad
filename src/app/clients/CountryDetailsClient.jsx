@@ -7,7 +7,9 @@ import Footer from '../components/Footer'
 import ContentSection from '../components/country-details/ContentSection'
 
 
-function CountryDetailsClient() {
+function CountryDetailsClient({ country }) {
+
+    if (!country) return
     return (
 
         <SmoothScroll>
@@ -16,8 +18,8 @@ function CountryDetailsClient() {
                 <MainHeader />
             </div>
             <div className="overflow-x-hidden">
-                <ContentSection />
-               
+                <ContentSection country={country} />
+
                 <Footer />
             </div>
         </SmoothScroll>

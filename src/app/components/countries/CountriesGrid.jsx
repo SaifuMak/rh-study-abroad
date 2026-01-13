@@ -1,10 +1,11 @@
 import Image from "next/image"
 import { countries } from "@/app/data/countries"
+import Link from "next/link"
 
 export default function CountriesGrid() {
     return (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 lg:gap-6 gap-10">
-            {countries.map((country, index) => (
+            {Object.entries(countries).map(([key, country], index) => (
                 <div
                     key={index}
                     className="relative  h-[350px] lg:h-[350px] xl:h-[420px] rounded-3xl overflow-hidden group"
@@ -26,9 +27,12 @@ export default function CountriesGrid() {
                             {country.name}
                         </h3>
 
-                        <button className="px-4 py-1 text-xs md:text-sm  hover:bg-white/30 bg-white/10 text-white border rounded-sm">
-                            Read More
-                        </button>
+                        <Link href={`/countries/${key}`}>
+                            <button className="px-4 py-1 text-xs cursor-pointer md:text-sm hover:bg-white/30 bg-white/10 text-white border rounded-sm">
+                                Read More
+                            </button>
+                        </Link>
+
                     </div>
                 </div>
             ))}

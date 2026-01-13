@@ -132,7 +132,7 @@ function FaqItem({ item, index }) {
 
                 {/* Icon */}
                 <div className="ml-auto">
-                  <MdPlayArrow className={`text-xl mt-1 ${isOpened ? ' opacity-0' : ''} `} />
+                    <MdPlayArrow className={`text-xl mt-1 ${isOpened ? ' opacity-0' : ''} `} />
                 </div>
 
             </div>

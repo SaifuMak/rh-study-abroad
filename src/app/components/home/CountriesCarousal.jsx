@@ -45,7 +45,7 @@ export function CountriesCarousal() {
         plugins={[autoplayRef.current]}
       >
         <CarouselContent>
-          {countries.map((item, index) => (
+          {Object.entries(countries)(([key, item], index) => (
             <CarouselItem key={index} className=" md:basis-1/3 lg:basis-1/3 xl:basis-1/5 2xl:basis-1/5">
               <Card className="py-0  lg:px-4 xl:px-1 2xl:px-3 border-none shadow-none bg-transparent">
                 <CardContent className="px-0">
@@ -66,7 +66,7 @@ export function CountriesCarousal() {
 
       {/* INDICATOR LINES */}
       <div className="flex md:ml-3 max-w-[200px]  md:max-w-[400px] max-md:mx-auto  gap-2 mt-5 md:mt-10 md:w-3/12">
-        {countries.map((_, index) => (
+        {Object.entries(countries)((_, index) => (
           <button
             key={index}
             onClick={() => api?.scrollTo(index)}

@@ -6,6 +6,7 @@ import SmoothScroll from '../components/SmoothScroll'
 import Footer from '../components/Footer'
 import ContentSection from '../components/countries/ContentSection'
 
+
 function CountriesClient() {
     return (
 
@@ -16,7 +17,7 @@ function CountriesClient() {
             </div>
             <div className="overflow-x-hidden">
                 <ContentSection />
-               
+
                 <Footer />
             </div>
         </SmoothScroll>
