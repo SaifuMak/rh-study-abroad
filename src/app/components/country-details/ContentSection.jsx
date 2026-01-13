@@ -12,9 +12,9 @@ function ContentSection({ country }) {
       <IntroSection data={country?.details?.intro} country={country?.name} />
       <StudyHighlights data={country?.details?.features} />
       <WhyStudyIn data={country?.details?.whyStudyIn} />
-      <WorkRightsStayBack />
-      <IntakesSection />
-      <FAQ />
+      <WorkRightsStayBack data={country?.details?.workRights} />
+      <IntakesSection data={country?.details?.intakes} />
+      <FAQ data={country?.details?.faqItems} />
     </>
   )
 }

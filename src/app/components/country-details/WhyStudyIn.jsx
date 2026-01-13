@@ -23,7 +23,7 @@ export default function WhyStudyIn({ data }) {
                         />
 
                         {/* Overlay */}
-                        <div className="absolute inset-0 bg-[#3B3F7A]/40  " />
+                        <div className="absolute inset-0 bg-[#3B3F7A]/50  " />
 
                         <div className="relative z-10 py-10 lg:py-16 xl:py-20  2xl:py-24 text-white">
 
@@ -37,14 +37,14 @@ export default function WhyStudyIn({ data }) {
 
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
                                 {data?.points.map((feature, index) => {
-                                    
+
                                     return (
                                         <div
                                             key={index}
-                                            className="bg-[#B1275D] rounded-2xl max-md:py-6 max-md:px-4 md:p-5 xl:p-6 text-center shadow-lg hover:scale-[1.02] transition"
+                                            className="bg-[#B1275D] rounded-2xl max-md:py-6 max-md:px-4 md:p-5 xl:p-6 flex flex-col justify-center  2xl:p-9 text-center shadow-lg hover:scale-[1.02] transition"
                                         >
                                             <div className="flex justify-center mb-2 xl:mb-4">
-                                               <img src={feature.icon} alt="" className=" size-9" />
+                                                <img src={feature.icon} alt="" className=" size-9" />
                                             </div>
 
                                             <p className="2xl:text-lg max-xl:text-xs font-light leading-snug text-white">
