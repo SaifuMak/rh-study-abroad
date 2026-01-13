@@ -2,14 +2,17 @@
 
 import { useState } from "react"
 import { MdPlayArrow } from "react-icons/md";
+import useGsapFadeIn from "@/app/hooks/gsap/useGsapFadeIn";
 
-export default function FAQ({data}) {
+export default function FAQ({ data }) {
+
+    const titleRef = useGsapFadeIn()
 
     return (
-        <section className="w-full  bg-white py-12 lg:py-20 xl:py-24 2xl:py-28 px-4">
+        <section className="w-full  bg-white py-12 lg:py-16 xl:py-20 2xl:py-28 px-4">
             <div className=" lg:max-w-10/12 max-w-11/12 mx-auto">
                 {/* Title */}
-                <h2 className="text-center heading font-semibold  mb-10 2xl:mb-14">
+                <h2 ref={titleRef} className="text-center heading font-semibold  mb-10 2xl:mb-14">
                     Frequently Asked Questions
                 </h2>
 
@@ -24,13 +27,12 @@ export default function FAQ({data}) {
     )
 }
 
-
 function FaqItem({ item, index }) {
 
     const [isOpened, setIsOpened] = useState(false)
 
     return (
-        <div key={index} className="border  flex flex-col  px-5  w-full rounded-md   border-black/15 ">
+        <div key={index} className="border  flex flex-col px-3 lg:px-5  w-full rounded-md   border-black/15 ">
 
             <div onClick={() => setIsOpened(!isOpened)} className=" flex py-4  justify-between  w-full cursor-pointer ">
                 <div
@@ -38,12 +40,12 @@ function FaqItem({ item, index }) {
                     className="w-full flex items-start gap-1 lg:gap-2 text-left"
                 >
                     {/* Number */}
-                    <span className="text-black max-md:font-semibold font-medium lg:text-xl text-lg 2xl:text-2xl">
+                    <span className="text-black  font-medium lg:text-xl text-lg 2xl:text-2xl">
                         {index + 1}.
                     </span>
 
                     {/* Question */}
-                    <span className="lg:text-xl max-md:font-semibold lg:text-lg 2xl:text-2xl font-medium text-black flex-1">
+                    <span className="lg:text-xl  text-base 2xl:text-2xl font-medium text-black flex-1">
                         {item.ques}
                     </span>
 
@@ -51,7 +53,7 @@ function FaqItem({ item, index }) {
 
                 {/* Icon */}
                 <div className="ml-auto">
-                    <MdPlayArrow className={`text-xl mt-1 ${isOpened ? ' opacity-0' : ''} `} />
+                    <MdPlayArrow className={`lg:text-xl  mt-1 ${isOpened ? ' opacity-0' : ''} `} />
                 </div>
 
             </div>

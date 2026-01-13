@@ -1,13 +1,17 @@
 import React from 'react'
 import Image from 'next/image'
+import useGsapFadeIn from '@/app/hooks/gsap/useGsapFadeIn'
 
 function IntroSection({ data, country }) {
+    const containerRef = useGsapFadeIn()
+    const contentRef = useGsapFadeIn()
+
     return (
         <section className="relative w-full pt-22 2xl:pt-24 mt-22 lg:mt-28 xl:mt-36 2xl:mt-44 overflow-hidden">
             <div className=" ">
 
                 {/* Image Section */}
-                <div className="relative w-11/12 mx-auto rounded-3xl overflow-hidden  ">
+                <div ref={containerRef} className="relative opacity-0 w-11/12 mx-auto rounded-3xl overflow-hidden  ">
 
                     {/* Title Tab */}
                     <div className="md:absolute md:-top-8 md:left-1/2 md:-translate-x-1/2 z-20">
@@ -17,16 +21,6 @@ function IntroSection({ data, country }) {
                             </h1>
                         </div>
                     </div>
-
-                    {/* Background Image */}
-                    {/* <div className="  md:mt-10 mt-6  relative h-[220px] md:h-[400px] xl:h-[600px] mx-auto">
-                        <Image
-                            src={data.bannerImg}
-                            alt="Background illustration"
-                            fill
-                            className=" rounded-3xl object-cover "
-                        />
-                    </div> */}
 
                     <div className="md:mt-8 mt-6 relative w-full aspect-[16/9] xl:aspect-[21/8]">
                         <Image
@@ -48,8 +42,8 @@ function IntroSection({ data, country }) {
                 </div>
 
                 {/* Content Card */}
-                <div className=" relative mt-7 md:mt-12  2xl:mt-16 pb-8  md:pb-16">
-                    <div className="2xl:max-w-6xl lg:max-w-5xl  md:max-w-4xl relative z-10 max-w-11/12  mx-auto bg-white rounded-2xl shadow-xl sm:shadow-2xl px-6 py-8  md:px-24 md:py-12  text-center">
+                <div className=" relative mt-7 md:mt-12  2xl:mt-16 pb-8 md:pb-12  xl:pb-16">
+                    <div  ref={contentRef} className="2xl:max-w-6xl opacity-0 lg:max-w-5xl  md:max-w-4xl relative z-10 max-w-11/12  mx-auto bg-white rounded-2xl shadow-xl xl:shadow-2xl px-6 py-8  md:px-24 md:py-12  text-center">
                         <p className="text-[#3D3D3D] font-light leading-8 lg:leading-9 lg:leading-10 2xl:leading-12 md:text-lg lg:text-xl 2xl:text-2xl ">
                             {data.content}
                         </p>

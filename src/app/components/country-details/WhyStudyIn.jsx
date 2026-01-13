@@ -1,7 +1,12 @@
 import Image from "next/image"
-import { GraduationCap } from "lucide-react"
+import useGsapFadeIn from '@/app/hooks/gsap/useGsapFadeIn'
+
 
 export default function WhyStudyIn({ data }) {
+
+    const contentRef = useGsapFadeIn()
+    const cardContainerRef = useGsapFadeIn()
+
 
 
     return (
@@ -25,17 +30,21 @@ export default function WhyStudyIn({ data }) {
                         {/* Overlay */}
                         <div className="absolute inset-0 bg-[#3B3F7A]/50  " />
 
-                        <div className="relative z-10 py-10 lg:py-16 xl:py-20  2xl:py-24 text-white">
+                        <div  className="relative z-10 py-10 lg:py-16 xl:py-20  2xl:py-24 text-white">
 
-                            <h2 className=" heading mb-4 lg:mb-6">
-                                {data?.title}
-                            </h2>
 
-                            <p className="xl:max-w-5xl lg:max-w-4xl  xl:text-xl font-light text-white leading-relaxed mb-12">
-                                {data?.description}
-                            </p>
+                            <div ref={contentRef} className="">
+                                <h2 className=" heading mb-4 lg:mb-6">
+                                    {data?.title}
+                                </h2>
 
-                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+                                <p className="xl:max-w-5xl lg:max-w-4xl  xl:text-xl font-light text-white leading-relaxed mb-12">
+                                    {data?.description}
+                                </p>
+
+                            </div>
+
+                            <div ref={cardContainerRef} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
                                 {data?.points.map((feature, index) => {
 
                                     return (

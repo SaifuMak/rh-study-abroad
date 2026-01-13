@@ -1,8 +1,11 @@
 import Image from "next/image"
 
-export default function WorkRightsStayBack({data}) {
+import useGsapFadeIn from "@/app/hooks/gsap/useGsapFadeIn"
 
-  
+export default function WorkRightsStayBack({ data }) {
+
+    const contentRef = useGsapFadeIn()
+
     return (
         <section className="w-full pt-10 xl:pt-16 ">
             <div className=" mx-auto md:px-6 px-3">
@@ -23,10 +26,10 @@ export default function WorkRightsStayBack({data}) {
 
 
                     <div className="relative z-10 h-full flex items-center justify-center text-center px-6 max-sm:py-6">
-                        <div className="max-w-3xl text-white">
+                        <div ref={contentRef} className="max-w-3xl text-white">
 
                             <h2 className="heading  font-semibold mb-2 md:mb-4">
-                               {data?.title}
+                                {data?.title}
                             </h2>
 
                             <ul className="mt-8 space-y-2 md:text-lg 2xl:text-xl text-white/90">
