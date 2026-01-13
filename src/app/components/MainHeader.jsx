@@ -3,22 +3,26 @@
 import Link from "next/link"
 import { useEffect, useRef, useState } from "react"
 import { IoIosMenu, IoIosClose } from "react-icons/io"
+import { usePathname } from "next/navigation"
+
 
 export default function MainHeader() {
   const navRef = useRef(null)
   const lastScrollY = useRef(0)
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
+  const pathname = usePathname()
+
   const MENU_ITEMS = [
-    { label: "HOME", href: "#" },
-    { label: "ABOUT", href: "#" },
-    { label: "STUDY ABROAD", href: "#" },
-    { label: "STUDENT SERVICES", href: "#" },
+    { label: "HOME", href: "/" },
+    { label: "ABOUT", href: "/about-us" },
+    { label: "STUDY ABROAD", href: "/countries" },
+    { label: "STUDENT SERVICES", href: "/services" },
   ]
 
   /* hide / show navbar on scroll */
   useEffect(() => {
-    
+
     const handleScroll = () => {
       if (!navRef.current) return
 
@@ -47,11 +51,13 @@ export default function MainHeader() {
           <div className="bg-white lg:rounded-full px-5 lg:px-12 py-3 lg:py-5 flex items-center justify-between  lg:border">
 
             {/* Logo */}
+            <Link href='/'>
             <img
               src="/images/header-logo.jpg"
               alt="RH Study Abroad"
               className="xl:h-12 lg:h-8 h-7"
             />
+            </Link>
 
             {/* Desktop Menu */}
             <nav className="hidden md:flex gap-10">
@@ -59,9 +65,9 @@ export default function MainHeader() {
                 <Link
                   key={i}
                   href={item.href}
-                  className={`font-medium ${item.label === "HOME"
+                  className={`font-medium ${item.href === pathname
                     ? "text-[#7A0026]"
-                    : "text-gray-800 hover:text-[#7A0026]"
+                    : "text-gray-800 "
                     }`}
                 >
                   {item.label}
@@ -71,7 +77,7 @@ export default function MainHeader() {
 
             {/* Desktop Contact */}
             <Link
-              href="#"
+              href="/contact-us"
               className="bg-[#59585D] hidden md:flex text-white font-light px-7 py-2 rounded-full"
             >
               CONTACT
@@ -119,14 +125,14 @@ export default function MainHeader() {
               key={i}
               href={item.href}
               onClick={() => setIsMenuOpen(false)}
-              className="text-gray-800 hover:text-[#7A0026]"
+              className={` ${item.href === pathname ? 'text-[#7A0026]' : 'text-gray-800'}  `}
             >
               {item.label}
             </Link>
           ))}
 
           <Link
-            href="#"
+            href="/contact-us"
             onClick={() => setIsMenuOpen(false)}
             className=" px-8 w-fit py-2 flex-center bg-[#59585D] text-white rounded-xl"
           >
