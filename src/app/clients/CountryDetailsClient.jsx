@@ -6,6 +6,7 @@ import SmoothScroll from '../components/SmoothScroll'
 import Footer from '../components/Footer'
 import ContentSection from '../components/country-details/ContentSection'
 
+
 function CountryDetailsClient() {
     return (
 

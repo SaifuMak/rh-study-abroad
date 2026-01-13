@@ -4,6 +4,7 @@ import StudyHighlights from './StudyHighlights'
 import WhyStudyIn from './WhyStudyIn'
 import WorkRightsStayBack from './WorkRightsStayBack'
 import IntakesSection from './IntakesSection'
+import FAQ from './FAQ'
 
 function ContentSection() {
   return (
@@ -13,6 +14,7 @@ function ContentSection() {
       <WhyStudyIn />
       <WorkRightsStayBack/>
       <IntakesSection/>
+      <FAQ/>
     </>
   )
 }
