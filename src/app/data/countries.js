@@ -200,17 +200,172 @@ export const countries = {
     details: {
       intro: {
         headline: "Study in the UK",
-        bannerImg: "/images/banners/uk.jpg",
+        bannerImg: "/images/countries/uk/banner.jpg",
         content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis ipsum suspendisse ultrices gravida."
+          ` The UK is a dynamic and influential nation, offering a rich tapestry of history,
+            innovation, and diverse landscapes. The country holds a significant global economic
+            standing, largely driven by its highly developed service sector, particularly robust in
+            financial services, with London serving as a world-leading financial hub. British
+            society benefits from a well-established welfare state, including the National Health
+            Service (NHS), providing universal healthcare. Whilst facing contemporary
+            challenges, the nation takes pride in its enduring democratic traditions and vibrant
+            cultural scene. From the rugged beauty of the Scottish Highlands and Welsh
+            mountains to the rolling hills of England and dramatic coastlines, the UK's varied
+            natural environment provides both stunning scenery and ample opportunities for
+            outdoor pursuits, contributing to a diverse quality of life for its residents.
+            `
       },
-      features: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Quis ipsum suspendisse ultrices gravida.",
-        "Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-        "Curabitur non nulla sit amet nisl tempus convallis."
-      ]
-    }
+      features: {
+        bgImg: '/images/countries/uk/map-2.png',
+        mainImg: '/images/countries/uk/students.jpg',
+        altText: 'usa',
+        points: [
+          "The UK is a global leader in scientific research, contributing 5% of the world's scientific output and an impressive 14% of its most cited academic papers.",
+          "Annually, over 4,00,000 international students choose the UK.",
+          "The UK proudly hosts 12 of the world’s top 100 universities (QS World Rankings 2025).",
+          "UK universities have a strong focus on graduate employability.",
+          "Many Masters courses now include valuable 1-year work placements.",
+          "One of the highest standards of living in the world.",
+          "Study in the UK without IELTS options available.",
+          "1-year Masters programmes and sandwich programmes available.",
+          "With 160 globally recognised universities, the UK provides an extensive range of study options."
+        ]
+
+      },
+      whyStudyIn: {
+        title: "Why study in UK",
+        bgImg: "/images/countries/uk/banner.jpg",
+        description: `With an academic reputation forged over centuries, the UK is home to some of the
+                world’s oldest and most prestigious universities, consistently ranking at the pinnacle
+                of global education. These institutions boast a rich legacy of welcoming international
+                students, offering an unforgettable experience tailored to their diverse needs and
+                aspirations.Graduates from UK universities benefit from a wealth of career
+                opportunities across various in-demand sectors. For those in Engineering, roles in
+                civil, mechanical, aerospace, and electrical engineering are plentiful. Science and
+                Technology graduates are highly sought after in areas like software development,
+                data science, cybersecurity, and AI. The Business landscape offers strong prospects
+                in finance, management consulting, and marketing. Law graduates can pursue
+                careers as solicitors or barristers, particularly in corporate or intellectual property law.
+                The thriving Arts and creative industries provide avenues in design, film, media, and
+                digital marketing.To support international students, a diverse range of scholarships is
+                available, including prestigious government-funded schemes like Chevening and
+                Commonwealth Scholarships, university-specific awards based on merit or need,
+                and subject-specific grants. These scholarships can significantly alleviate financial
+                burdens, allowing students to focus on their academic and professional
+                development.
+                `,
+        points: []
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/uk/uk-workrights.jpg",
+        altText: "Work rights and stay back",
+        points: [
+          "20 hours per week of work allowed during regular academic sessions.",
+          "40 hours per week of work allowed during vacation periods.",
+          "International students in the UK are eligible for a 2-year Graduate Visa (Post-Study Work or PSW). Under the UK’s points-based immigration system, STEM graduates and professionals have a streamlined path to work rights, and by securing eligible employment they can qualify for a Skilled Worker Visa, which can ultimately lead to Indefinite Leave to Remain (ILR), granting permanent residency in the UK.",
+        ],
+
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>September / January</strong><br />
+Few universities offering multiple intakes (February, April, May, October and November)
+
+          `,
+        leftBackgroundImage: "/images/countries/uk/map.jpg",
+        rightImage: {
+          src: "/images/countries/uk/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+      faqItems: [
+        {
+          ques: "What are the general financial requirements for a UK Student Visa?",
+          ans: "You must demonstrate that you have sufficient funds to cover your tuition fees as stated on your CAS, and living costs. For courses in London, this is currently £1,483 per month, and for outside London, it's £1,136 per month, for up to 9 months."
+        },
+        {
+          ques: "Do I need to prove my English language proficiency?",
+          ans: "While formal English language tests like IELTS are common for UK university admissions, many universities offer alternative ways for international students to prove their proficiency: this includes accepting strong English scores from your 12th-exams (State Board, CBSE, ICSE), a Medium of Instruction (MOI) certificate from your previous educational institution confirming that your prior studies were entirely taught in English, or successfully passing an online interview conducted by the university team to assess your spoken English and comprehension skills."
+        },
+        {
+          ques: "What is the Immigration Health Surcharge (IHS) and how much is it?",
+          ans: "The IHS is a mandatory fee paid as part of your visa application, which allows you to access the UK's National Health Service (NHS). For students, it's currently £776 per year."
+        },
+        {
+          ques: "International students might be eligible for an IHS refund?",
+          ans: "Yes, International students eligible for a full or partial IHS refund."
+        },
+        {
+          ques: "How do international students access healthcare services in the UK once they have paid the IHS?",
+          ans: "After paying the IHS, international students can access the NHS in the same way as a permanent UK resident, including GP appointments and hospital treatment. However, some dental, optical, and prescribed medicine costs may still apply."
+        },
+        {
+          ques: "What types of accommodation are available for international students in the UK?",
+          ans: "Common options include university-owned halls of residence (catered or self-catered), private luxury student accommodation, homestay with a UK family, or privately rented accommodation."
+        },
+        {
+          ques: "How can an international student open a bank account in the UK?",
+          ans: "To open a student bank account, you provide proof of your student status (e.g., UCAS code or university letter), a valid passport/ID, and proof of address. Some banks allow online applications."
+        },
+        {
+          ques: "Can international students bring their family members (dependants) with them to the UK?",
+          ans: "Only students pursuing a PhD, or Master's by Research (MRes) lasting at least 9 months can bring their dependents to the UK. For these eligible students, proof of relationship (such as marriage or birth certificates) and sufficient additional funds to cover each dependant's living costs are strictly required. Children must generally be under 18 at the time of application."
+        },
+        {
+          ques: "What is National Insurance (NI) and when do international students need to apply for one?",
+          ans: "National Insurance contributions help fund the NHS and certain social security benefits. If you work in the UK, you must have an NI number or apply for one as soon as you start work."
+        },
+        {
+          ques: "What work opportunities exist in the UK after graduation for international students, other than the Graduate visa?",
+          ans: "Beyond the Graduate visa, international students can explore the Skilled Worker visa route, requiring a job offer from a licensed UK employer sponsoring a job that meets specific skill and salary levels. Other niche visas for specific talents may also be available."
+        },
+        {
+          ques: "What is the Skilled Worker visa and what are its key requirements for international students?",
+          ans: "The Skilled Worker visa requires a confirmed job offer from a UK employer with a Skilled Worker sponsor license. The job must meet appropriate skill levels (RQF3 upwards) and a minimum salary threshold, which can be lower for \"new entrants\" (often former students)."
+        },
+        {
+          ques: "What are some \"new scopes\" or emerging sectors that offer good work opportunities for international students in the UK?",
+          ans: "Emerging sectors with high demand include various fields within Technology and IT software development, data science, cybersecurity, Healthcare medical, paramedical, pharmacy and engineering."
+        },
+        {
+          ques: "Can international students drive in the UK with their home country's driving license?",
+          ans: "Yes, International students from outside the EEA can drive for up to one year with a valid driving license from their home country or an International Driving Permit. After one year, they must obtain a provisional UK license and pass a UK driving test."
+        },
+        {
+          ques: "Are there any specific academic or research areas that are gaining increased attention in the UK, offering new scope for international students?",
+          ans: "Yes, areas like AI, ML, Engineering, Pure Science options, Commerce, Biotechnology, Renewable Energy, and Advanced Manufacturing are seeing significant investment and growth, potentially offering enhanced research and work opportunities for international graduates."
+        },
+        {
+          ques: "What is the general processing time for a UK Student Visa application?",
+          ans: "The processing time for a UK Student Visa application is typically around three weeks."
+        },
+        {
+          ques: "What is a CAS?",
+          ans: "A Confirmation of Acceptance for Studies (CAS) is a unique electronic reference number issued by a UK university once they have offered you an unconditional place on a course. It is essential for your student visa application, serving as official proof that you have been accepted to study in the UK."
+        },
+        {
+          ques: "Can I apply to more than one university in the UK?",
+          ans: "Bachelors applications are submitted through (UCAS) allowing you to select up to five distinct courses at various universities or different courses within the same university, for Masters programmes free to submit applications directly to multiple universities without any prohibition."
+        },
+        {
+          ques: "Can international students work in the UK?",
+          ans: "Yes, international students on a Student Visa are generally permitted to work in the UK. If you are on a full-time degree-level course, you can work up to 20 hours per week during term time and full-time during official university vacation periods."
+        },
+        {
+          ques: "Can I visit my home while studying in the UK?",
+          ans: "Yes, as an international student with a valid UK Student Visa, you are generally permitted to travel in and out of the UK. It is crucial to ensure that any travel does not interfere with your studies and that you are attending all required classes and engagements. You should inform your university if you plan to be away during term time and ensure your visa remains valid for re-entry."
+        },
+        {
+          ques: "Is there any age limit for studying in the UK?",
+          ans: "For a Student Visa, you must be 16 years old or over. While there's a minimum age, there is no upper age limit for studying in the UK. Many mature students from various backgrounds pursue higher education in the UK."
+        }
+      ],
+
+    },
   },
   canada: {
     name: "Canada",

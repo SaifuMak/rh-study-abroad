@@ -15,12 +15,12 @@ export default function StudyHighlights({ data }) {
 
           {/* LEFT SIDE – Background Image + Content */}
           <div
-            className="relative  lg:p-12  h-full max-lg:mt-8  max-lg:order-2 bg-contain bg-no-repeat bg-center"
+            className="relative  lg:p-12  grayscale h-full max-lg:mt-8  max-lg:order-2 bg-contain bg-no-repeat bg-center"
             style={{ backgroundImage: `url(${data?.bgImg})` }}
 
           >
             {/* Optional overlay for readability */}
-            <div className="absolute inset-0 "></div>
+            <div className="absolute inset-0  bg-[#F3F3F3]/90 "></div>
 
             <div ref={contentRef} className="relative z-10 lg:pb-10">
               <ul className="xl:space-y-5 space-y-3 text-[#4A4A4A] xl:text-lg 2xl:text-xl leading-relaxed">
