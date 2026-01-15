@@ -1480,18 +1480,195 @@ Few universities offering multiple intakes (February, April, May, October and No
     image: "/images/home/countries/canada.jpg",
     details: {
       intro: {
-        headline: "Study in Finland",
-        bannerImg: "/images/banners/finland.jpg",
+        headline: "Study in the Finland",
+        bannerImg: "/images/countries/usa/banner.jpg",
         content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sapien massa."
+          `Finland, consistently named the happiest country in the world, is a Nordic nation
+          celebrated for its exceptional quality of life. The country boasts a robust, wealthy
+          economy built on a strong social safety net, cutting-edge technology, and a
+          deep-rooted connection to nature. This combination of a well-functioning society,
+          high levels of trust, and a focus on well-being over material wealth contributes to the
+          unparalleled satisfaction of its citizens. Finland's vast forests and over 180,000 lakes
+          provide a serene backdrop for a balanced, low-stress lifestyle that is envied globally.
+                      `
       },
-      features: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Praesent sapien massa, convallis a pellentesque nec.",
-        "Nulla quis lorem ut libero malesuada feugiat.",
-        "Mauris blandit aliquet elit."
+      features: {
+        bgImg: '/images/countries/finland/map.png',
+        mainImg: '/images/countries/finland/students.jpg',
+        altText: 'finland',
+        points: [
+          "Capital: Helsinki",
+          "Main Cities: Tampere, Turku, Oulu, Espoo, Vantaa, Jyvaskyla, Kuopio, Lahti, Pori",
+          "Official Language: Finnish",
+          "Currency: Euro"
+        ]
+
+
+      },
+      whyStudyIn: {
+        title: "Why study in Finland",
+        bgImg: "/images/countries/finland/banner.jpg",
+        description: `Finland's education system is globally celebrated for its high quality and innovative
+                    approach. Indian students benefit from a learning environment that prioritizes critical
+                    thinking and problem-solving over rote memorisation. With many degrees taught in
+                    English, there's no language barrier, and the country's universities are consistently
+                    ranked among the world's best. The high standard of living and a safe, peaceful
+                    environment also provide an ideal setting for academic focus and personal growth.
+                                    `,
+        gridClass: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5',
+        points: [
+          {
+            title: "A globally renowned educational model",
+            icon: "/images/countries/usa/icons/scholar.svg",
+          },
+          {
+            title: "7 Finnish universities are ranked within the top 500 globally",
+            icon: "/images/countries/usa/icons/global-edu.png",
+          },
+          {
+            title: "Students' spouses are eligible to accompany them",
+            icon: "/images/countries/usa/icons/couple.svg",
+          },
+          {
+            title: "Fast-track offer letters and a leading visa success ratio",
+            icon: "/images/countries/usa/icons/connectivity.svg",
+          },
+          {
+            title: "Gaps in your studies and age are not a barrier",
+            icon: "/images/countries/usa/icons/globe-in-document.svg",
+          },
+          {
+            title: "Affordable tuition fee",
+            icon: "/images/countries/usa/icons/cash-in-bag.svg",
+          },
+          {
+            title: "13 universities, 22 universities of applied sciences",
+            icon: "/images/countries/usa/icons/world.svg",
+          },
+          {
+            title: "500+ English-taught bachelors and masters programs",
+            icon: "/images/countries/usa/icons/globe.svg",
+          },
+          {
+            title: "Stay-back counts toward permanent residency",
+            icon: "/images/countries/usa/icons/search.svg",
+          },
+          {
+            title: "High quality of life with a safe, student-friendly environment and strong work–life balance",
+            icon: "/images/countries/usa/icons/life.svg",
+          }
+
+        ]
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/finland/workrights.jpg",
+        altText: "Work rights and stay back",
+        points: [
+          "30 hours per week of work allowed during regular academic sessions",
+          "Full-time work allowed without hourly restrictions during university holidays such as summer and winter breaks",
+          "Post-study work permit: 2 years"
+        ],
+
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>August / January</strong><br />
+
+          `,
+        leftBackgroundImage: "/images/countries/finland/map.png",
+        rightImage: {
+          src: "/images/countries/finland/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+      faqItems: [
+        {
+          ques: "Why is Finland a good place to study?",
+          ans: "Finland has an excellent education system that is highly respected globally for its quality and innovative teaching methods."
+        },
+        {
+          ques: "What are the main types of universities?",
+          ans: "There are traditional universities, which focus on research, and universities of applied sciences, which are more practical and career-focused."
+        },
+        {
+          ques: "Can I study English?",
+          ans: "Yes, there are over 500 + bachelors and masters programmes taught in English."
+        },
+        {
+          ques: "Are there any age limits for students?",
+          ans: "No, there are no age restrictions for admission to Finland universities."
+        },
+        {
+          ques: "Is it a problem if I have a gap in my studies?",
+          ans: "No, academic gaps are not a concern. Your application is judged on your qualifications, not your study history."
+        },
+        {
+          ques: "What are the main application times?",
+          ans: "The biggest application period is in January (one month only) for studies starting in August. There is a smaller intake in January."
+        },
+        {
+          ques: "Do I need to take a test to get in?",
+          ans: "Admission is based on your previous qualifications and may include an entrance exam."
+        },
+        {
+          ques: "Can my family come with me?",
+          ans: "Yes, you can be accompanied by your spouse and children."
+        },
+        {
+          ques: "How expensive is it to live in Finland?",
+          ans: "Living costs for students can be around €600 to €900 per month."
+        },
+        {
+          ques: "What is student life like?",
+          ans: "Student life is very active, with many clubs, events, and unique traditions."
+        },
+        {
+          ques: "Is it a safe country?",
+          ans: "Yes, Finland is a very safe and secure country, known for its low crime rate."
+        },
+        {
+          ques: "Do I have to learn the Finnish language?",
+          ans: "No, most Finns speak English very well, but learning some Finnish is a great way to experience the local culture."
+        },
+        {
+          ques: "Can I get student discounts?",
+          ans: "Yes, with a student card you can get discounts on food, travel, and various services."
+        },
+        {
+          ques: "What kind of jobs are available for international students?",
+          ans: "Common part-time jobs are in sectors like retail, packing section, delivery, restaurant, hospitality, or as research assistants. After graduation, opportunities are strong in technology and engineering."
+        },
+        {
+          ques: "Does the stay-back period count towards permanent residency?",
+          ans: "Yes, the two-year period spent looking for work can be included in the time required for a permanent residence permit."
+        },
+        {
+          ques: "Are there any restrictions on working full-time?",
+          ans: "You are allowed to work full-time without any hourly limits during official university holidays."
+        },
+        {
+          ques: "Is student accommodation easy to find?",
+          ans: "Student housing foundations offer affordable accommodation, but it is important to apply for it as soon as possible."
+        },
+        {
+          ques: "Are there scholarships available for international students?",
+          ans: "Yes, many universities offer scholarships to international students to help cover tuition fees."
+        },
+        {
+          ques: "What is the student housing situation in Finland?",
+          ans: "Student housing foundations (lHOAS) are non-profit organisations that provide affordable and comfortable apartments for students in many cities."
+        },
+        {
+          ques: "Most trusted education consultant in Kerala for Finland?",
+          ans: "RH Study Abroad is one of the highly-rated and reputable education consultants in Kerala for Finland."
+        }
       ]
-    }
+
+    },
   },
   malta: {
     name: "Malta",

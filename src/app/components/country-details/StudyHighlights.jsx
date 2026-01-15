@@ -15,14 +15,14 @@ export default function StudyHighlights({ data }) {
 
           {/* LEFT SIDE – Background Image + Content */}
           <div
-            className="relative  lg:p-12  grayscale h-full max-lg:mt-8  max-lg:order-2 bg-contain bg-no-repeat bg-center"
+            className="relative  lg:p-12  grayscale h-full max-lg:mt-8 mb-10 max-lg:order-2 bg-contain bg-no-repeat bg-center"
             style={{ backgroundImage: `url(${data?.bgImg})` }}
 
           >
             {/* Optional overlay for readability */}
             <div className="absolute inset-0  bg-[#F3F3F3]/90 "></div>
 
-            <div ref={contentRef} className="relative z-10 lg:pb-10">
+            <div ref={contentRef} className="relative flex-center  h-full z-10 lg:pb-10">
               <ul className="xl:space-y-5 space-y-3 text-[#4A4A4A] xl:text-lg 2xl:text-xl leading-relaxed">
 
                 {data?.points?.map((item, index) => (
@@ -36,7 +36,7 @@ export default function StudyHighlights({ data }) {
           </div>
 
           {/* RIGHT SIDE – Image */}
-          <div ref={ImageRef} className="relative w-full xl:h-full md:h-[400px] h-[300px] max-lg:rounded-2xl max-lg:mb-5 lg:rounded-tl-3xl overflow-hidden shadow-xl">
+          <div ref={ImageRef} className="relative w-full xl:h-full md:h-[400px] h-[300px] md:min-h-[450px] max-lg:rounded-2xl max-lg:mb-5 lg:rounded-tl-3xl overflow-hidden shadow-xl">
             <Image
               src={data?.mainImg}
               alt={data?.altText}
