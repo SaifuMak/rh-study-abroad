@@ -1438,18 +1438,187 @@ Few universities offering multiple intakes (February, April, May, October and No
     image: "/images/home/countries/new-zealand.jpg",
     details: {
       intro: {
-        headline: "Study in Austria",
-        bannerImg: "/images/banners/austria.jpg",
+        headline: "Study in the Austria",
+        bannerImg: "/images/countries/usa/banner.jpg",
         content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit tortor eget felis."
+          `Austria, a landlocked nation in Central Europe, borders Germany, Czech Republic,
+          Slovakia, Hungary, Slovenia, Italy, Switzerland, and Liechtenstein. This central
+          location makes it a significant European crossroads. The country consistently offers
+          an exceptional quality of life, boasting stunning Alpine scenery perfect for skiing and
+          hiking. Vienna, its capital, is celebrated globally as the "City of Music" with
+          world-class cultural institutions. Austria further excels with efficient public transport,
+          excellent healthcare, high-quality (often free) education, a robust economy, low crime
+          rates, and a strong commitment to renewable energy, making it a highly desirable
+          place to live and visit.
+          `
       },
-      features: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Vivamus suscipit tortor eget felis porttitor volutpat.",
-        "Pellentesque in ipsum id orci porta dapibus.",
-        "Mauris blandit aliquet elit."
+      features: {
+        bgImg: '/images/countries/austria/map.jpg',
+        mainImg: '/images/countries/austria/students.jpg',
+        altText: 'Austria',
+
+        "points": [
+          "Capital: Vienna",
+          "Official Language: German",
+          "Currency: Euro",
+          "Main Cities: Graz, Linz, Salzburg, Innsbruck, Klagenfurt am Worthersee, Villach, Wels, Sankt Polten, Dornbirn"
+        ]
+      },
+      whyStudyIn: {
+        title: "Why study in Ireland",
+        bgImg: "/images/countries/austria/banner.jpg",
+        description: `For Indian students, Austria presents a compelling study abroad option. It offers a
+            relatively straightforward work permit system and a vibrant job market primarily
+            driven by medium-sized businesses. Graduates can expect a high minimum wage of
+            €1,500 monthly, with average annual earnings around €48,317. Crucially, Austria
+            publishes an annual "shortage occupations" list, indicating high demand for
+            professionals in fields like Power, Mechanical, and Chemical Engineering, Cost
+            Accounting, Business Administration, Botany, Zoology, Bio Technology, Culinary
+            Arts, and various Medical specialities including Anaesthesiology, Cardiology,
+            Dermatology, Endodontics, and Gastroenterology and more. This provides excellent
+            post-study work prospects for Indian students.
+                                    `,
+        gridClass: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4',
+        points: [
+          {
+            title: "Austrian universities are globally recognised for academic excellence, research, and innovation",
+            icon: "/images/countries/usa/icons/scholar.svg",
+          },
+          {
+            title: "Wide range of programs available across engineering, IT, healthcare, humanities, and arts",
+            icon: "/images/countries/usa/icons/global-edu.png",
+          },
+          {
+            title: "Affordable public university tuition fees, typically between €1,500 and €3,000 per year",
+            icon: "/images/countries/usa/icons/cash-in-bag.svg",
+          },
+          {
+            title: "Many postgraduate programs are taught fully in English, ideal for Indian students",
+            icon: "/images/countries/usa/icons/connectivity.svg",
+          },
+          {
+            title: "Austria offers one of the highest qualities of life with safe, liveable cities like Vienna",
+            icon: "/images/countries/usa/icons/life.svg",
+          },
+          {
+            title: "Central European location allows easy travel to countries like Germany, Italy, and Switzerland",
+            icon: "/images/countries/usa/icons/world.svg",
+          },
+          {
+            title: "Strong post-study work opportunities in fields like IT, healthcare, engineering, and tourism",
+            icon: "/images/countries/usa/icons/search.svg",
+          },
+          {
+            title: "Excellent student support services, scholarships, and international student networks like ESN",
+            icon: "/images/countries/usa/icons/globe.svg",
+          }
+        ]
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/austria/workrights.jpg",
+        altText: "Work rights and stay back",
+        points: [
+          "20 hours per week during studies.",
+          "International students can't typically work full-time during holidays without an LMT.",
+          "1 year stay back."
+        ],
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>March / October</strong><br /> `,
+        leftBackgroundImage: "/images/countries/austria/map.jpg",
+        rightImage: {
+          src: "/images/countries/austria/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+      faqItems: [
+        {
+          ques: "Why should Indian students consider Austria for higher education?",
+          ans: "Austria offers a world-class education system, affordable tuition fees at public universities, a high quality of life, diverse cultural experiences, and good post-study work opportunities."
+        },
+        {
+          ques: "What are the main intakes for universities in Austria?",
+          ans: "The main intakes are Winter (starting October) and Summer (starting March)."
+        },
+        {
+          ques: "Is Austria a safe country for international students?",
+          ans: "Yes, Austria is generally considered a very safe country with low crime rates. However, like any major city, petty crime can occur, so general vigilance is advised."
+        },
+        {
+          ques: "What is the quality of education in Austria?",
+          ans: "Austria has a highly regarded education system, with several universities consistently ranking among the top globally QS worlds ranking for their academic standards, research, and innovation."
+        },
+        {
+          ques: "Is German language proficiency mandatory for all courses?",
+          ans: "No, many Bachelors, Masters, MRes and PhD programmes are taught entirely in English. However, learning German is recommended for daily life and greatly enhances job prospects."
+        },
+        {
+          ques: "What are the general academic requirements for UG, PG, MRes and programmes for Indian students?",
+          ans: "You'll typically need a plus two, degree, IELTS, TOEFL or PTE score, updated CV, SOP, LOR and sufficient financial proof etc..."
+        },
+        {
+          ques: "Are there entrance exams for all courses in Austria?",
+          ans: "No, not for all. However, specific programmes like Medicine, Psychology, or certain fields often have entrance examinations."
+        },
+        {
+          ques: "How much are tuition fees at public universities for Indian students?",
+          ans: "Public universities typically charge low tuition fees for international students, generally ranging from €1,500 to €2,700 per year (approximately INR 1.5 Lakh to 2.7 Lakh)."
+        },
+        {
+          ques: "What are the tuition fees for private universities in Austria?",
+          ans: "Private universities are significantly more expensive, with fees typically ranging from €10,000 to €17,500 per year (approximately INR 10 Lakh to 17.5 Lakh)."
+        },
+        {
+          ques: "What is the estimated monthly cost of living for a student in Austria?",
+          ans: "On average, expect to spend around €600 to €1,000 per month (approximately INR 60,000 to 1 Lakh), depending on the city and your lifestyle."
+        },
+        {
+          ques: "Are there scholarships available for Indian students in Austria?",
+          ans: "Yes, various scholarships are available, including those from the Austrian Agency for Education and Internationalisation and university-specific scholarships,"
+        },
+        {
+          ques: "What are the key financial proof requirements for the student visa?",
+          ans: "You need to show sufficient funds to cover your living expenses. €555 a month for students up to 24 years old, and €1,001 a month for students aged 24 and above."
+        },
+        {
+          ques: "Is health insurance mandatory for the student visa?",
+          ans: "Yes, comprehensive health insurance is mandatory. You can usually opt for public student health insurance at a preferential rate once in Austria, or secure private insurance beforehand."
+        },
+        {
+          ques: "Can international students work part-time during their studies in Austria?",
+          ans: "Yes, students on a \"Residence Permit - Student\" are generally allowed to work up to 20 hours per week. An employer-secured work permit from the AMS is required."
+        },
+        {
+          ques: "Is it possible to work full-time (40 hours) during vacation periods?",
+          ans: "Working more than 20 hours a week during holidays usually requires a work permit subject to a LMT by the AMS."
+        },
+        {
+          ques: "What is the \"stay back\" period for international graduates in Austria?",
+          ans: "Upon successfully completing your degree (Bachelors, Masters, MRes or PhD), you can extend your Residence Permit for 12 months to seek employment or start a business."
+        },
+        {
+          ques: "What is the RWR Card for Graduates\"?",
+          ans: "This is a specific residence and work permit you can apply for if you secure a job offer relevant to your qualifications within the 12-month job search period. It generally does not require an LMT."
+        },
+        {
+          ques: "Can I bring my family with me to Austria while studying?",
+          ans: "Family reunification is possible, but it depends on your specific residence permit type and financial stability. Generally, students may find it challenging to bring dependents initially due to stringent financial requirements."
+        },
+        {
+          ques: "What are the long-term residence prospects after studying and working in Austria?",
+          ans: "After successfully working on a RWR Card for a specific period (e.g., 21 months within 24 months), you can apply for a RWR Card Plus, which grants unlimited access to the labour market. After 5 years of legal residence, you may be eligible for permanent residence."
+        },
+        {
+          ques: "What is the typical process for applying for a Student Visa for an Indian student?",
+          ans: "Indian students usually apply for their student visa at the Austrian Embassy or Consulate General in Delhi, India before travelling to Austria. You'll submit your application, supporting documents, and attend an interview. Once approved, you'll receive a visa to enter Austria, where your residence permit card will be issued."
+        }
       ]
-    }
+    },
   },
   denmark: {
     name: "Denmark",
