@@ -52,7 +52,7 @@ export default function IntakesSection({ data }) {
                             alt={rightImage.alt}
                             fill
                             priority
-                            className="object-cover "
+                            className=" "
                         />
                     </div>
 

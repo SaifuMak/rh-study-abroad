@@ -5,7 +5,6 @@ import useGsapFadeIn from '@/app/hooks/gsap/useGsapFadeIn'
 export default function WhyStudyIn({ data }) {
 
     const contentRef = useGsapFadeIn()
-    const cardContainerRef = useGsapFadeIn()
 
     return (
         <section className="w-full 2xl:pt-10  lg:pt-5 flex ">

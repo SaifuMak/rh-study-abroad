@@ -991,7 +991,6 @@ Few universities offering multiple intakes (February, April, May, October and No
           ans: "Green List occupations are in high demand and offer faster residency pathways through either straight-to-residence or work-to-residence options."
         }
       ]
-
     },
   },
   Ireland: {
@@ -1053,18 +1052,193 @@ Few universities offering multiple intakes (February, April, May, October and No
     image: "/images/home/countries/canada.jpg",
     details: {
       intro: {
-        headline: "Study in Sweden",
-        bannerImg: "/images/banners/sweden.jpg",
+        headline: "Study in the Sweden",
+        bannerImg: "/images/countries/usa/banner.jpg",
         content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla sit amet nisl tempus."
+          `Sweden is a Scandinavian country, boasts a highly regarded education system,
+          celebrated for its innovative, research-driven programmes and emphasis on
+          independent thinking. Its breathtaking landscapes, from expansive forests and
+          serene lakes to the unique arctic wilderness, highlight a profound commitment to
+          environmental preservation and offer abundant opportunities for outdoor pursuits.
+          Renowned for its exceptional quality of life, Sweden provides robust social welfare, a
+          commendable work-life balance, and a remarkably safe, inclusive society.
+          Economically, it is a prosperous and highly innovative country, driven by a strong
+          services sector, advanced technology, and a globalised trade approach.
+            `
       },
-      features: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Curabitur non nulla sit amet nisl tempus convallis.",
-        "Mauris blandit aliquet elit.",
-        "Vivamus magna justo, lacinia eget consectetur sed."
+      features: {
+        bgImg: '/images/countries/sweden/map.png',
+        mainImg: '/images/countries/sweden/students.jpg',
+        altText: 'Sweden',
+        points: [
+          "Capital: Stockholm",
+          "Currency: Swedish Krona (SEK)",
+          "Official Language: Swedish (around 90% of Swedes speak English)",
+          "Main Cities: Gothenburg, Malmo, Uppsala, Vasteras, Orebro, Linkoping, Helsingborg, Lund, Kalmar"
+        ]
+
+      },
+      whyStudyIn: {
+        title: "Why study in Sweden",
+        bgImg: "/images/countries/sweden/banner.jpg",
+        description: `The Swedish economy is a highly developed, export-driven powerhouse. Its
+                      industrial strength is notable across sectors such as automotive, chemicals, home
+                      goods and appliances, iron and steel, pharmaceuticals, precision equipment, and
+                      telecommunications. Sweden is home to globally recognised multinational
+                      corporations at the forefront of innovation and technology, including Ericsson, Volvo,
+                      Scania, Electrolux, SKF, Sandvik, Atlas Copco, and IKEA. Professions offering
+                      significant remuneration include law, banking and finance, education, aviation,
+                      management, healthcare, and tourism. Sweden consistently achieves high scores in
+                      key indicators of living standards, particularly in environmental quality, education and
+                      skills, work-life balance, health status, employment and earnings, and personal
+                      safety, underscoring a commitment to societal well-being.
+                                    `,
+        gridClass: 'grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4',
+        points: [
+          {
+            title: "Semester-Wise Tuition Fee Payment Reducing Upfront Financial Burden",
+            icon: "/images/countries/usa/icons/globe-in-document.svg",
+          },
+          {
+            title: "Spouse Eligibility for Full-Time Work Permit for Masters, MRes & PhD Students",
+            icon: "/images/countries/usa/icons/couple.svg",
+          },
+          {
+            title: "Globally Ranked Universities Known for Academic Excellence",
+            icon: "/images/countries/usa/icons/scholar.svg",
+          },
+          {
+            title: "Wide Range of Degree Programs Taught Entirely in English",
+            icon: "/images/countries/usa/icons/connectivity.svg",
+          },
+          {
+            title: "Birthplace of World-Leading Multinational Companies & Innovation",
+            icon: "/images/countries/usa/icons/globe.svg",
+          },
+          {
+            title: "Strong Export-Driven Economy with High Graduate Employability",
+            icon: "/images/countries/usa/icons/cash-in-bag.svg",
+          },
+          {
+            title: "High Quality of Life with Excellent Safety, Health & Work-Life Balance",
+            icon: "/images/countries/usa/icons/world.svg",
+          },
+          {
+            title: "Globally Respected Degrees Opening International Career Opportunities",
+            icon: "/images/countries/usa/icons/global-edu.png",
+          }
+        ]
+
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/sweden/workrights.jpg",
+        altText: "Work rights and stay back",
+        points: [
+          "No fixed limit on work hours for international students during studies",
+          "Spouses are eligible for full-time work permits",
+          "1 year stay back"
+        ],
+
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>August / January</strong><br />
+
+          `,
+        leftBackgroundImage: "/images/countries/sweden/map.png",
+        rightImage: {
+          src: "/images/countries/sweden/office.png",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+      faqItems: [
+        {
+          ques: "What is Sweden's reputation for higher education?",
+          ans: "Sweden boasts a globally respected, innovative, and research-driven education system known for its emphasis on critical thinking and independent study."
+        },
+        {
+          ques: "How do Swedish universities perform in global rankings?",
+          ans: "Several Swedish universities consistently rank highly in prestigious global listings, including the QS World University Rankings, with institutions like KTH Royal Institute of Technology and Lund University often within the top 100."
+        },
+        {
+          ques: "Is Sweden considered a leading nation for innovation?",
+          ans: "Yes, Sweden is consistently ranked among the world's most innovative countries, making it an excellent environment for those interested in cutting-edge fields."
+        },
+        {
+          ques: "Are Swedish qualifications recognised internationally?",
+          ans: "Absolutely, degrees from Swedish institutions are highly valued and recognised worldwide, enhancing graduates' international employability."
+        },
+        {
+          ques: "How widely is English spoken in Sweden?",
+          ans: "English is exceptionally popular and widely spoken across Sweden, with nearly 90% of the population speaking it as a second language, ensuring easy communication."
+        },
+        {
+          ques: "Are there many English-taught programmes available?",
+          ans: "Yes, Swedish universities offer a vast array of degree programmes across various disciplines taught entirely in English, catering well to international students."
+        },
+        {
+          ques: "Is IELTS mandatory for STEM students from India?",
+          ans: "While most programmes require English proficiency proof like IELTS some universities may offer waivers for STEM students with a strong academic background where English was the medium of instruction"
+        },
+        {
+          ques: "How are tuition fees typically paid in Sweden?",
+          ans: "A significant advantage for Indian students is that tuition fees are generally collected on a semester-wise basis, rather than requiring large upfront payments for the entire programme."
+        },
+        {
+          ques: "Are scholarships available for Indian students in Sweden?",
+          ans: "Yes, numerous scholarship opportunities exist, including those from the Swedish Institute and individual universities, covering tuition fees and sometimes living costs for eligible students."
+        },
+        {
+          ques: "Can international students work part-time while studying in Sweden?",
+          ans: "Yes, students face no explicit hourly limitations on part-time work during term time."
+        },
+        {
+          ques: "What are the general rules for working during university breaks?",
+          ans: "During scheduled breaks and holidays, students are typically permitted to work full-time."
+        },
+        {
+          ques: "Can a student's spouse accompany them and gain work rights?",
+          ans: "Yes, spouses accompanying students pursuing Master's or PhD qualifications are eligible to apply for a full-time, unrestricted work permit."
+        },
+        {
+          ques: "What are the key employment opportunities for graduates in Sweden?",
+          ans: "Promising sectors include IT, engineering, healthcare, business, and pharmaceuticals, with strong demand from Sweden's innovative multinational corporations."
+        },
+        {
+          ques: "Which are the main cities for students in Sweden?",
+          ans: "Major student cities include Stockholm (the capital), Gothenburg, Malmö, Uppsala, and Linköping, each offering distinct academic and cultural experiences."
+        },
+        {
+          ques: "What are the typical Post-Study Work Visa durations in Sweden?",
+          ans: "Generally, students can apply to extend their residence permit for 12 months after completing their studies to seek employment or become self-employed."
+        },
+        {
+          ques: "Is Permanent Residency (PR) a possibility after studying in Sweden?",
+          ans: "Yes, a common pathway to PR is through securing skilled employment after graduation and meeting the requirements of the Skilled Migrant Category."
+        },
+        {
+          ques: "How does the \"Green List\" affect PR opportunities for graduates?",
+          ans: "Occupations on Sweden's \"Green List\" are in high demand and can offer accelerated pathways to residency for qualified graduates."
+        },
+        {
+          ques: "What is the primary method for applying to Swedish universities?",
+          ans: "Applications are typically centralised and you can approach a leading Sweden education consultant."
+        },
+        {
+          ques: "What are the general financial requirements for a student visa?",
+          ans: "Applicants must demonstrate sufficient funds to cover living expenses for their study period."
+        },
+        {
+          ques: "Are there specific advantages for Indian students regarding visa approval?",
+          ans: "While not explicitly higher, a clear and streamlined visa process, coupled with genuine intent and complete documentation, supports positive outcomes for Indian applicants."
+        }
       ]
-    }
+    },
+
   },
   switzerland: {
     name: "Switzerland",
