@@ -998,18 +998,193 @@ Few universities offering multiple intakes (February, April, May, October and No
     image: "/images/home/countries/uk.jpg",
     details: {
       intro: {
-        headline: "Study in Ireland",
-        bannerImg: "/images/banners/ireland.jpg",
+        headline: "Study in the Ireland",
+        bannerImg: "/images/countries/usa/banner.jpg",
         content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci porta dapibus."
+          `Ireland is a vibrant and strategically positioned European nation, celebrated for its
+          exceptional economic dynamism and high quality of life. The country boasts a remarkably
+          robust economy, significantly bolstered by (FDI), making it a prominent global destination for
+          international capital. This influx of FDI has been instrumental in establishing Ireland as a
+          pre-eminent centre for global ICT, pharmaceutical, and financial services companies. Irish
+          society benefits from a well-regarded healthcare system and a strong commitment to
+          democratic principles, fostering an environment of trust and cultural richness. From its
+          verdant landscapes and dramatic coastlines to its welcoming communities, Ireland offers a
+          serene backdrop for a balanced lifestyle. The consistently high academic standards of Irish
+          universities further empower their graduates to make a substantial impact within academia,
+          cutting-edge research, and the competitive global business arena, presenting exceptionally
+          promising career prospects across a host of global corporations that have chosen Ireland for
+          significant investment.
+          `
       },
-      features: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Pellentesque in ipsum id orci porta dapibus.",
-        "Curabitur arcu erat, accumsan id imperdiet et.",
-        "Vivamus suscipit tortor eget felis porttitor volutpat."
+      features: {
+        bgImg: '/images/countries/Ireland/map.png',
+        mainImg: '/images/countries/Ireland/students.jpg',
+        altText: 'finland',
+        points: [
+          "Ireland is the third largest island in Europe",
+          "Capital: Dublin",
+          "Official Language: English and Irish",
+          "Currency: Euro",
+          "Main Cities: Cork, Limerick, Galway, Waterford, Belfast, Derry, Craigavan, Dundalk, Drogheda, Swords"
+        ]
+      },
+      whyStudyIn: {
+        title: "Why study in Ireland",
+        bgImg: "/images/countries/Ireland/banner.jpg",
+        description: `Ireland stands as a pivotal European centre, attracting over 1,000 leading
+            multinational corporations across diverse sectors. It is notably a key domicile for
+            virtually all major global ICT and pharmaceutical companies, alongside being a
+            pre-eminent hub for international financial services and banking excellence. This
+            concentration of industry giants, including Microsoft, Google, PayPal, Apple, Twitter,
+            LinkedIn, Pfizer, GSK, Genzyme, Accenture, CRH, Kerry Group, Kingspan Group,
+            Allianz, and AXA Insurance, presents exceptionally promising career prospects. The
+            high academic calibre of Irish universities empowers their graduates to make a
+            significant impact within academia, research, and the global business arena
+                                    `,
+        gridClass: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4',
+        points: [
+          {
+            title: "2nd most peaceful country in the world, just behind Iceland (2025)",
+            icon: "/images/countries/usa/icons/world.svg",
+          },
+          {
+            title: "Leading European hub for major multinational corporations",
+            icon: "/images/countries/usa/icons/globe.svg",
+          },
+          {
+            title: "Primarily English-speaking country offering a smooth transition for Indian students",
+            icon: "/images/countries/usa/icons/connectivity.svg",
+          },
+          {
+            title: "Strong, fast-growing economy driven by high levels of foreign direct investment",
+            icon: "/images/countries/usa/icons/cash-in-bag.svg",
+          },
+          {
+            title: "One of the safest and friendliest countries with a growing Indian student community",
+            icon: "/images/countries/usa/icons/life.svg",
+          },
+          {
+            title: "Universities recognised globally for research excellence and innovation",
+            icon: "/images/countries/usa/icons/scholar.svg",
+          },
+          {
+            title: "Post-study work visa and critical skills permit offer pathways to permanent residency",
+            icon: "/images/countries/usa/icons/search.svg",
+          },
+          {
+            title: "Irish universities feature strongly in global rankings, with many in the top 500 and top 100–200",
+            icon: "/images/countries/usa/icons/global-edu.png",
+          }
+        ]
+
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/Ireland/workrights.jpg",
+        altText: "Work rights and stay back",
+        points: [
+          "20 hours per week during regular academic sessions",
+          "40 hours per week during vacation",
+          "NFQ Level 8 qualification (Honours Bachelors Degree) are eligible for a 12-months stay back",
+          "NFQ Level 9 or above qualification (Masters Degree, Master by Research, or PhD) are eligible for a total of 24 months"
+        ],
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>September / January</strong><br /> `,
+        leftBackgroundImage: "/images/countries/Ireland/map.png",
+        rightImage: {
+          src: "/images/countries/Ireland/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+      faqItems: [
+        {
+          ques: "What is a CAS equivalent for an Ireland student visa application?",
+          ans: "In Ireland, you'll need a formal \"Letter of Acceptance\" from a recognised Ireland educational institution. This letter serves the same purpose as a CAS, confirming your unconditional offer to study."
+        },
+        {
+          ques: "Can I apply to more than one university in Ireland?",
+          ans: "Yes, absolutely. bachelors you apply through the Central Applications Office (CAO) Masters, master by Research and PhD applications, you apply directly to each university, with no limit on the number of applications you can submit."
+        },
+        {
+          ques: "Is there any age limit for studying in Ireland?",
+          ans: "To apply for a D-Study Visa, you must generally be 18 years old or over. While there isn't an upper age limit, demonstrating your genuine intention to study is key, regardless of age."
+        },
+        {
+          ques: "Can I visit my home country during my studies in Ireland?",
+          ans: "Yes, as an international student with a valid Irish Stamp 2 student immigration permission, you are generally permitted to travel in and out of Ireland. Ensure your travel aligns with your academic schedule and visa validity."
+        },
+        {
+          ques: "What are the general financial requirements for an Ireland Student Visa?",
+          ans: "You must demonstrate that you have sufficient funds to cover your tuition fees and living expenses. Currently, you need to show access to at least €10,000 for each year of your studies, in addition to your tuition fees."
+        },
+        {
+          ques: "What are the typical tuition fees for Indian students in Ireland?",
+          ans: "Tuition fees in Ireland for international students vary significantly by course and institution, generally ranging from €9,000 to €25,000 per year. Postgraduate degrees, especially in specialised fields like medicine or business, can be higher."
+        },
+        {
+          ques: "Do I need to prove my English language proficiency for Irish universities?",
+          ans: "Yes, require a recognised English language test score like IELTS, TOEFL,PTE, or Duolingo English Test"
+        },
+        {
+          ques: "What are the main types of accommodation available for students in Ireland?",
+          ans: "Common options include on-campus university accommodation (halls of residence), purpose-built student accommodation (PBSA), private rented accommodation (often shared with other students), and homestays with Irish families."
+        },
+        {
+          ques: "How much should I budget for living expenses in Ireland?",
+          ans: "Living costs vary by city, but on average, students should budget between €550 - €850 per month, including accommodation."
+        },
+        {
+          ques: "What is the processing time for an Ireland student visa application from India?",
+          ans: "The processing time for an Ireland student visa for Indian applicants can vary, typically ranging from 20 to 35 working days. It is advisable to apply well in advance of your intended travel date."
+        },
+        {
+          ques: "Are scholarships available for Indian students in Ireland?",
+          ans: "Yes, numerous scholarships are available for Indian students. These include government scholarships (e.g., Government of Ireland International Education Scholarships), university-specific scholarships (e.g., UCD Global Excellence Scholarships, Trinity College Dublin scholarships), and scholarships from private organisations."
+        },
+        {
+          ques: "How do Irish universities consistently achieve global prominence in rankings?",
+          ans: "Ireland universities consistently demonstrate global prominence, with a strong presence within the top 500 of the QS World University Rankings, and key institutions frequently achieving ranks among the top 100-200, due to their high academic standards and research output."
+        },
+        {
+          ques: "What makes Ireland an attractive study destination for Indian students?",
+          ans: "Ireland offers world-class education, an English-speaking environment, a safe and welcoming society, strong economic growth driven by substantial Foreign Direct Investment (FDI), and a clear path to gaining international work experience."
+        },
+        {
+          ques: "Can my spouse accompany me while I study in Ireland?",
+          ans: "As of recent changes, only students pursuing a Masters by Research or PhD lasting at least 9 months can bring their spouse and children to Ireland. Proof of relationship and sufficient additional funds for each dependant are strictly required"
+        },
+        {
+          ques: "What are the major industries in Ireland offering career opportunities?",
+          ans: "Ireland's economy is robust, with significant opportunities in sectors like Information and Communications Technology Pharmaceuticals and Life Sciences, Financial Services, Engineering, and MedTech"
+        },
+        {
+          ques: "What kind of support services do Ireland universities offer international students?",
+          ans: "Ireland universities provide comprehensive support services, including international student offices, academic advisors, career services, placement support, counselling, disability support, and social integration programs to help students adapt and succeed."
+        },
+        {
+          ques: "What is the climate like in Ireland?",
+          ans: "Ireland has a temperate oceanic climate, characterised by mild, humid, and changeable weather. Extremes of temperature are rare, with mild summers and cool winters, and rainfall occurring throughout the year"
+        },
+        {
+          ques: "How can an Indian student open a bank account in Ireland?",
+          ans: "To open a student bank account, you typically need your valued passport, proof of address in Ireland (e.g., university accommodation letter or utility bill), and your letter of acceptance from the university"
+        },
+        {
+          ques: "Which cities in Ireland are popular for Indian students?",
+          ans: "Dublin, Cork, Limerick, and Galway are the main cities popular with international students, offering a blend of academic excellence, cultural experiences, and career opportunities."
+        },
+        {
+          ques: "What are Critical Skills Occupations in Ireland?",
+          ans: "The Critical Skills Occupations List outlines professions deemed highly skilled and in short supply in Ireland's labour market, such as ICT professionals, engineers, and healthcare workers. Graduates in these fields have enhanced opportunities for gaining employment permits."
+        }
       ]
-    }
+
+    },
   },
   france: {
     name: "France",
