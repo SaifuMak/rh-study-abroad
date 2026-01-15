@@ -607,36 +607,392 @@ Few universities offering multiple intakes (February, April, May, October and No
     image: "/images/home/countries/australia.jpg",
     details: {
       intro: {
-        headline: "Study in Australia",
-        bannerImg: "/images/banners/australia.jpg",
+        headline: "Study in the Australia",
+        bannerImg: "/images/countries/usa/banner.jpg",
         content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sapien massa, convallis a pellentesque nec."
+          `Austria, a landlocked nation in Central Europe, borders Germany, Czech Republic,
+          Slovakia, Hungary, Slovenia, Italy, Switzerland, and Liechtenstein. This central
+          location makes it a significant European crossroads. The country consistently offers
+          an exceptional quality of life, boasting stunning Alpine scenery perfect for skiing and
+          hiking. Vienna, its capital, is celebrated globally as the "City of Music" with
+          world-class cultural institutions. Austria further excels with efficient public transport,
+          excellent healthcare, high-quality (often free) education, a robust economy, low crime
+          rates, and a strong commitment to renewable energy, making it a highly desirable
+          place to live and visit.
+            `
       },
-      features: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Praesent sapien massa, convallis a pellentesque nec.",
-        "Vestibulum ac diam sit amet quam vehicula elementum.",
-        "Curabitur aliquet quam id dui posuere blandit."
-      ]
-    }
+      features: {
+        bgImg: '/images/countries/canada/map.png',
+        mainImg: '/images/countries/canada/students.jpg',
+        altText: 'usa',
+        points: [
+          "Capital: Vienna",
+          "Official Language: German",
+          "Currency: Euro",
+          "Main Cities: Graz, Linz, Salzburg, Innsbruck, Klagenfurt am Wörthersee, Villach, Wels, Sankt Pölten, Dornbirn"
+        ]
+
+      },
+      whyStudyIn: {
+        title: "Why study in Canada",
+        bgImg: "/images/countries/canada/banner.jpg",
+        description: `Studying in Canada offers international students a high-quality education in a safe,
+                    inclusive, and diverse environment. With affordable tuition and numerous prestigious
+                    universities, Canada provides excellent academic opportunities and practical work
+                    experience, enhancing both education and career prospects.
+                                    `,
+        points: [
+          {
+            title: "High-Quality Education",
+            icon: "/images/countries/usa/icons/globe.svg",
+          },
+          {
+            title: "Affordable Tuition Fees",
+            icon: "/images/countries/usa/icons/cash.svg",
+          },
+          {
+            title: "Work Opportunities",
+            icon: "/images/countries/usa/icons/connectivity.svg",
+          },
+          {
+            title: "Pathways to Permanent Residency",
+            icon: "/images/countries/usa/icons/globe-in-document.svg",
+          },
+          {
+            title: "Safe and Inclusive Environment",
+            icon: "/images/countries/usa/icons/world.svg",
+          },
+          {
+            title: "Strong and Growing Economy",
+            icon: "/images/countries/usa/icons/cash-in-bag.svg",
+          },
+          {
+            title: "Spouse Accompaniment & Work Rights",
+            icon: "/images/countries/usa/icons/home.png",
+          },
+          {
+            title: "Prestigious Universities",
+            icon: "/images/countries/usa/icons/scholar.svg",
+          },
+          {
+            title: "Scholarship Opportunities",
+            icon: "/images/countries/usa/icons/search.svg",
+          },
+          {
+            title: "Globally Recognised Degrees",
+            icon: "/images/countries/usa/icons/global-edu.png",
+          }
+
+        ]
+
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/canada/workrights.jpg",
+        altText: "Work rights and stay back",
+        points: [
+          "20 hours per week of work allowed during regular academic sessions.",
+          "40 hours per week permitted during vacation.",
+          "Unlimited on-campus work rights.",
+          "Up to 3 years stay-back available for a 2-year study program, or equivalent to the duration of the study program if it is less than 2 years."
+        ],
+
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>January,  May, September</strong><br />
+
+          `,
+        leftBackgroundImage: "/images/countries/canada/map.png",
+        rightImage: {
+          src: "/images/countries/canada/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+      faqItems: [
+        {
+          ques: "Why should I choose Canada for my studies as an Indian student?",
+          ans: "Canada offers a globally recognised education system, diverse culture, excellent post-study work opportunities (PGWP), a safe environment, and often more affordable tuition fees compared to other popular study destinations like the US or UK."
+        },
+        {
+          ques: "Do Canadian educational institutions recognise the 10+2+3 education system from India?",
+          ans: "Generally, the 10+2+3 system is accepted for postgraduate (PG) diploma programs. For master's programs, most universities typically require a 10+2+4 background, though some may consider 10+2+3 on a case-by-case basis for specific fields."
+        },
+        {
+          ques: "What are the basic academic requirements to study in Canada for Indian students?",
+          ans: "For undergraduate programs, you typically need at least 55% in Class 12. For postgraduate programs, a bachelor's degree with a minimum 55 % is usually required."
+        },
+        {
+          ques: "What are the English language proficiency requirements?",
+          ans: "Most institutions accept standardised tests like IELTS, TOEFL, or PTE. For undergraduate programs, an IELTS band of 6.0-6.5 (no band less than 5.5 or 6.0) is often required. For postgraduate programs, it's typically 6.5 (no band less than 6.0)."
+        },
+        {
+          ques: "Can I study in Canada without IELTS?",
+          ans: "While highly recommended, some institutions or specific programs may offer conditional admissions without IELTS if you have studied in an English-medium institution for a certain period, or if you can demonstrate English proficiency through other means. However, for visa purposes, IELTS is often preferred."
+        },
+        {
+          ques: "What is a Statement of Purpose (SOP) and why is it important?",
+          ans: "SOP is a crucial essay explaining your motivation for choosing Canada, the specific program, your academic background, career goals, and how the program aligns with your aspirations. It helps the admissions committee understand your suitability for the program."
+        },
+        {
+          ques: "Are Letters of Recommendation (LORs) required?",
+          ans: "Yes, two LORs are mandatory from professors or employers are often required, especially for postgraduate programs. They provide insights into your academic abilities, work ethic, and potential."
+        },
+        {
+          ques: "How much of a gap after 12th or Degree is acceptable for studying in Canada?",
+          ans: "You can justify a study gap after 12th or degree by providing valid reasons such as professional experience/internships, preparing for entrance exams, medical/health-related issues."
+        },
+        {
+          ques: "What are the financial requirements for an Indian student applying for a study permit?",
+          ans: "As of 2024, you need to prove you have enough funds to cover your first year's tuition fees PLUS CAD 20,635 for living expenses."
+        },
+        {
+          ques: "What is a Guaranteed Investment Certificate (GIC)?",
+          ans: "A GIC is a mandatory deposit of the minimum required living expense amount (currently CAD 20,635) into a Canadian bank. You'll receive a certificate to include in your visa application. A portion of this is released upon arrival, and the rest in monthly installments."
+        },
+        {
+          ques: "How long does the Canada study permit processing take?",
+          ans: "Processing times vary based on the volume of applications. It's essential to start your application well in advance."
+        },
+        {
+          ques: "How much does it cost to study in Canada (tuition fees)?",
+          ans: "Tuition fees vary widely depending on the university / colleges and level of study. On average, international students can expect to pay between CAD 11,000 to 12,500 diploma & Advanced diploma 13,000 to 19,000 Bachelors and 12,000 to 22,000 post graduation per year."
+        },
+        {
+          ques: "What are the estimated living expenses for an international student in Canada?",
+          ans: "The average cost of living can range starting from CAD 7,000 per year, depending on the city, lifestyle, and spending habits."
+        },
+        {
+          ques: "Is health insurance mandatory for international students in Canada?",
+          ans: "Yes, all international students in Canada must have health insurance. Some provinces offer provincial health plans for international students, while others require private insurance or university-provided plans. It's crucial to have coverage from the moment you arrive."
+        },
+        {
+          ques: "Are scholarships available for Indian students studying in Canada?",
+          ans: "Yes, many Canadian universities and the Canadian government, and various private colleges offer scholarships, grants, and bursaries to international students based on merit, financial need, or specific programs."
+        },
+        {
+          ques: "Can I work while studying in Canada?",
+          ans: "Yes, international students with a valid study permit are generally allowed to work up to 20 hours per week during regular academic sessions and full-time during scheduled breaks (e.g., summer vacation). This can be on-campus or off-campus."
+        },
+        {
+          ques: "What is the Post-Graduation Work Permit (PGWP)?",
+          ans: "The PGWP allows eligible international graduates to stay and work in Canada after completing their studies. It's an open work permit, meaning you can work for any employer. The duration of the PGWP can be up to three years, depending on the length of your study program."
+        },
+        {
+          ques: "What are the general eligibility criteria for a PGWP?",
+          ans: "You must have completed a program of study at an eligible DLI, which was at least eight months long, and have maintained full-time student status during your studies. There are new requirements as of June/July 2025 regarding eligible fields of study and language test results for PGWP. Always check the latest IRCC updates."
+        },
+        {
+          ques: "What are the job prospects in Canada after studying for Indian students?",
+          ans: "Canada has a strong job market, especially in sectors like IT, healthcare, engineering, finance, logistics and supply chain, teaching. Having a Canadian degree and work experience from a PGWP significantly improves job prospects."
+        },
+        {
+          ques: "Can I stay in Canada permanently after completing my studies and PGWP?",
+          ans: "Yes, Canada encourages international graduates to apply for permanent residency. Common pathways include the Express Entry system (especially the Canadian Experience Class stream) and various Provincial Nominee Programs (PNPs) that often have streams specifically for international graduates."
+        },
+        {
+          ques: "What are the key factors for successful permanent residency application after studying in Canada?",
+          ans: "Key factors include Canadian work experience (gained through PGWP) English or French language proficiency, education level, age, and adaptability. Many provincial nominee programs also prioritise candidates with in-demand skills in their respective provinces."
+        }
+      ],
+    },
   },
   'new-zealand': {
     name: "New Zealand",
     image: "/images/home/countries/new-zealand.jpg",
     details: {
       intro: {
-        headline: "Study in New Zealand",
-        bannerImg: "/images/banners/new-zealand.jpg",
+        headline: "Study in the New Zealand",
+        bannerImg: "/images/countries/usa/banner.jpg",
         content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat."
+          `New Zealand, located in Oceania, offers a distinctive blend of world-class education,
+          scenic beauty, and high quality of life. Its education system is globally recognised,
+          with strong links and continental agreements facilitating qualification acceptance
+          worldwide. The landscapes are stunningly diverse, from snow-capped mountains
+          and glaciers to pristine beaches and geothermal areas, inspiring an active, outdoor
+          lifestyle. Life here is characterised by a strong work-life balance, safe communities,
+          and a commitment to sustainability, with subsidised healthcare and education
+          contributing to its appeal.
+            `
       },
-      features: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Nulla quis lorem ut libero malesuada feugiat.",
-        "Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.",
-        "Sed porttitor lectus nibh."
+      features: {
+        bgImg: '/images/countries/new-zealand/map.png',
+        mainImg: '/images/countries/new-zealand/students.jpg',
+        altText: 'new-zealand',
+        points: [
+          "Capital: Wellington",
+          "Official Languages: English, Maori",
+          "Currency: New Zealand Dollar",
+          "Main Cities: Auckland, Christchurch, Hamilton, Tauranga, Dunedin, Napier, Hastings"
+        ]
+
+
+      },
+      whyStudyIn: {
+        title: "Why study in New Zealand",
+        bgImg: "/images/countries/new-zealand/banner.jpg",
+        description: `New Zealand stands out as one of the Asia-Pacific region's most prosperous nations,
+          having enjoyed considerable economic growth over recent decades. It operates the
+          second freest and one of the most globalised economies, with a significant reliance
+          on international trade. Key drivers of New Zealand's economy include the thriving
+          services sector, alongside robust contributions from mining, manufacturing, forestry,
+          agriculture, and dairy. Furthermore, the burgeoning IT sector is making substantial
+          headway. Excellent employment prospects can be found across Engineering,
+          Business & Finance, Health & Social Services, and IT & Hospitality. While the cost of
+          living is relatively higher, it is widely considered a worthwhile investment, given the
+          abundant opportunities and the tranquil, high-quality lifestyle the country affords.
+                                    `,
+        gridClass: 'grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4',
+        points: [
+          {
+            title: "High Visa Approval Rates with Strong Spouse Work Permit Options & Pay Tuition After Visa Approval",
+            icon: "/images/countries/usa/icons/globe-in-document.svg",
+          },
+          {
+            title: "Structured Tertiary Education System with Universities, ITPs & Private Training Establishments",
+            icon: "/images/countries/usa/icons/globe.svg",
+          },
+          {
+            title: "Study in a Fully English-Speaking Environment to Accelerate Global Communication Skills",
+            icon: "/images/countries/usa/icons/connectivity.svg",
+          },
+          {
+            title: "Universities Ranked Among the Global Elite with Many in the Top 3% Worldwide",
+            icon: "/images/countries/usa/icons/scholar.svg",
+          },
+          {
+            title: "One of the Safest and Most Peaceful Countries with Strong Student Well-Being Support",
+            icon: "/images/countries/usa/icons/world.svg",
+          },
+          {
+            title: "Inclusive Multicultural Society Enriched by Indigenous Māori Heritage",
+            icon: "/images/countries/usa/icons/home.png",
+          },
+          {
+            title: "Exceptional Natural Beauty Supporting a Balanced Lifestyle and High Quality of Life",
+            icon: "/images/countries/usa/icons/global-edu.png",
+          },
+          {
+            title: "Excellent Post-Study Work Opportunities for International Graduates",
+            icon: "/images/countries/usa/icons/cash-in-bag.svg",
+          }
+
+        ]
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/new-zealand/workrights.jpg",
+        altText: "Work rights and stay back",
+        points: [
+          "Work up to 25 hours per week during studies and 40 hours per week during scheduled vacations",
+          "PhD and Masters by Research students have no work hour restrictions",
+          "Spouses of postgraduate students can apply for a full-time open work permit with any employer",
+          "Diploma and Graduate Diploma (NZQF Level 7 non-degree or below) allow a 1-year post-study stay",
+          "Postgraduate Diploma graduates are eligible for a 1-year post-study stay",
+          "Masters degree (NZQF Level 9) graduates are eligible for up to 3 years post-study stay"
+        ],
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>February / July</strong><br />
+
+          `,
+        leftBackgroundImage: "/images/countries/new-zealand/map.png",
+        rightImage: {
+          src: "/images/countries/new-zealand/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+      faqItems: [
+        {
+          ques: "Which continental region is New Zealand located in?",
+          ans: "New Zealand is located in Oceania."
+        },
+        {
+          ques: "How do New Zealand universities rank globally?",
+          ans: "New Zealand's universities consistently feature among the global elite, with a significant proportion recognised within the top 3% of institutions worldwide."
+        },
+        {
+          ques: "What types of educational institutions are there in New Zealand?",
+          ans: "The system comprises 8 state-funded universities, 16 Institutes of Technology and Polytechnics (ITPs), and over 550 Private Training Establishments (PTEs)."
+        },
+        {
+          ques: "What are the main attractions for Indian students to study in New Zealand?",
+          ans: "Key attractions include quality-assured education, practical learning, enhanced English proficiency, high employability of qualifications, and a safe, welcoming environment."
+        },
+        {
+          ques: "Do New Zealand qualifications have international recognition?",
+          ans: "Yes, New Zealand qualifications are highly sought after by employers globally, providing a competitive edge in the international job market."
+        },
+        {
+          ques: "Is New Zealand a safe country for international students?",
+          ans: "New Zealand consistently ranks among the safest and most peaceful countries globally, offering a secure and supportive learning experience."
+        },
+        {
+          ques: "Can students work while studying in New Zealand?",
+          ans: "Yes, most student visa holders are permitted to work part-time up to 25 hours per week during studies and 40 hours per week during vacation periods."
+        },
+        {
+          ques: "Do Master's and PhD students have work hour restrictions?",
+          ans: "No, Master's by Research and PhD students typically have no restrictions on their working hours."
+        },
+        {
+          ques: "Are spouses of students eligible for work permits?",
+          ans: "Yes, spouses of students pursuing a postgraduate qualification can apply for a full-time work permit, allowing them to work for any employer."
+        },
+        {
+          ques: "What is the typical Post-Study Work Visa duration for Diploma and Graduate Diploma holders?",
+          ans: "Diploma and Graduate Diploma (NZQF Level 7 non-degree or below) graduates are eligible for a 1-year post-study stay, while Master's degree (NZQF Level 9) graduates can stay back for up to 3 years."
+        },
+        {
+          ques: "What are the promising employment sectors for graduates?",
+          ans: "Strong employment prospects exist in Engineering, Business & Finance, Health & Social Services, IT & Hospitality, Agriculture, Forestry, Environment, Civil Engineering, Teaching, Sport Management, Psychology, Design, Education, Culinary Arts, MBA, AI, ML, and Computer Science."
+        },
+        {
+          ques: "Is the cost of living high in New Zealand?",
+          ans: "While the standard of living is higher than in India, the quality of life and opportunities offered are widely considered a worthwhile investment."
+        },
+        {
+          ques: "Which are New Zealand's main cities for students?",
+          ans: "Major student cities include Auckland, Wellington, Christchurch, Hamilton, Tauranga, and Dunedin."
+        },
+        {
+          ques: "Are tuition fees paid upon visa approval?",
+          ans: "For Indian students, tuition fee payment is often required only after visa approval, helping reduce initial financial risk."
+        },
+        {
+          ques: "What is the typical processing time for a New Zealand student visa for Indian applicants?",
+          ans: "Processing times generally range from 3 to 8 weeks depending on the institution type; applying at least three months before travel is recommended."
+        },
+        {
+          ques: "Can a student's spouse accompany them to New Zealand?",
+          ans: "Yes, partners of students pursuing eligible postgraduate qualifications (Level 8 and above) or specific Green List qualifications may apply for a full-time work visa, while others may be eligible for a visitor visa."
+        },
+        {
+          ques: "How does the New Zealand job market view international graduates?",
+          ans: "International graduates are highly valued due to New Zealand’s emphasis on quality education and practical skill development."
+        },
+        {
+          ques: "What is the primary pathway to Permanent Residency (PR) in New Zealand for international graduates?",
+          ans: "The most common route is through the Skilled Migrant Category (SMC), which requires meeting criteria related to skilled occupation, English proficiency, and submitting an Expression of Interest."
+        },
+        {
+          ques: "What is the difference between a Resident Visa and a Permanent Resident Visa in New Zealand?",
+          ans: "A Resident Visa allows permanent living with travel conditions, while a Permanent Resident Visa offers indefinite travel and stay rights after meeting residency and commitment requirements."
+        },
+        {
+          ques: "How does the Green List impact PR opportunities?",
+          ans: "Green List occupations are in high demand and offer faster residency pathways through either straight-to-residence or work-to-residence options."
+        }
       ]
-    }
+
+    },
   },
   Ireland: {
     name: "Ireland",

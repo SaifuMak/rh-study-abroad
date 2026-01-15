@@ -25,14 +25,14 @@ export default function WorkRightsStayBack({ data }) {
                     <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-[#720024]/50" />
 
 
-                    <div className="relative z-10 h-full flex items-center justify-center text-center px-6 max-sm:py-9">
-                        <div ref={contentRef} className="max-w-3xl text-white">
+                    <div className="relative z-10 h-full flex items-center justify-center text-center px-6 py-9 py-12">
+                        <div ref={contentRef} className="max-w-4xl text-white">
 
                             <h2 className="heading  font-semibold mb-2 md:mb-4">
                                 {data?.title}
                             </h2>
 
-                            <ul className="mt-8 space-y-4 md:text-lg 2xl:text-xl text-white/90">
+                            <ul className="mt-8 space-y-3 md:text-lg 2xl:text-xl text-white/90">
                                 {data?.points.map((point, index) => (
                                     <li key={index} className="flex justify-center gap-2">
                                         <img src="/Icons/white-tick.svg" alt="" className=" size-3 xl:size-4 mt-2 shrink-0" />

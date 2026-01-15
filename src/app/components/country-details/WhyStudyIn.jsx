@@ -7,10 +7,8 @@ export default function WhyStudyIn({ data }) {
     const contentRef = useGsapFadeIn()
     const cardContainerRef = useGsapFadeIn()
 
-
-
     return (
-        <section className="w-full 2xl:pt-10  lg:pt-5  flex ">
+        <section className="w-full 2xl:pt-10  lg:pt-5 flex ">
             <div className=" lg:pr-10 w-full">
 
                 {/* Background Container */}
@@ -42,7 +40,7 @@ export default function WhyStudyIn({ data }) {
                                 </p>
                             </div>
 
-                            <div ref={cardContainerRef} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+                            <div className={` ${data?.gridClass || 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5'} gap-6`}>
                                 {data?.points.map((feature, index) => {
 
                                     return (
