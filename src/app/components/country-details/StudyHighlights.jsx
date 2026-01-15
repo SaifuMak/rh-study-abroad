@@ -41,7 +41,7 @@ export default function StudyHighlights({ data }) {
               src={data?.mainImg}
               alt={data?.altText}
               fill
-              className="object-cover "
+              className=" "
               priority
             />
           </div>

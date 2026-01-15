@@ -108,7 +108,7 @@ export const countries = {
           `,
         leftBackgroundImage: "/images/countries/usa/usa-map.jpg",
         rightImage: {
-          src: "/images/countries/usa/intake.jpg",
+          src: "/images/countries/usa/office.jpg",
           alt: "Student intake information",
         },
         sectionBg: "#F8F3F5",
@@ -1281,18 +1281,199 @@ Few universities offering multiple intakes (February, April, May, October and No
     image: "/images/home/countries/uk.jpg",
     details: {
       intro: {
-        headline: "Study in Denmark",
-        bannerImg: "/images/banners/denmark.jpg",
+        headline: "Study in the Denmark",
+        bannerImg: "/images/countries/usa/banner.jpg",
         content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere."
+          `Denmark, located in Northern Europe and part of Scandinavia, is frequently lauded
+          as one of the world's most pleasant, safest, and happiest nations. This reputation
+          stems from its exceptional quality of life and high per capita income. The country
+          prides itself on advanced education, comprehensive healthcare, and robust civil
+          rights, ensuring a socially developed and equitable society. Overall, Denmark offers
+          an environment where personal growth flourishes amidst a commitment to well-being
+          and democratic values, making it a highly desirable destination for those seeking a
+          supportive and enriching experience.
+            `
       },
-      features: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Curabitur aliquet quam id dui posuere blandit.",
-        "Donec rutrum congue leo eget malesuada.",
-        "Cras ultricies ligula sed magna dictum porta."
+      features: {
+        bgImg: '/images/countries/denmark/map.png',
+        mainImg: '/images/countries/denmark/students.jpg',
+        altText: 'Sweden',
+        points: [
+          "Capital: Copenhagen",
+          "Official Language: Danish",
+          "Currency: Danish Krone (DKK)",
+          "Main Cities: Aarhus, Odense, Aalborg, Esbjerg"
+        ]
+
+      },
+      whyStudyIn: {
+        title: "Why study in Sweden",
+        bgImg: "/images/countries/denmark/banner.jpg",
+        description: `Denmark is home to top-tier universities, with several regularly featured in the QS
+                        World University Rankings, including the University of Copenhagen, Technical
+                        University of Denmark, and Aarhus University. Degrees from these institutions are
+                        globally recognised. Beyond academic excellence, Denmark offers significant
+                        professional exposure and world-class facilities. Students can work while studying,
+                        and crucially, institutions often assist graduates in securing internships and even
+                        permanent positions in reputable organisations based on their qualifications and
+                        knowledge. This blend of high-quality education and practical career support makes
+                        Denmark an attractive destination.
+                                    `,
+        gridClass: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5',
+        points: [
+          {
+            title: "Spouses of Students Pursuing State-Approved Masters, MRes or PhD Are Eligible for Full-Time, Unrestricted Work Permits",
+            icon: "/images/countries/usa/icons/couple.svg",
+          },
+          {
+            title: "Birthplace of Globally Renowned Multinational Companies Offering Strong Post-Study Employment Opportunities",
+            icon: "/images/countries/usa/icons/globe.svg",
+          },
+          {
+            title: "Highly Ranked Education System Consistently Recognised Among the World’s Best for Academic Quality",
+            icon: "/images/countries/usa/icons/scholar.svg",
+          },
+          {
+            title: "Danish Universities Regularly Featured in Prestigious Global Rankings Such as QS World University Rankings",
+            icon: "/images/countries/usa/icons/global-edu.png",
+          },
+          {
+            title: "One of the Safest, Happiest Countries Offering Excellent Quality of Life and Work-Life Balance",
+            icon: "/images/countries/usa/icons/world.svg",
+          },
+          {
+            title: "English Widely Spoken Across Denmark Enabling Smooth Academic, Social and Professional Integration",
+            icon: "/images/countries/usa/icons/connectivity.svg",
+          },
+          {
+            title: "Semester-Wise Tuition Fee Payment Structure Reducing Upfront Financial Burden for Indian Students",
+            icon: "/images/countries/usa/icons/globe-in-document.svg",
+          },
+          {
+            title: "Strong Export-Driven Economy with High Demand in Renewable Energy, IT, Business, Pharma and Engineering",
+            icon: "/images/countries/usa/icons/cash-in-bag.svg",
+          },
+          {
+            title: "Up to 3 Years Job-Seeking Residence Permit Available After Completing State-Approved Degree Programmes",
+            icon: "/images/countries/usa/icons/search.svg",
+          },
+          {
+            title: "Global Leader in Innovation and Sustainability Offering Future-Focused Learning and Career Pathways",
+            icon: "/images/countries/usa/icons/globe.svg",
+          }
+        ]
+
+
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/denmark/workrights.jpg",
+        altText: "Work rights and stay back",
+        points: [
+          "90 hours per month during studies",
+          "40 hours per week during vacation",
+          "Bachelors , Masters, MRes and PhD - 3 years stay back",
+          "Non-State-Approved Programmes - 6-months stay back"
+        ],
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>September / January</strong><br />
+
+          `,
+        leftBackgroundImage: "/images/countries/denmark/map.png",
+        rightImage: {
+          src: "/images/countries/denmark/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+      faqItems: [
+        {
+          ques: "Where is Denmark located, and what is its overall reputation?",
+          ans: "Denmark is in Northern Europe, part of Scandinavia, renowned as one of the world's most pleasant, safest, and happiest nations due to its high quality of life."
+        },
+        {
+          ques: "How do Danish universities rank globally?",
+          ans: "Denmark is home to top-tier universities, with several regularly featuring in the QS World University Rankings, reflecting their academic excellence and research prowess."
+        },
+        {
+          ques: "What type of degrees can Indian students pursue in Denmark?",
+          ans: "Danish universities offer a wide array of globally recognised Bachelors, Masters, Masters by Research and PhD programmes across various disciplines, taught with a strong focus on innovation."
+        },
+        {
+          ques: "What is the primary language of instruction in Danish universities for international students?",
+          ans: "While Danish is the official language, a vast number of programmes, especially at Bachelors, Masters Masters by Research and PhD levels, are taught entirely in English."
+        },
+        {
+          ques: "Is English widely spoken in Denmark?",
+          ans: "Yes, English proficiency is very high across Denmark, particularly in urban areas and among younger generations, making daily life and academic interaction smooth for international students."
+        },
+        {
+          ques: "Is IELTS mandatory for Indian students for university admission in Denmark?",
+          ans: "Most Danish universities require proof of English proficiency (like IELTS, TOEFL, or PTE with specific score requirements varying by programme and institution."
+        },
+        {
+          ques: "Are tuition fees in Denmark paid per semester?",
+          ans: "Yes, tuition fees at Danish universities are typically collected on a semester-wise basis, offering a convenient payment structure for Indian students."
+        },
+        {
+          ques: "Are scholarships available for international students in Denmark?",
+          ans: "Yes, various scholarship opportunities exist, including government-funded options and university-specific grants, which can help cover tuition fees and/or living costs."
+        },
+        {
+          ques: "What are the main entry requirements for Indian students?",
+          ans: "Requirements typically include academic qualifications, English language proficiency, and demonstration of sufficient funds to cover living expenses."
+        },
+        {
+          ques: "Can international students work part-time while studying in Denmark?",
+          ans: "International students in state-approved higher education programmes can work up to 90 hours per month during the study period, during vacation 40 hours per week."
+        },
+        {
+          ques: "How do I know if my chosen programme is \"state-approved\"?",
+          ans: "It is crucial to confirm the accreditation status of your programme directly with the university and verify it on the official Danish Agency."
+        },
+        {
+          ques: "What is the \"stay back\" or post-study work option for Denmark?",
+          ans: "Graduates from state-approved Bachelor's, Masters, MRes or PhD programmes can apply for a job-seeking residence permit valid for up to three years."
+        },
+        {
+          ques: "Can a student's spouse accompany them and gain work rights?",
+          ans: "Yes, spouses accompanying students in state-approved Masters, MRes or PhD programmes are generally eligible to apply for a full-time work permit."
+        },
+        {
+          ques: "What professional exposure can international students expect in Denmark?",
+          ans: "Denmark offers excellent professional exposure; institutions often assist graduates in securing internships and even permanent positions in reputable organisations."
+        },
+        {
+          ques: "What are the key employment sectors in Denmark for graduates?",
+          ans: "Promising sectors include renewable energy, business, IT, pharmaceuticals, engineering, and maritime industries, driven by a strong focus on innovation."
+        },
+        {
+          ques: "Which are the main cities for students in Denmark?",
+          ans: "Copenhagen, the capital Aarhus, Odense, and Aalborg are major student cities, each offering a unique academic and cultural environment."
+        },
+        {
+          ques: "Is Permanent Residency (PR) a pathway after studying in Denmark?",
+          ans: "Yes, after securing skilled employment following graduation, it is possible to apply for permanent residency."
+        },
+        {
+          ques: "Does Denmark have any \"Green List\" or \"Positive List\" for in-demand occupations?",
+          ans: "Yes, Denmark updates \"Positive Lists\" for highly educated professionals and skilled workers, which identify in-demand occupations that can offer accelerated pathways to work and residency."
+        },
+        {
+          ques: "What is the typical processing time for a Danish student visa application from India?",
+          ans: "The processing time for a Denmark student visa generally ranges from 60 to 90 days. It is strongly advisable to apply at least 3-4 months before your intended course start date to account for any potential delays."
+        },
+        {
+          ques: "Are there specific intake periods for universities in Denmark?",
+          ans: "Danish universities generally have two main intake periods: the autumn intake (main intake, with applications typically opening in January/February for a September start) and a smaller spring intake (with applications usually opening in August/September for a February start)."
+        }
       ]
-    }
+
+    },
   },
   finland: {
     name: "Finland",
