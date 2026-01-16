@@ -2019,18 +2019,162 @@ Few universities offering multiple intakes (February, April, May, October and No
     image: "/images/home/countries/australia.jpg",
     details: {
       intro: {
-        headline: "Study in Malta",
-        bannerImg: "/images/banners/malta.jpg",
+        headline: "Study in the Malta",
+        bannerImg: "/images/countries/usa/banner.jpg",
         content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt."
+          `Malta, a picturesque archipelago in the heart of the Mediterranean, is a highly
+            attractive Schengen country boasting over 300 days of sunshine annually. This
+            welcoming EU member state offers a high quality of life, rich 7,000-year history, and
+            stunning natural beauty with numerous beaches and dive sites. English is an official
+            language, easing communication for visitors and residents. Malta provides a stable,
+            safe environment, a vibrant cultural scene, and a well-regarded education system,
+            making it a desirable destination for tourism, living, and business.
+          `
       },
-      features: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Sed do eiusmod tempor incididunt ut labore.",
-        "Vivamus magna justo, lacinia eget consectetur sed.",
-        "Curabitur non nulla sit amet nisl tempus convallis."
+      features: {
+        bgImg: '/images/countries/malta/map.png',
+        mainImg: '/images/countries/malta/students.jpg',
+        altText: 'Malta',
+        "points": [
+          "Capital: Valletta",
+          "Currency: Euro",
+          "Languages: English, Maltese",
+          "Main Cities: Sliema, St. Julian's, Mdina, Rabat, Birkirkara, Mosta, Marsaxlokk, Victoria, St. Paul's Bay"
+        ]
+      },
+      whyStudyIn: {
+        title: "Why study in Malta",
+        bgImg: "/images/countries/malta/banner.jpg",
+        description: `Malta offers an exceptionally appealing study abroad experience. This bilingual
+          nation, with English as an official language, ensures a smooth transition for
+          international students. Its cost-effectiveness, coupled with a high-quality education
+          system, makes it an attractive choice. Furthermore, gaining a Maltese student visa
+          grants access to the entire Schengen Area, allowing unrestricted travel across 27
+          European countries. Beyond academics, Malta is a haven for outdoor enthusiasts,
+          providing ideal conditions for hiking, diving, and various watersports, ensuring a
+          well-rounded and enriching experience.
+                                    `,
+        gridClass: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-3',
+        "points": [
+          {
+            "title": "Malta’s Get Qualified Scheme offers international students a tax credit refund of up to 70% on tuition fees after course completion and starting work in Malta, significantly reducing education costs",
+            "icon": "/images/countries/usa/icons/cash-in-bag.svg"
+          },
+          {
+            "title": "Following the British education model and the Bologna Process, Malta provides internationally recognised degrees with tuition fees and living costs that are more affordable than many European destinations",
+            "icon": "/images/countries/usa/icons/scholar.svg"
+          },
+          {
+            "title": "With English as one of its official languages, Malta offers Indian students a smooth academic and social transition with no language barrier",
+            "icon": "/images/countries/usa/icons/connectivity.svg"
+          },
+          {
+            "title": "A Maltese student visa allows free travel across the Schengen Area, giving students the opportunity to explore 28 European countries during study breaks",
+            "icon": "/images/countries/usa/icons/world.svg"
+          },
+          {
+            "title": "Malta is known for its low crime rate and welcoming, multicultural environment, helping international students feel safe and adapt quickly",
+            "icon": "/images/countries/usa/icons/life.svg"
+          },
+          {
+            "title": "With over 300 days of sunshine and a Mediterranean lifestyle, Malta offers a healthy balance of academics and outdoor activities",
+            "icon": "/images/countries/usa/icons/globe.svg"
+          },
+          {
+            "title": "Malta’s growing economy in sectors like IT, iGaming, financial services, tourism, hospitality, healthcare, and culinary fields attracts multinational companies and offers strong internship and career opportunities",
+            "icon": "/images/countries/usa/icons/global-edu.png"
+          }
+        ]
+
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/malta/workrights.jpg",
+        altText: "Work rights and stay back",
+        "points": [
+          "20 hours per week during studies",
+          "40 hours per week during semester breaks and holidays",
+          "1 year stay back"
+        ]
+
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>September / February,</strong> few institutions also have intakes in <strong>April, May, and June</strong><br /> `,
+        leftBackgroundImage: "/images/countries/malta/map.png",
+        rightImage: {
+          src: "/images/countries/malta/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+      "faqItems": [
+        {
+          "ques": "Why should Indian students consider Malta for higher education?",
+          "ans": "Malta offers a cost-effective, high-quality education in an English-speaking environment, recognised degrees, and a vibrant Mediterranean lifestyle with excellent travel opportunities across Europe."
+        },
+        {
+          "ques": "Is English an official language in Malta, making it easier for Indian students?",
+          "ans": "Yes, English is one of Malta's two official languages, alongside Maltese, ensuring no language barrier for Indian students in their studies and daily life."
+        },
+        {
+          "ques": "What is the average tuition fee for international students in Malta?",
+          "ans": "Tuition fees vary by program and institution, but generally range from €6,750 to €11,000 per year for undergraduate programs, with postgraduate programs potentially varying."
+        },
+        {
+          "ques": "How much are the estimated living expenses for an Indian student in Malta?",
+          "ans": "Monthly living expenses, excluding rent, can range from €400 to €650. Rent for a one-bedroom apartment in central areas can be around €500-€700, but is lower outside city centers or in Gozo."
+        },
+        {
+          "ques": "What are the main academic intakes for universities in Malta?",
+          "ans": "The primary intake is typically in September/October (Fall intake). Some institutions also have intakes in February (Spring) and occasionally in April, May, or June for specific programs."
+        },
+        {
+          "ques": "What are the most popular fields of study for international students in Malta?",
+          "ans": "Popular courses include Business Administration, Computer Science, Engineering (especially IT), Finance, Hospitality, Tourism, and Digital Marketing."
+        },
+        {
+          "ques": "Does Malta offer a Post-Study Work (PSW) visa for international graduates?",
+          "ans": "Yes, Malta offers a Post-Study Work visa, typically allowing graduates to stay for up to one year to seek employment after completing their studies."
+        },
+        {
+          "ques": "Are there opportunities for part-time work for international students during their studies?",
+          "ans": "Yes, international students are generally permitted to work up to 20 hours per week during their studies and 40 hours during vacation."
+        },
+        {
+          "ques": "Is IELTS a mandatory requirement for admission to Maltese universities?",
+          "ans": "While many universities accept IELTS, TOEFL, PTE or Duolingo English Test, some institutions may accept a Medium of Instruction (MOI) letter as proof of English proficiency."
+        },
+        {
+          "ques": "What is the \"Get Qualified Scheme\" in Malta?",
+          "ans": "The \"Get Qualified Scheme\" is a Maltese government initiative allowing individuals, including international students, to receive a refund of up to 70% of their tuition fees as a tax credit upon successful completion of an approved course and starting work in Malta."
+        },
+        {
+          "ques": "What is the typical duration of a UG, PG duration in Malta?",
+          "ans": "UG in Malta typically last for three or four years and PG usually take one or two years following the Bologna Process."
+        },
+        {
+          "ques": "Is Malta considered a safe country for international students?",
+          "ans": "Yes, Malta is known for its very low crime rate and peaceful environment, making it a safe and welcoming country for international students."
+        },
+        {
+          "ques": "Does a Maltese student visa allow travel to other European countries?",
+          "ans": "Yes, a Maltese student visa is a Schengen visa, which permits students to travel freely across 28 European nations within the Schengen Area."
+        },
+        {
+          "ques": "Are there scholarship opportunities for Indian students in Malta?",
+          "ans": "Yes, limited scholarships may be available from the Maltese government, individual universities, or private organizations. It's advisable to check specific university websites and government portals."
+        },
+        {
+          "ques": "How important is demonstrating 'genuine intention to study' for a Malta student visa, and what does it involve?",
+          "ans": "Demonstrating a genuine intention to study is crucial for a successful visa application. This involves clearly articulating your academic goals, showing how the chosen course aligns with your previous studies and future career aspirations, and proving you intend to return to your home country after completing your studies. A well-written Statement of Purpose (SOP) and consultation with Malta educational consultants also significantly improves the chances of a positive outcome."
+        }
       ]
-    }
+
+
+    },
   },
   Italy: {
     name: "Italy",

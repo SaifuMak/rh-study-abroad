@@ -17,7 +17,7 @@ export default function IntakesSection({ data }) {
 
     return (
         <section className="w-full 2xl:py-20 lg:py-16 py-10  mt-10 xl:mt-16" style={{ backgroundColor: sectionBg }}>
-            <div className="lg:max-w-11/12 mx-auto px-6">
+            <div className="lg:max-w-11/12 2xl:max-w-10/12 mx-auto px-6">
 
                 <div className="grid grid-cols-1 lg:grid-cols-12 md:gap-12 items-center">
 
@@ -58,7 +58,7 @@ export default function IntakesSection({ data }) {
                             alt={rightImage.alt}
                             fill
                             priority
-                            className=" "
+                            className=" object-center "
                         />
                     </div>
 
