@@ -2184,18 +2184,159 @@ Few universities offering multiple intakes (February, April, May, October and No
     image: "/images/home/countries/uk.jpg",
     details: {
       intro: {
-        headline: "Study in Latvia",
-        bannerImg: "/images/banners/latvia.jpg",
+        headline: "Study in the Latvia",
+        bannerImg: "/images/countries/usa/banner.jpg",
         content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in ipsum id orci."
+          `Latvia, a proud Schengen country, is a hidden gem on the Baltic Sea, boasting wide,
+            pristine beaches and extensive, sprawling forests that cover over 50% of its land,
+            offering abundant natural beauty. Bordered by Lithuania, Estonia, Russia, and
+            Belarus, with sea links to Sweden, Latvia provides a unique geographical position. It
+            offers an excellent standard of living at a comparatively low cost. The nation is
+            dedicated to providing high-quality education, with many programs available in
+            English, making it an attractive and safe destination for international students
+          `
       },
-      features: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Pellentesque in ipsum id orci porta dapibus.",
-        "Mauris blandit aliquet elit.",
-        "Vivamus suscipit tortor eget felis."
+      features: {
+        bgImg: '/images/countries/Latvia/map.png',
+        mainImg: '/images/countries/Latvia/students.jpg',
+        altText: 'Latvia',
+
+        points: [
+          "Capital: Riga",
+          "Language: Latvian",
+          "Currency: Euro",
+          "Main Cities: Daugavpils, Liepaja, Jelgava, Jurmala, Ventspils, Rezekne, Jekabpils, Valmiera, Ogre"
+        ]
+
+      },
+      whyStudyIn: {
+        title: "Why study in Latvia",
+        bgImg: "/images/countries/Latvia/banner.jpg",
+        description: `Latvia is an increasingly popular study abroad destination, attracting over 6500
+              overseas students annually with its excellent, diverse programmes and expert
+              faculties. Renowned for offering some of the world's fastest internet speeds, it
+              provides high-quality academic and professional higher education through 36 public
+              universities. Following the Bologna system, it offers Bachelor's, Master's, and
+              Doctoral degrees, with public grants and scholarships available for top students. As
+              a member of the EU, Eurozone, and OECD, Latvia offers a stable and welcoming
+              environment with internationally recognised degrees and good post-study work
+              opportunities.
+                                    `,
+        gridClass: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-3',
+        "points": [
+          {
+            "title": "Latvia offers affordable education and living costs compared to many Western European countries, with lower tuition fees and economical expenses for accommodation, food, and transport",
+            "icon": "/images/countries/usa/icons/cash-in-bag.svg"
+          },
+          {
+            "title": "Latvian universities follow the Bologna system, ensuring globally recognised degrees with a strong focus on quality education, innovation, and English-taught programmes",
+            "icon": "/images/countries/usa/icons/scholar.svg"
+          },
+          {
+            "title": "Latvia has some of the fastest internet speeds in the world, supporting students with seamless access to online learning, research, and digital communication",
+            "icon": "/images/countries/usa/icons/connectivity.svg"
+          },
+          {
+            "title": "As a Schengen country, Latvia allows students to travel freely across 28 European countries without additional visas, enabling rich cultural and travel experiences",
+            "icon": "/images/countries/usa/icons/world.svg"
+          },
+          {
+            "title": "Latvia is known for its safe, peaceful, and student-friendly environment, with welcoming locals and strong university support services for international students",
+            "icon": "/images/countries/usa/icons/life.svg"
+          },
+          {
+            "title": "Latvia’s growing EU-based economy attracts multinational companies, particularly in IT, finance, and shared services, offering internship and career opportunities for graduates",
+            "icon": "/images/countries/usa/icons/global-edu.png"
+          }
+        ]
+
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/Latvia/workrights.jpg",
+        altText: "Work rights and stay back",
+        "points": [
+          "20 hours per week during studies",
+          "40 hours per week during semester breaks and holidays",
+          "6–9 months stay back"
+        ]
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>February / September</strong><br /> `,
+        leftBackgroundImage: "/images/countries/Latvia/map.png",
+        rightImage: {
+          src: "/images/countries/Latvia/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+      "faqItems": [
+        {
+          "ques": "Why is Latvia becoming a popular study destination for Indian students?",
+          "ans": "Latvia offers a combination of affordable tuition fees, a lower cost of living compared to other European countries, a high quality of education, and degrees that are globally recognized due to its adherence to the Bologna system."
+        },
+        {
+          "ques": "What are the main benefits of studying in Latvia for international students?",
+          "ans": "Key benefits include access to the Schengen Area for easy travel, high-quality education with many English-taught programs, fast internet speeds, and good post-study work opportunities."
+        },
+        {
+          "ques": "Is IELTS mandatory for admission to Latvian universities?",
+          "ans": "While many universities accept IELTS, TOEFL, or PTE Academic, some Latvian universities may also accept a Medium of Instruction (MOI) letter from your previous institution, stating that your studies were conducted entirely in English."
+        },
+        {
+          "ques": "What is the average tuition fee for international students in Latvia?",
+          "ans": "Tuition fees vary by program and university, but on average, they can range from €1,550 to €11,000 per year. Specialised programs like Medicine or Executive MBAs might be higher."
+        },
+        {
+          "ques": "What is the estimated cost of living in Latvia for an Indian student?",
+          "ans": "The average monthly living expenses in Latvia can range from €450 to €650, covering accommodation, food, transportation, and utilities. This can be lower if students opt for university dorms."
+        },
+        {
+          "ques": "What are the most popular courses for international students in Latvia?",
+          "ans": "Popular fields of study include Business Administration, Computer Science, Engineering (especially IT and Telecommunications), Medicine (MBBS), and various Master's programs like MBA.BBA Logistic etc.."
+        },
+        {
+          "ques": "Can international students work part-time while studying in Latvia?",
+          "ans": "Yes, Bachelors students can work up to 20 hours per week during the academic year and full-time (40 hours/week) during holidays. Masters, MRes and PhD students have no restrictions on working hours."
+        },
+        {
+          "ques": "What are the post-study work options for Indian students in Latvia?",
+          "ans": "Bachelor's graduates get a 6-month extension to their residence permit to seek employment or pursue further studies. Masters, MRes and PhD graduates get an initial 6-month extension with the possibility to apply for an additional 9-month extension to look for a job."
+        },
+        {
+          "ques": "Are there scholarships available for Indian students in Latvia?",
+          "ans": "Yes, scholarships are available from various sources including the Latvian government (Latvian State Scholarships), specific universities, and private organizations. Indian government scholarships like ICCR also support studies in Latvia."
+        },
+        {
+          "ques": "Is Latvia a safe country for Indian students?",
+          "ans": "Yes, Latvia is generally considered a safe country with a low crime rate, offering a peaceful and welcoming environment for international students."
+        },
+        {
+          "ques": "Which Latvian cities are popular for international students?",
+          "ans": "While Riga is the capital and most popular, other cities like Daugavpils, Liepāja, Jelgava, and Jūrmala also have universities and attract international students."
+        },
+        {
+          "ques": "Can Indian students get Permanent Residency (PR) in Latvia after studying?",
+          "ans": "Yes, it is possible to apply for PR in Latvia after completing your studies and meeting certain criteria, including securing stable employment, demonstrating financial stability, having a clean criminal record, and proving Latvian language proficiency (A2 level minimum)."
+        },
+        {
+          "ques": "Are there opportunities to work for Multinational Corporations in Latvia after graduation?",
+          "ans": "Yes, Latvia's growing economy and EU membership have attracted MNCs, particularly in IT, finance, and shared services, creating potential internship and career opportunities for international graduates."
+        },
+        {
+          "ques": "What is the application timeline for Latvian universities for Indian students?",
+          "ans": "Deadlines vary by program and university. For undergraduate programs, deadlines are typically between October and January (for Fall intake). For graduate/doctoral programs, deadlines can start from October and may be rolling. It's advisable to apply as early as possible."
+        },
+        {
+          "ques": "What is the success rate for Latvian student visa applications for Indian students?",
+          "ans": "The success rate for Latvia student visa applications is generally considered to be quite high, often cited as approximately 93% or above, provided that applicants submit all required documents accurately, genuinely demonstrate their intent to study, and meet all financial and academic requirements. However, it's crucial to be thorough and honest in your application to avoid common rejection reasons like insufficient funds or incomplete documentation. Therefore, please consult a reputable study abroad consultancy to clarify any doubts."
+        }
       ]
-    }
+
+    },
   },
   netherlands: {
     name: "Netherlands",
