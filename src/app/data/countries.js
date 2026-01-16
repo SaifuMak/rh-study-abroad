@@ -2091,18 +2091,167 @@ Few universities offering multiple intakes (February, April, May, October and No
     image: "/images/home/countries/australia.jpg",
     details: {
       intro: {
-        headline: "Study in Singapore",
-        bannerImg: "/images/banners/singapore.jpg",
+        headline: "Study in the Singapore",
+        bannerImg: "/images/countries/usa/banner.jpg",
         content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor lectus nibh."
+          `Singapore stands as a beacon of urban excellence and innovation, truly unique due
+            to its vibrant multicultural society, seamlessly integrated with efficient, world-class
+            infrastructure. This highly developed city-state boasts an incredibly high quality of
+            life, underpinned by remarkable cleanliness and safety. As Asia's dynamic financial
+            and business hub, it attracts global corporations. Its blend of modern and traditional
+            attractions includes a stunning skyline, a vibrant food scene, and lush green spaces.
+            Looking ahead, Singapore is committed to a sustainable future, embracing AI and
+            advanced digital infrastructure, solidifying its enduring global influence.
+          `
       },
-      features: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Sed porttitor lectus nibh.",
-        "Donec rutrum congue leo eget malesuada.",
-        "Cras ultricies ligula sed magna dictum porta."
+      features: {
+        bgImg: '/images/countries/singapore/map.png',
+        mainImg: '/images/countries/singapore/students.jpg',
+        altText: 'Singapore',
+
+        points: [
+          "Capital: Singapore",
+          "Official Languages: Mandarin, Tamil, Malay, English",
+          "Currency: SGD (Singapore Dollar)"
+        ]
+
+      },
+      whyStudyIn: {
+        title: "Why study in Singapore",
+        bgImg: "/images/countries/singapore/banner.jpg",
+        description: `Singapore truly excels as a global economic powerhouse. Its economy consistently
+            ranks as the most open and pro-business worldwide, attracting significant foreign
+            investment. Key sectors like IT, Pharmaceuticals, Biotechnology, and Precision
+            Engineering thrive, drawing major multinational companies such as Twitter, Dyson,
+            Facebook, and Apple, DHL, FedEx, UPS, Singapore Airlines, PSA International,
+            Novartis, Roche, 3M, Caterpillar, KPMG, Deloitte, J.P. Morgan, HSBC, DBS Bank to
+            establish regional headquarters and R&D labs. This, coupled with exceptional
+            connectivity and a robust economy, solidifies its position as Asia's prominent
+            business hub. Moreover, Mercer consistently ranks Singapore as the Asian city with
+            the highest quality of life, highlighting its liveability.
+                                    `,
+        gridClass: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4',
+        "points": [
+          {
+            "title": "Home to world-renowned universities like NUS and NTU, consistently ranked among the top globally, Singapore offers rigorous, high-quality education with degrees recognised and respected worldwide",
+            "icon": "/images/countries/usa/icons/scholar.svg"
+          },
+          {
+            "title": "With English as a primary official and business language, Indian students face minimal to no language barrier in academics and daily life, ensuring smooth integration",
+            "icon": "/images/countries/usa/icons/connectivity.svg"
+          },
+          {
+            "title": "As a dynamic financial and business hub of Asia, Singapore provides strong exposure to global markets and excellent post-graduation career opportunities with multinational companies",
+            "icon": "/images/countries/usa/icons/world.svg"
+          },
+          {
+            "title": "Singapore’s political stability, strong regulations, and innovation-driven economy make it a leading global centre for banking, wealth management, and FinTech",
+            "icon": "/images/countries/usa/icons/global-edu.png"
+          },
+          {
+            "title": "Its close geographical proximity to India allows shorter travel times and more affordable flights, making family visits easier and more frequent",
+            "icon": "/images/countries/usa/icons/globe.svg"
+          },
+          {
+            "title": "Excellent transfer opportunities are available for students wishing to move to parent university campuses abroad",
+            "icon": "/images/countries/usa/icons/search.svg"
+          },
+          {
+            "title": "Beyond academics, Singapore offers a stunning skyline, world-famous hawker food culture, green spaces, and a rich mix of modern and traditional attractions",
+            "icon": "/images/countries/usa/icons/life.svg"
+          },
+          {
+            "title": "International students can work part-time during studies and full-time during breaks, gaining practical experience along with strong employment and long-term stay pathways after graduation",
+            "icon": "/images/countries/usa/icons/cash-in-bag.svg"
+          }
+        ]
+
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/singapore/workrights.jpg",
+        altText: "Work rights and stay back",
+        points: [
+          "16 hours per week during studies.",
+          "During official academic breaks and holidays, international students are allowed to work full-time, with no specific limitation on working hours."
+        ]
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>January / February / April / May / July / August / October / November</strong><br /> `,
+        leftBackgroundImage: "/images/countries/singapore/map.png",
+        rightImage: {
+          src: "/images/countries/singapore/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+      "faqItems": [
+        {
+          "ques": "Why is Singapore an attractive study destination for Indian students?",
+          "ans": "Singapore offers world-class education, a safe and clean environment, excellent post-study career prospects, and close proximity to India, making it a convenient and high-quality choice."
+        },
+        {
+          "ques": "Are Singaporean university degrees recognised internationally?",
+          "ans": "Absolutely. Universities in Singapore, particularly the National University of Singapore (NUS) and Nanyang Technological University (NTU), are globally top-ranked and their degrees are highly respected worldwide."
+        },
+        {
+          "ques": "What are the typical academic entry requirements for Indian students?",
+          "ans": "Requirements vary by course and university, but generally include strong academic performance in 12th grade and proficiency in English."
+        },
+        {
+          "ques": "Can Indian students work part-time while studying in Singapore?",
+          "ans": "Yes, full-time students at approved institutions can work up to 16 hours per week during term time and full-time during official vacations without needing a separate work permit."
+        },
+        {
+          "ques": "What is the estimated cost of living in Singapore for students?",
+          "ans": "Excluding tuition, a single student might expect to spend approximately S700–S1200 per month, depending on accommodation and lifestyle choices."
+        },
+        {
+          "ques": "Are scholarships available for Indian students in Singapore?",
+          "ans": "Yes, many universities offer merit-based scholarships, tuition grants (like the MOE Tuition Grant for eligible courses), and other financial aid options, often significantly reducing fees."
+        },
+        {
+          "ques": "What accommodation options are popular among students?",
+          "ans": "University hostels/dorms, private student residences, and shared HDB (Housing Development Board) flats or condominiums are common choices."
+        },
+        {
+          "ques": "Is Singapore a safe country for international students?",
+          "ans": "Singapore is renowned for its very low crime rate and strict laws, making it one of the safest cities globally for students."
+        },
+        {
+          "ques": "What are the post-study work opportunities in Singapore for Indian graduates?",
+          "ans": "Singapore offers good prospects, especially in sectors like IT, finance, and engineering. Graduates from approved institutions can apply for a Long-Term Visit Pass (LTVP) to seek employment after graduation."
+        },
+        {
+          "ques": "Is there a large Indian community in Singapore?",
+          "ans": "Yes, Singapore has a significant and well-established Indian community, providing a sense of familiarity, cultural events, and support networks."
+        },
+        {
+          "ques": "How efficient is public transport in Singapore?",
+          "ans": "Singapore boasts an excellent and highly efficient public transport system, including the MRT (Mass Rapid Transit) and buses, making commuting easy and affordable for students."
+        },
+        {
+          "ques": "What are some unique attractions or experiences for students in Singapore?",
+          "ans": "Students can explore Gardens by the Bay, diverse hawker centres with world-class food, Sentosa Island, various cultural precincts, and enjoy a vibrant nightlife, blending modern and traditional experiences."
+        },
+        {
+          "ques": "What support services do universities offer international students?",
+          "ans": "Universities provide comprehensive support, including orientation programmes, academic advising, placement support, internship support, mental wellness services, and dedicated international student offices to help with integration and queries."
+        },
+        {
+          "ques": "Are there opportunities for industrial attachments or internships during studies?",
+          "ans": "Yes, many programmes in Singaporean universities integrate mandatory or optional industrial attachments and internships, providing valuable real-world experience and industry connections for students."
+        },
+        {
+          "ques": "How long does it typically take to process a Singapore Student Visa?",
+          "ans": "The standard processing time for a Singapore Student Visa application is usually 10 to 15 working days after a complete submission. However, it's advisable to apply at least one to two months before your course starts, as processing can take longer during peak periods or if additional information is required."
+        }
       ]
-    }
+
+    },
   },
   malaysia: {
     name: "Malaysia",
