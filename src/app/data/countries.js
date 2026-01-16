@@ -2122,22 +2122,208 @@ Few universities offering multiple intakes (February, April, May, October and No
       ]
     }
   },
-  UAE: {
-    name: "UAE",
+  dubai: {
+    name: "Dubai",
     image: "/images/home/countries/uk.jpg",
     details: {
       intro: {
-        headline: "Study in the UAE",
-        bannerImg: "/images/banners/uae.jpg",
+        headline: "Study in the Dubai",
+        bannerImg: "/images/countries/usa/banner.jpg",
         content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sapien massa."
+          `Dubai is a dynamic global metropolis, renowned for its striking modern architecture,
+            luxurious lifestyle, and relentless pursuit of innovation. Its culture, while deeply
+            rooted in Islamic and Emirati traditions, is remarkably cosmopolitan, home to over
+            200 nationalities, with expatriates forming the vast majority of its population. This
+            unique blend fosters a truly multicultural environment, offering diverse culinary
+            experiences, festivals, and social interactions looking to the future. Dubai is guided
+            by its ambitious "D33 Economic Agenda," aiming to double its economy by 2033.
+            This involves significant investments in cutting-edge sectors like AI, advanced
+            manufacturing, and green technology, alongside a drive to attract top global talent
+            and become a leading smart city. Recent agreements, such as the numerous
+            Comprehensive Economic Partnership Agreements (CEPAs) with countries including
+            India, Turkey, and Azerbaijan, are expanding its trade networks and economic
+            partnerships globally, cementing its role as a vital international trade and logistics
+            hub. This strategic vision positions Dubai not just as a thriving present-day city, but
+            as a proactive shaper of tomorrow's global landscape.
+          `
       },
-      features: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Praesent sapien massa, convallis a pellentesque nec.",
-        "Donec sollicitudin molestie malesuada.",
-        "Curabitur non nulla sit amet nisl tempus convallis."
+      features: {
+        bgImg: '/images/countries/dubai/map.png',
+        mainImg: '/images/countries/dubai/students.jpg',
+        altText: 'Austria',
+
+        points: [
+          "Dubai is internationally renowned for its record-breaking architecture and world-class attractions such as the Burj Khalifa, Palm Jumeirah, Dubai Mall, and Dubai Frame. At the same time, while Islam is the official religion, the city is widely recognised for its openness, religious tolerance, and multicultural environment, where people from diverse nationalities, cultures, and faiths live and work together harmoniously.",
+          "Trade and Tourism: A primary economic driver, attracting millions of visitors.",
+          "Real Estate and Construction: Known for luxury developments and ambitious projects.",
+          "Logistics and Aviation: Home to world-class ports and air cargo hubs.",
+          "Financial Services: A significant regional financial centre (DIFC).",
+          "Technology and Innovation: Growing focus on AI, blockchain, and e-commerce.",
+          "Healthcare and Education: Significant investments and development in these sectors.",
+          "Future Innovations: Dubai is actively pursuing futuristic projects, such as the planned launch of city-wide flying taxi services by 2026."
+        ]
+
+      },
+      whyStudyIn: {
+        title: "Why study in Dubai",
+        bgImg: "/images/countries/dubai/banner.jpg",
+        description: `Dubai is rapidly cementing its reputation as a premier global education hub,
+            attracting international students with over 60 world-renowned university campuses
+            offering diverse, high-quality programmes. Pursue a world-class degree here to
+            significantly advance your global career prospects. The city boasts a vibrant,
+            multicultural environment, fostering invaluable networking and cross-cultural
+            understanding. Dubai's continuous development as an innovation hub, particularly in
+            AI, sustainability, and fintech, ensures students are exposed to cutting-edge
+            industries. Recent updates confirm new branch campuses, including India's IIM
+            Ahmedabad and Lebanon's American University of Beirut for the 2025/26 academic
+            year. Streamlined student visa processes and an emphasis on research further
+            enhance Dubai's appeal for a globally advanced career.
+                                    `,
+        gridClass: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4',
+        points: [
+          {
+            title: "Dubai hosts branch campuses of top universities from the UK, USA, Australia, and Europe, offering globally recognised degrees",
+            icon: "/images/countries/usa/icons/scholar.svg",
+          },
+          {
+            title: "A truly global city with over 200 nationalities, giving Indian students rich cross-cultural exposure and networking opportunities",
+            icon: "/images/countries/usa/icons/world.svg",
+          },
+          {
+            title: "English is the primary language of instruction and daily communication, ensuring easy academic and social integration",
+            icon: "/images/countries/usa/icons/connectivity.svg",
+          },
+          {
+            title: "One of the world’s safest cities, featuring low crime rates, modern infrastructure, and excellent public amenities",
+            icon: "/images/countries/usa/icons/life.svg",
+          },
+          {
+            title: "Strategic location between Asia, Europe, and Africa allows easy travel to India and global destinations",
+            icon: "/images/countries/usa/icons/globe.svg",
+          },
+          {
+            title: "Competitive tuition fees, manageable living costs, and multiple scholarship opportunities for international students",
+            icon: "/images/countries/usa/icons/cash-in-bag.svg",
+          },
+          {
+            title: "Fast-growing, innovation-driven economy with strong opportunities in AI, fintech, and renewable energy sectors",
+            icon: "/images/countries/usa/icons/global-edu.png",
+          },
+          {
+            title: "Clear post-study work pathways with employer-sponsored work visas in high-demand sectors",
+            icon: "/images/countries/usa/icons/search.svg",
+          }
+        ]
+
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/dubai/workrights.jpg",
+        altText: "Work rights and stay back",
+        points: [
+          "To work legally, students require a work permit issued by the UAE Ministry of Human Resources and Emiratisation (MoHRE). This permit allows them to work up to 20 hours per week during regular academic sessions and up to 40 hours per week during vacations and university holidays. Furthermore, their university must provide a formal letter stating they have no objection to them working part-time, ensuring that such work does not interfere with their studies.",
+          "A significant advantage is that income earned from part-time or full time jobs in Dubai is generally tax-free.",
+          "If international students achieve a GPA of 3.5 or above, they can be eligible for the UAE Golden Visa (10 years renewable visa).",
+          "No national sponsor is needed, and a Golden Visa holder can readily sponsor their family, including spouse and children of all ages, under this visa.",
+          "Field of Study: AI, ML, Cyber security, Big Data, Epidemiology and Virology, Computer Engg, Software Engg, Electronic and Electrical Engg, Biotechnology, Genetics and Molecular Engg and other STEM fields."
+        ]
+
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>January / May / September</strong><br /> `,
+        leftBackgroundImage: "/images/countries/dubai/map.png",
+        rightImage: {
+          src: "/images/countries/dubai/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+      faqItems: [
+        {
+          ques: "Why should Indian students consider Dubai for higher education?",
+          ans: "Dubai offers a high-quality, internationally recognised education system, a safe and multicultural environment, excellent career opportunities, and a favourable tax regime upon graduation."
+        },
+        {
+          ques: "Are Dubai universities globally recognised?",
+          ans: "Yes, many universities in Dubai are either branches of prestigious international institutions (e.g., UK, France, Malta US and Australian universities) or locally established universities with international accreditation."
+        },
+        {
+          ques: "What are the primary language requirements for admission?",
+          ans: "Most programmes are taught in English; admission is possible with or without IELTS."
+        },
+        {
+          ques: "Is a student visa difficult to obtain for Indian nationals?",
+          ans: "The process is generally straightforward once admitted to a recognised institution. The university often assists with the visa application, but all documents must be accurate and complete."
+        },
+        {
+          ques: "What key documents are needed for a Dubai student visa?",
+          ans: "You'll typically need a valid passport, university acceptance letter, proof of sufficient funds, academic transcripts, a medical fitness certificate, and passport-sized photographs."
+        },
+        {
+          ques: "Can Indian students work part-time while studying in Dubai?",
+          ans: "Yes, international students can work part-time (up to 20 hours per week during term and 40 hours during holidays) with a valid work permit issued by the Ministry of Human Resources and Emiratisation (MoHRE)."
+        },
+        {
+          ques: "Is a No Objection Certificate from the university mandatory for working?",
+          ans: "Absolutely. Your university must provide a formal NOC stating they have no objection to you working part-time, ensuring it doesn't interfere with your studies."
+        },
+        {
+          ques: "How does one apply for a student work permit in Dubai?",
+          ans: "Generally, your employer will initiate the work permit application through MoHRE on your behalf once you have secured a job offer and the university's NOC university team will assist the all process."
+        },
+        {
+          ques: "What types of part-time jobs are commonly available for students?",
+          ans: "Common roles include retail sales associate, customer service, hospitality staff, data entry, and sometimes on-campus positions like library or administrative assistants."
+        },
+        {
+          ques: "What is the estimated cost of living for Indian students in Dubai?",
+          ans: "Excluding tuition, a single student might expect to spend approximately AED 2,000 - 3,000 per month, depending on accommodation choices and lifestyle."
+        },
+        {
+          ques: "Are tuition fees in Dubai affordable for Indian students?",
+          ans: "Tuition fees vary widely by university and programme, but compared to some Western countries, many institutions in Dubai offer competitive fees and scholarships especially considering the quality of education."
+        },
+        {
+          ques: "Are there scholarships available for Indian students in Dubai?",
+          ans: "Yes, many universities offer merit-based scholarships, partial tuition waivers, up to 55% and sometimes fully funded programmes, particularly for postgraduate studies."
+        },
+        {
+          ques: "How can I find scholarships for studying in Dubai?",
+          ans: "The best approach is to check the official websites of individual universities, as most scholarships are institution-specific."
+        },
+        {
+          ques: "What are the typical accommodation options for students in Dubai?",
+          ans: "Options include university-managed dormitories, purpose-built student housing (e.g., KSK Homes, The Myriad), or private shared apartments."
+        },
+        {
+          ques: "Is it safe for Indian students to live in Dubai?",
+          ans: "Dubai is renowned for its very low crime rate and is considered one of the safest cities globally, offering a secure environment for international students."
+        },
+        {
+          ques: "What are the public transport options for students?",
+          ans: "Dubai boasts an excellent public transport network, including the Metro, buses, and trams. Students can often avail themselves of concessions with a Nol Blue Card."
+        },
+        {
+          ques: "What are the popular courses for Indian students in Dubai?",
+          ans: "Business Administration, Engineering, Information Technology, Finance, Hospitality Management, and Media & Communication are consistently popular choices due to demand in the UAE job market."
+        },
+        {
+          ques: "Can Indian students stay and work in Dubai after graduation?",
+          ans: "Yes, the UAE offers a \"Post-Graduate Work Permit\" of up to two years, allowing graduates to seek employment. Successful job offers lead to employment visa sponsorship."
+        },
+        {
+          ques: "Are there specific career opportunities for graduates in Dubai?",
+          ans: "Dubai's growing economy offers strong prospects in sectors like finance, IT, tourism, logistics, construction, and healthcare, particularly within its many free zones."
+        },
+        {
+          ques: "Do universities in Dubai offer placement support to students?",
+          ans: "Most universities provide comprehensive placement support services, including CV workshops, interview preparation, internship placements, and networking events to aid job searching."
+        }
       ]
-    }
+
+    },
   }
 }
