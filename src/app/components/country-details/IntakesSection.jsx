@@ -24,7 +24,13 @@ export default function IntakesSection({ data }) {
                     {/* LEFT CONTENT */}
                     <div
                         className="relative 2xl:col-span-5 max-lg:order-2 col-span-6 h-full max-lg:mt-8  bg-cover bg-center"
-                        style={{ backgroundImage: `url('${leftBackgroundImage}')` }}
+                        style={{
+                            backgroundImage: `url('${leftBackgroundImage}')`,
+                            backgroundSize: "contain",
+                            backgroundPosition: "center",
+                            backgroundRepeat: "no-repeat"
+                        }}
+
                     >
                         <div className="absolute z-0 inset-0 bg-[#F8F3F5]/93 "></div>
                         <div ref={contentRef} className=" flex-center max-md:flex-col  max-md:text-center h-full lg:p-4 p-1  relative md:space-x-12 z-10">

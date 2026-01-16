@@ -2037,18 +2037,147 @@ Few universities offering multiple intakes (February, April, May, October and No
     image: "/images/home/countries/new-zealand.jpg",
     details: {
       intro: {
-        headline: "Study in Italy",
-        bannerImg: "/images/banners/italy.jpg",
+        headline: "Study in the Italy",
+        bannerImg: "/images/countries/usa/banner.jpg",
         content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin molestie malesuada."
+          `Italy boasts a long and distinguished academic history, being home to some of the world's oldest universities, like the University of Bologna (founded in 1088). Its institutions offer high-quality, internationally recognised degrees, particularly strong in fields such as art, fashion, design, architecture, engineering, luxury brand management, automotive design, or culinary arts, and the humanities.
+            <br /><br/>
+            Compared to other popular study destinations like the UK or USA, Italy generally offers significantly lower tuition fees, especially at public universities. Furthermore, the overall cost of living, including accommodation, food, and transport, is often more manageable, making it an economically attractive option.
+            <br /><br/>
+            Studying in Italy provides an unparalleled opportunity to immerse yourself in a vibrant and historically rich culture. From ancient Roman ruins to Renaissance art, iconic architecture, and world-famous cuisine, every corner of Italy offers a unique and enriching experience that extends far beyond the classroom.
+            <br /><br/>
+            While many programmes are now taught in English, studying in Italy provides an immersive environment to learn Italian, a beautiful and influential language. Becoming bilingual can significantly enhance future career prospects, particularly in sectors like tourism, international relations, and fashion.
+
+          `
       },
-      features: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Donec sollicitudin molestie malesuada.",
-        "Vestibulum ac diam sit amet quam vehicula.",
-        "Sed porttitor lectus nibh."
+      features: {
+        bgImg: '/images/countries/Italy/map.png',
+        mainImg: '/images/countries/Italy/students.jpg',
+        altText: 'Rome',
+
+        points: [
+          "Capital: Rome",
+          "Currency: Euro",
+          "Languages: Italian, French, German and Latin",
+          "Main Cities: Milan, Naples, Turin, Florence, Venice, Bologna, Genoa, Palermo, Bari"
+        ]
+
+      },
+      whyStudyIn: {
+        title: "Why study in Italy",
+        bgImg: "/images/countries/Italy/banner.jpg",
+        description: `Italy boasts a long and distinguished academic history, being home to some of the world's oldest universities, like the University of Bologna (founded in 1088). Its institutions offer high-quality, internationally recognised degrees, particularly strong in fields such as art, fashion, design, architecture, engineering, luxury brand management, automotive design, or culinary arts, and the humanities.
+              <br/><br/>
+              Compared to other popular study destinations like the UK or USA, Italy generally offers significantly lower tuition fees, especially at public universities. Furthermore, the overall cost of living, including accommodation, food, and transport, is often more manageable, making it an economically attractive option.
+              <br/><br/>
+              Studying in Italy provides an unparalleled opportunity to immerse yourself in a vibrant and historically rich culture. From ancient Roman ruins to Renaissance art, iconic architecture, and world-famous cuisine, every corner of Italy offers a unique and enriching experience that extends far beyond the classroom.
+              <br/><br/>
+              While many programmes are now taught in English, studying in Italy provides an immersive environment to learn Italian, a beautiful and influential language. Becoming bilingual can significantly enhance future career prospects, particularly in sectors like tourism, international relations, and fashion.
+
+                                    `,
+        gridClass: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4',
+        "points": [
+          {
+            "title": "Industry-collaborated courses in Italy focus on practical skills and real-world exposure, significantly enhancing student employability after graduation",
+            "icon": "/images/countries/usa/icons/scholar.svg"
+          },
+          {
+            "title": "Deserving international students benefit from generous financial support including scholarships, tuition fee waivers, accommodation assistance, and meal subsidies, making Italian education highly accessible",
+            "icon": "/images/countries/usa/icons/cash-in-bag.svg"
+          },
+          {
+            "title": "Milan, the global capital of fashion and design, offers students unmatched exposure to leading fashion houses, design studios, and creative industries",
+            "icon": "/images/countries/usa/icons/world.svg"
+          },
+          {
+            "title": "Italy hosts thousands of diverse industries such as shipbuilding, automotive manufacturing, and textiles, creating strong employment prospects for graduates",
+            "icon": "/images/countries/usa/icons/global-edu.png"
+          },
+          {
+            "title": "As the birthplace of iconic luxury and fashion brands like Gucci and Prada, Italy leads global style through exceptional craftsmanship, heritage, and innovation",
+            "icon": "/images/countries/usa/icons/life.svg"
+          },
+          {
+            "title": "Home to legendary automotive brands including Ferrari, Lamborghini, and Fiat, Italy’s automotive sector is globally recognised for engineering excellence and performance",
+            "icon": "/images/countries/usa/icons/search.svg"
+          },
+          {
+            "title": "Italy is the origin of world-famous food and beverage brands such as Ferrero and Barilla, celebrated globally for quality, tradition, and culinary excellence",
+            "icon": "/images/countries/usa/icons/globe.svg"
+          },
+          {
+            "title": "Global energy and infrastructure leaders like Enel and Eni originate from Italy, highlighting the country’s strong presence in energy, utilities, and sustainable development sectors",
+            "icon": "/images/countries/usa/icons/connectivity.svg"
+          }
+        ]
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/Italy/workrights.jpg",
+        altText: "Work rights and stay back",
+        "points": [
+          "20 hours per week during studies.",
+          "40 hours per week during semester breaks and holidays.",
+          "Stay-back option of 6–12 months."
+        ]
+
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>February / September</strong><br /> `,
+        leftBackgroundImage: "/images/countries/Italy/map.png",
+        rightImage: {
+          src: "/images/countries/Italy/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+      "faqItems": [
+        {
+          "ques": "Why should Indian students consider Italy for higher education?",
+          "ans": "Italy offers world-class, affordable education with a rich cultural experience, strong industry links (especially in design and engineering), ample scholarship opportunities, and a favourable post-study work environment."
+        },
+        {
+          "ques": "What are the typical tuition fees for international students in Italian public universities?",
+          "ans": "Tuition fees at Italian public universities are generally affordable, ranging from approximately €0 to €5,000 per academic year, making it much more economical than many other Western study destinations."
+        },
+        {
+          "ques": "What are the most popular courses for Indian students in Italy?",
+          "ans": "Indian students often choose courses in Architecture, Fashion and Design, Engineering, Business & Management (especially MBA), Computer Science, and Arts & Humanities, given Italy's global reputation in these fields."
+        },
+        {
+          "ques": "Can Indian students work part-time while studying in Italy?",
+          "ans": "Yes, Indians are permitted to work up to 20 hours per week during academic terms and full-time (up to 40 hours) during official university breaks, provided they obtain the necessary work permit."
+        },
+        {
+          "ques": "What are the post-study work options available for Indian graduates in Italy?",
+          "ans": "After completing a Masters, MRes or PhD, Indian students can apply for a Job-Seeking Visa for 6-12 months to find full-time employment and then convert to a work permit."
+        },
+        {
+          "ques": "What are the key documents required for an Italian student visa for Indian citizens?",
+          "ans": "Essential documents include a valid passport, acceptance letter from an Italian university, proof of sufficient financial means (€8030 year minimum), accommodation proof, overseas medical insurance, and a statement of purpose."
+        },
+        {
+          "ques": "Are there scholarships available for Indian students in Italy?",
+          "ans": "Absolutely. Many Italian universities (e.g., University of Bologna, Politecnico di Milano) and regional bodies offer various scholarships, fee waivers, and welfare benefits like free housing and meal tickets for deserving international students."
+        },
+        {
+          "ques": "What is the estimated cost of living for an Indian student in Italy?",
+          "ans": "The average monthly living cost, excluding tuition, ranges from €600 to €900. This covers accommodation, food, transportation, and personal expenses, varying significantly by city (Milan and Rome are generally more expensive)."
+        },
+        {
+          "ques": "What are some top Italian universities popular among international students, including Indians?",
+          "ans": "Highly regarded universities include Alma Mater Studiorum – Università di Bologna, Politecnico di Milano, Sapienza University of Rome, University of Padua, Politecnico di Torino, and Bocconi University."
+        },
+        {
+          "ques": "How long does it typically take to process an Italian student visa from India, and what should I keep in mind regarding timing?",
+          "ans": "The processing time for an Italian student visa from India can range from 3 to 6 weeks, or even up to 90 days in complex cases. It's highly recommended to apply at least 2-3 months before your course start date to account for any potential delays, especially during peak application seasons. Additionally, once you arrive in Italy, you must apply for a Residence Permit at the local Police Headquarters within 8 days of your arrival."
+        }
       ]
-    }
+
+    },
   },
   latvia: {
     name: "Latvia",

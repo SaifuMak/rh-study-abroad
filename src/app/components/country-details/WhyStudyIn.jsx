@@ -34,9 +34,11 @@ export default function WhyStudyIn({ data }) {
                                     {data?.title}
                                 </h2>
 
-                                <p className="xl:max-w-5xl lg:max-w-4xl  xl:text-xl font-light text-white leading-relaxed mb-12">
-                                    {data?.description}
-                                </p>
+                                <p
+                                    className="xl:max-w-5xl lg:max-w-4xl xl:text-xl font-light text-white leading-relaxed mb-12"
+                                    dangerouslySetInnerHTML={{ __html: data?.description }}
+                                />
+
                             </div>
 
                             <div className={` ${data?.gridClass || 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5'} gap-6`}>
