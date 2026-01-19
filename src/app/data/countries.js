@@ -2888,5 +2888,162 @@ Few universities offering multiple intakes (February, April, May, October and No
       ]
 
     },
+  },
+  spain: {
+    name: "Spain",
+    image: "/images/home/countries/uk.jpg",
+    details: {
+      intro: {
+        headline: "Study in the Spain",
+        bannerImg: "/images/countries/usa/banner.jpg",
+        content:
+          `Spain, a major economic force in Europe, is fast becoming a magnet for young,
+          creative talent. Hundreds of start-ups and entrepreneurs are embarking on new
+          ventures, contributing to thriving business sectors. With a more economical cost of
+          living and abundant opportunities for sports and socialising, Spain presents itself as
+          an ideal location for international education. This diverse European nation, situated
+          on the Iberian Peninsula, boasts a rich history and vibrant culture. As a prime tourist
+          destination, it offers everything from stunning Mediterranean beaches and dramatic
+          mountainous landscapes to iconic cities such as Madrid and Barcelona.
+          Furthermore, Spain's full membership of the Schengen Area facilitates seamless
+          travel across much of the continent.
+          `
+      },
+      features: {
+        bgImg: '/images/countries/dubai/map.png',
+        mainImg: '/images/countries/dubai/students.jpg',
+        altText: 'spain',
+
+        "points": [
+          "Capital: Madrid",
+          "Currency: Euro",
+          "Languages: Spanish",
+          "Main Cities: Barcelona, Valencia, Seville, Zaragoza, Malaga, Murcia, Palma, Las Palmas de Gran Canaria, Bilbao"
+        ]
+
+      },
+      whyStudyIn: {
+        title: "Why study in Spain",
+        bgImg: "/images/countries/dubai/banner.jpg",
+        description: `Pursuing an undergraduate or postgraduate degree in Spain significantly boosts your job prospects across Europe and internationally, providing you with a truly global education and perspective.<br><br>
+                    Spain offers a notably more economical cost of living than many other popular European study destinations, being approximately 18% cheaper than Germany and over 32% less than France. Additionally, its efficient and reasonably priced public transport networks ensure affordable travel within cities.<br><br>
+                    The Spanish higher education system is renowned for its broad and high-standard offerings, with universities consistently achieving global recognition. A wide array of diverse courses are available, often with English-taught programmes, particularly at Masters level.<br><br>
+                    Studying in Spain enriches your CV, showcasing your adaptability, cross-cultural understanding, and a global outlook – highly valued attributes for future employers.
+                                    `,
+        gridClass: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3',
+        points: [
+          {
+            title: "Spain provides a range of scholarships, grants, and financial aid options, including prestigious programmes like Erasmus Mundus and Fulbright",
+            icon: "/images/countries/usa/icons/scholar.svg",
+          },
+          {
+            title: "Globally recognised universities attract thousands of international students each year with flexible and high-quality academic programmes",
+            icon: "/images/countries/usa/icons/world.svg",
+          },
+          {
+            title: "Affordable public university tuition fees typically range between €2,500 and €3,500 per year, making Spain a budget-friendly choice",
+            icon: "/images/countries/usa/icons/cash-in-bag.svg",
+          },
+          {
+            title: "Spain offers a high quality of life with a safe, student-friendly environment and modern public infrastructure",
+            icon: "/images/countries/usa/icons/life.svg",
+          },
+          {
+            title: "Strong career prospects through industry-aligned courses and growing employment opportunities after graduation",
+            icon: "/images/countries/usa/icons/global-edu.png",
+          },
+          {
+            title: "Multiple student visa options are available based on course duration, with straightforward application processes",
+            icon: "/images/countries/usa/icons/search.svg",
+          }
+        ]
+
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/dubai/workrights.jpg",
+        altText: "Work rights and stay back",
+        points: [
+          "30 hours per week during the academic term",
+          "40 hours per week during semester break and holidays",
+          "1 year stay back"
+        ]
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>January / September</strong><br /> `,
+        leftBackgroundImage: "/images/countries/dubai/map.png",
+        rightImage: {
+          src: "/images/countries/dubai/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+      faqItems: [
+        {
+          ques: "Why is Spain becoming a popular study destination for Indian students?",
+          ans: "Spain offers high-quality education, a lower cost of living than many other European countries, a vibrant culture, and excellent job prospects after graduation."
+        },
+        {
+          ques: "Is a degree from Spain recognised globally?",
+          ans: "Yes, Spanish degrees, especially those from official university programmes, are recognised globally."
+        },
+        {
+          ques: "Is Spain generally safe for international students?",
+          ans: "Yes, Spain is considered one of the safest countries in the world, with a friendly and welcoming environment for international students."
+        },
+        {
+          ques: "What are the main intake periods for Spanish universities?",
+          ans: "Spain primarily has a Fall intake (September/October), which is the main intake with the most programmes, and a Spring intake (January/February), which has more limited options."
+        },
+        {
+          ques: "How much are the tuition fees for international students at Spanish public universities?",
+          ans: "International students, public university tuition fees typically range from €1,500 to €4,000 per year for Bachelors and €2,000 to €5,500 for Masters, MRes and PhD."
+        },
+        {
+          ques: "What is the estimated cost of living in Spain for international students?",
+          ans: "The average cost of living can range from approximately €400 to €900 per month, including accommodation, food, transport."
+        },
+        {
+          ques: "What are some common scholarships available for Indian students in Spain?",
+          ans: "Popular scholarships include the Erasmus Mundus Scholarship, Spanish Government Scholarships, Fulbright-Nehru Master's Scholarship, and various university-specific scholarships (e.g., UIC Barcelona Scholarship, Barcelona GSE Master Scholarship)."
+        },
+        {
+          ques: "What is the typical processing time for a Spanish student visa for Indian students?",
+          ans: "The processing time is typically around 5 weeks, but it can extend to 9 to 10 weeks in some cases. It's advisable to apply 2-3 months before travel."
+        },
+        {
+          ques: "Do international students work part-time while studying in Spain?",
+          ans: "Yes, international students on a valid student visa are generally allowed to work part-time for up to 30 hours per week during the academic term."
+        },
+        {
+          ques: "Can students work full-time during university holidays?",
+          ans: "Yes, during official university holidays and academic breaks (typically up to three months), students can work full-time without the weekly hour restrictions."
+        },
+        {
+          ques: "What are the stay-back options for international students after graduation in Spain?",
+          ans: "Graduates can apply for a \"Residency Permit for Job Search\" (Job Seeker Visa), allowing them to stay for up to 12 months to find employment or start a business."
+        },
+        {
+          ques: "Is the Job Seeker Visa renewable?",
+          ans: "The Job Seeker Visa itself is generally non-renewable. Its purpose is to facilitate the transition to a work and residence permit once employment is secured."
+        },
+        {
+          ques: "What happens after I find a job with a Job Seeker Visa?",
+          ans: "Once you secure a job offer, especially in a highly skilled position, you can apply to transition from the Job Seeker Visa to a work and residence permit."
+        },
+        {
+          ques: "What are the common accommodation options for students in Spain?",
+          ans: "Popular options include university halls of residence, shared apartments, and homestays with local families."
+        },
+        {
+          ques: "Is there a fast-track visa initiative for students affected by visa restrictions from other countries (e.g., the US)?",
+          ans: "Yes, Spain has launched \"EduBridge to Spain,\" a fast-track visa scheme aimed at admitting students, including Indian students, who might be impacted by visa restrictions in countries like the US. This programme aims to simplify the transfer of academic progress and prioritises student visa applications at Spanish consular offices."
+        }
+      ]
+
+    },
   }
 }
