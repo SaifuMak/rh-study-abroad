@@ -3338,5 +3338,164 @@ Finding suitable accommodation in Slovenia is generally simple and cost-effectiv
     },
   },
 
+  norway: {
+    name: "Norway",
+    image: "/images/home/countries/uk.jpg",
+    details: {
+      intro: {
+        headline: "Study in the Norway",
+        bannerImg: "/images/countries/norway/banner.jpg",
+        content:
+          `Norway, a stunning Nordic and Scandinavian nation, is globally acclaimed for its
+          dramatic fjords, expansive natural beauty, and remarkably high quality of life. As a
+          Schengen Area member and non-EU country, it offers seamless travel and strong
+          international ties. Norway champions a robust welfare state, providing universal
+          healthcare and comprehensive social security. Consistently topping global happiness
+          and development indices, it fosters an exceptional work-life balance and deep
+          appreciation for outdoor living. Its prosperous economy, significantly driven by vast
+          petroleum and natural gas reserves, underpins this well-being and commitment to
+          societal welfare.
+          `
+      },
+      features: {
+        bgImg: '/images/countries/norway/map.png',
+        mainImg: '/images/countries/norway/students.jpg',
+        altText: 'norway',
+
+        "points": [
+          "Capital: Oslo",
+          "Currency: Euro",
+          "Official Language: Norwegian",
+          "Main Cities: Bergen, Trondheim, Stavanger, Drammen, Kristiansand, Tromsø"
+        ]
+
+      },
+      whyStudyIn: {
+        title: "Why study in Norway",
+        bgImg: "/images/countries/norway/banner.jpg",
+        description: `Norway's higher education is globally renowned for its modern facilities,
+                    ground-breaking research, and cutting-edge technologies. Institutions, some
+                    affiliated with Nobel Prize laureates, maintain high academic standards and
+                    innovative teaching, fostering close student-lecturer relationships. Comprising
+                    diverse public and private universities, many rank highly internationally (QS, THE,
+                    ARWU) and offer numerous programmes taught in English. This commitment to
+                    research-driven excellence and accessible learning makes Norway a compelling
+                    study destination.
+                      `,
+        gridClass: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4',
+        points: [
+          {
+            title: "Studying in Norway means investing in your future, with institutions renowned for quality education and strong focus on students’ overall experience and development.",
+            icon: "/images/countries/usa/icons/scholar.svg",
+          },
+          {
+            title: "Norway consistently ranks among the world’s happiest countries, offering a high quality of life and exceptional well-being.",
+            icon: "/images/countries/usa/icons/world.svg",
+          },
+          {
+            title: "As a founding member of the United Nations, Norway has a long-standing global influence, with its Foreign Minister serving as the first UN Secretary-General.",
+            icon: "/images/countries/usa/icons/globe.svg",
+          },
+          {
+            title: "Historically, many public universities in Norway did not charge tuition fees for international students, making it financially attractive despite recent changes.",
+            icon: "/images/countries/usa/icons/cash.svg",
+          },
+          {
+            title: "Norwegian institutions offer globally recognised degrees with modern facilities, innovative teaching methods, and strong academic standards.",
+            icon: "/images/countries/usa/icons/search.svg",
+          },
+          {
+            title: "A wide range of university programmes are taught in English, reducing language barriers and supporting smooth integration for Indian students.",
+            icon: "/images/countries/usa/icons/connectivity.svg",
+          },
+          {
+            title: "Norway prioritises student well-being with high safety standards, low crime rates, and a strong culture of outdoor and healthy living.",
+            icon: "/images/countries/usa/icons/brain.svg",
+          },
+          {
+            title: "Students can explore Norway’s breathtaking fjords, mountains, and Northern Lights, enjoying world-class opportunities for outdoor adventures.",
+            icon: "/images/countries/usa/icons/loop.svg",
+          }
+        ]
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/norway/workrights.jpg",
+        altText: "Work rights and stay back",
+        points: [
+          "20 hours per week during the semester",
+          "40 hours during vacation and university holidays",
+          "The primary way to stay and work after studying in Norway is by securing a job offer from a Norwegian employer, allowing transition to a Skilled Worker Permit."
+        ]
+
+
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>August</strong><br /> `,
+        leftBackgroundImage: "/images/countries/norway/map.png",
+        rightImage: {
+          src: "/images/countries/norway/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+      faqItems: [
+        {
+          ques: "Why should Indian students choose Norway for higher education?",
+          ans: "Norway offers world-class education with high academic standards, a safe and scenic environment, and innovative teaching methods, providing a unique European study experience."
+        },
+        {
+          ques: "Are there tuition fees for Indian students in Norway?",
+          ans: "Many Norwegian public universities are tuition free and few have introduced tuition fees for international students from 2023 onwards. Some specialised or private institutions always charged fees."
+        },
+        {
+          ques: "What are the estimated living costs for an Indian student in Norway?",
+          ans: "Living costs are generally ranging from NOK 9500 - 15000 per month (€780 - €1,260 approx.), depending on the city and lifestyle. This includes accommodation, food, and transport."
+        },
+        {
+          ques: "What are the main intake periods for admissions in Norway?",
+          ans: "Norway primarily has one main intake, the Autumn Intake, with studies starting in August/September. Application deadlines for non-EU/EEA students typically fall between December."
+        },
+        {
+          ques: "Are English proficiency tests like IELTS mandatory for Indian students?",
+          ans: "Yes, most Norwegian universities require proof of English proficiency (e.g., IELTS Academic score of 6.0-7.0 or TOEFL or PTE). Some may waive it if your previous degree was taught entirely in English."
+        },
+        {
+          ques: "What kind of academic programs are popular for Indian students in Norway?",
+          ans: "Popular fields include Engineering, IT, Natural Sciences, Business, Environmental Studies, and Social Sciences, with numerous Masters and PhD programs offered in English."
+        },
+        {
+          ques: "Can Indian students work part-time while pursuing their studies?",
+          ans: "Yes, non-EU/EEA students holding a valid study permit are automatically allowed to work up to 20 hours per week during the semester and full-time during official university holidays."
+        },
+        {
+          ques: "Is there a \"stay back\" or post-study work visa for Indian graduates in Norway?",
+          ans: "Norway does not offer a general job-seeker visa. To stay and work post-graduation, you must first secure a skilled job offer and then apply for a \"Skilled Worker Permit\" (residence and work permit)."
+        },
+        {
+          ques: "What are the key documents required for a Norwegian student visa from India?",
+          ans: "Documents include an acceptance letter from a Norwegian institution, proof of sufficient funds SOP, LOR, proof of accommodation, valid passport, and academic transcripts."
+        },
+        {
+          ques: "What are the accommodation options for international students in Norway?",
+          ans: "Student housing offered by student welfare organisations is the most common and affordable. Private rentals and shared apartments are also options, but often more expensive."
+        },
+        {
+          ques: "Are Norwegian degrees recognized internationally and in India?",
+          ans: "Yes, Norwegian degrees are highly respected and internationally recognised, including in India, due to Norway's participation in the Bologna Process and its high academic standards."
+        },
+        {
+          ques: "Does Norway offer scholarships for Indian students?",
+          ans: "While scholarships are competitive, several are available. These include university-specific scholarships (e.g., University of Oslo, NTNU), external scholarships, and sometimes, government schemes that cover living costs for specific programs or collaborations."
+        }
+      ]
+
+
+    },
+  },
+
 
 }
