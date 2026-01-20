@@ -3197,5 +3197,146 @@ Few universities offering multiple intakes (February, April, May, October and No
       ]
     },
   },
-  
+
+  slovenia: {
+    name: "Slovenia",
+    image: "/images/home/countries/uk.jpg",
+    details: {
+      intro: {
+        headline: "Study in the Slovenia",
+        bannerImg: "/images/countries/slovenia/banner.jpg",
+        content:
+          `Slovenia, a captivating Central European nation, stands out for its unique blend of
+          Alpine, Pannonian, Karst, and Mediterranean landscapes. As a safe, green country
+          within the EU and Schengen Area, it offers high quality of life, universal healthcare,
+          and accessible education. Its diverse terrain includes stunning mountains, ski
+          resorts, and picturesque lakes like Bled with its iconic island church and medieval
+          castle. The vibrant capital, Ljubljana, boasts a mix of Baroque and 20th-century
+          architecture, reflecting a rich cultural tapestry. Slovenia's commitment to
+          sustainability and charming natural beauty make it truly unforgettable.
+          `
+      },
+      features: {
+        bgImg: '/images/countries/slovenia/map.png',
+        mainImg: '/images/countries/slovenia/students.jpg',
+        altText: 'slovenia',
+
+        "points": [
+          "Capital: Ljubljana",
+          "Currency: Euro",
+          "Official Language: Slovene",
+          "Main Cities: Maribor, Celje, Kranj, Koper, Velenje, Novo Mesto"
+        ]
+
+      },
+      whyStudyIn: {
+        title: "Why study in Slovenia",
+        bgImg: "/images/countries/slovenia/banner.jpg",
+        description: `Slovenia boasts incredibly diverse and beautiful natural landscapes, from the Julian Alps to the Adriatic coast, providing ample opportunities for outdoor activities. Its central location also ensures excellent, convenient connections for exploring other fascinating European countries.<br><br>
+
+Students in Slovenia will find plenty to keep them engaged beyond academics. The cities, particularly Ljubljana and Maribor, offer a lively social scene with numerous clubs, bars, and student-organised parties, providing exciting opportunities to socialise and unwind.<br><br>
+
+Slovenia offers a fantastic culinary experience, blending Central European, Mediterranean, and Balkan influences. Students can enjoy excellent quality, diverse food options, including traditional dishes and international cuisine, all while maintaining a student-friendly budget.<br><br>
+
+While Slovene is the official language, international students won't need to master it for daily life or studies. Many university programmes are taught entirely in English, and English is widely spoken in major cities and tourist areas, making it easy to get around.<br><br>
+
+Finding suitable accommodation in Slovenia is generally simple and cost-effective for international students. Options range from university dormitories and shared apartments to private rentals, all available at remarkably affordable prices compared to many other European study destinations.
+
+                      `,
+        gridClass: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3',
+        points: [
+          {
+            title: "Slovenia offers significantly lower tuition fees and reasonable living expenses (around €400–€600 monthly), making it a budget-friendly study destination with available scholarships",
+            icon: "/images/countries/usa/icons/scholar.svg",
+          },
+          {
+            title: "Universities provide a wide range of science, technology, engineering, business, and health science programmes, many taught in English, overcoming language barriers",
+            icon: "/images/countries/usa/icons/world.svg",
+          },
+          {
+            title: "Slovenian higher education is known for its strong research-driven and innovation-focused approach, ensuring a cutting-edge learning experience",
+            icon: "/images/countries/usa/icons/global-edu.png",
+          },
+          {
+            title: "Students benefit from various discounts on public transport, food, and cultural events, further reducing overall living costs",
+            icon: "/images/countries/usa/icons/cash-in-bag.svg",
+          },
+          {
+            title: "Some Slovenian universities may offer IELTS waivers for students who have completed their previous education in English",
+            icon: "/images/countries/usa/icons/search.svg",
+          }
+        ]
+
+
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/slovenia/workrights.jpg",
+        altText: "Work rights and stay back",
+        points: [
+          "20 hours per week during studies",
+          "International students typically cannot work full-time (40 hours) during holidays on a student permit",
+          "After studying in Slovenia, international students must first secure a job offer. They can then apply for a \"Single Permit\", which combines residence and work rights and is directly tied to their employment"
+        ]
+
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>January / September</strong><br /> `,
+        leftBackgroundImage: "/images/countries/slovenia/map.png",
+        rightImage: {
+          src: "/images/countries/slovenia/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+      faqItems: [
+        {
+          ques: "Why should Indian students consider Slovenia for higher education?",
+          ans: "Slovenia offers quality education with recognized degrees, significantly lower tuition fees and living costs than many Western European countries, and a safe, beautiful environment within the EU and Schengen Area."
+        },
+        {
+          ques: "What are the typical tuition fees for international students in Slovenia?",
+          ans: "Tuition fees generally range from €2,000–€11,000 per year for Bachelors and Masters and €2,000–€6,000 for PhD programs, making it quite affordable."
+        },
+        {
+          ques: "What are the estimated monthly living costs for an Indian student in Slovenia?",
+          ans: "Indian students can expect to budget between €400 to €600 per month, covering accommodation, food (benefiting from subsidised student meals), transport, and other necessities."
+        },
+        {
+          ques: "Are there scholarships available for Indian students in Slovenia?",
+          ans: "Yes, Slovenia offers specific scholarships for Indian students, such as those provided by CMEPIUS, focusing on short-term mobility programs, alongside other university-specific aid."
+        },
+        {
+          ques: "Is it mandatory for Indian students to clear IELTS to study in Slovenia?",
+          ans: "Not always. While widely accepted, some Slovenian universities may waive IELTS if your previous education was in English (with a Medium of Instruction certificate), or they might conduct their own English proficiency assessments."
+        },
+        {
+          ques: "What are the popular fields of study for Indian students in Slovenia?",
+          ans: "Common choices include Computer Science, Business Administration, Engineering, Medicine, Nursing, Humanities, and Social Sciences, with many programs taught in English."
+        },
+        {
+          ques: "Can Indian students work part-time while studying in Slovenia?",
+          ans: "Yes, non-EU/EEA students can work part-time up to 20 hours per week through the Student Work system, which helps manage administrative aspects."
+        },
+        {
+          ques: "Is there a \"stay back\" or post-study work visa for Indian graduates in Slovenia?",
+          ans: "Slovenia does not offer a dedicated job-seeker visa. To stay and work after graduation, you must first secure an employment contract and then apply for a \"Single Permit,\" which combines residence and work rights."
+        },
+        {
+          ques: "What are the main admission requirements for Indian students applying to Slovenian universities?",
+          ans: "Typically, applicants need all academic documents, proof of English proficiency (MOI, IELTS, TOEFL or PTE) a valid passport, SOP, LOR and financial means."
+        },
+        {
+          ques: "What are the main intake periods for admissions in Slovenian universities?",
+          ans: "Slovenia primarily has a Fall/Autumn intake (October start) with applications usually from February-March. A secondary Spring/Winter intake (February start) is also available but offers fewer programs."
+        }
+      ]
+
+    },
+  },
+
+
 }

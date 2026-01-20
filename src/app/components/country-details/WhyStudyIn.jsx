@@ -29,13 +29,13 @@ export default function WhyStudyIn({ data }) {
 
                         <div className="relative z-10 py-10 lg:py-16 xl:py-20  2xl:py-24 text-white ">
 
-                            <div ref={contentRef} className=" w-full ">
+                            <div ref={contentRef} className=" w-full  ">
                                 <h2 className=" heading mb-4 lg:mb-6">
                                     {data?.title}
                                 </h2>
 
                                 <p
-                                    className="xl:max-w-5xl lg:max-w-4xl xl:text-xl font-light text-white leading-relaxed mb-12"
+                                    className="xl:max-w-6xl lg:max-w-4xl xl:text-xl font-light text-white leading-relaxed mb-12"
                                     dangerouslySetInnerHTML={{ __html: data?.description }}
                                 />
 
