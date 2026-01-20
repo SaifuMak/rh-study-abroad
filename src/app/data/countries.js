@@ -3504,7 +3504,7 @@ Finding suitable accommodation in Slovenia is generally simple and cost-effectiv
     details: {
       intro: {
         headline: "Study in the Slovakia",
-        bannerImg: "/images/countries/norway/banner.jpg",
+        bannerImg: "/images/countries/slovakia/banner.jpg",
         content:
           `Slovakia, a Central European gem, is an EU and Schengen member renowned 
           for its stunning natural landscapes, including the majestic Tatra Mountains,
@@ -3516,8 +3516,8 @@ Finding suitable accommodation in Slovenia is generally simple and cost-effectiv
           `
       },
       features: {
-        bgImg: '/images/countries/norway/map.png',
-        mainImg: '/images/countries/norway/students.jpg',
+        bgImg: '/images/countries/slovakia/map.png',
+        mainImg: '/images/countries/slovakia/students.jpg',
         altText: 'norway',
 
         "points": [
@@ -3530,7 +3530,7 @@ Finding suitable accommodation in Slovenia is generally simple and cost-effectiv
       },
       whyStudyIn: {
         title: "Why study in Slovakia",
-        bgImg: "/images/countries/norway/banner.jpg",
+        bgImg: "/images/countries/slovakia/banner.jpg",
         description: `Slovakia offers Indian students an attractive blend of high-quality, English-taught
                   programmes and affordable tuition fees. Its central European location allows easy
                   travel, while reasonable living costs and a safe, welcoming environment ensure a
@@ -3563,7 +3563,7 @@ Finding suitable accommodation in Slovenia is generally simple and cost-effectiv
       },
       workRights: {
         title: "Workrights and Stayback",
-        bgImage: "/images/countries/norway/workrights.jpg",
+        bgImage: "/images/countries/slovakia/workrights.jpg",
         altText: "Work rights and stay back",
         points: [
           "20 hours during studies",
@@ -3577,9 +3577,9 @@ Finding suitable accommodation in Slovenia is generally simple and cost-effectiv
         title: "Intakes",
         descriptionHtml: `
         <strong>February / September</strong><br /> `,
-        leftBackgroundImage: "/images/countries/norway/map.png",
+        leftBackgroundImage: "/images/countries/slovakia/map.png",
         rightImage: {
-          src: "/images/countries/norway/office.jpg",
+          src: "/images/countries/slovakia/office.jpg",
           alt: "Student intake information",
         },
         sectionBg: "#F8F3F5",
@@ -3627,8 +3627,6 @@ Finding suitable accommodation in Slovenia is generally simple and cost-effectiv
           ans: "Yes, various scholarships exist, including the National Scholarship Programme of the Slovak Republic, government scholarships for specific development aid, and some university-specific grants. These typically cover living costs or contribute to fees."
         }
       ]
-
-
     },
   },
 
