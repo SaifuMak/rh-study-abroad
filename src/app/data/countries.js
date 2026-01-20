@@ -2886,16 +2886,16 @@ Few universities offering multiple intakes (February, April, May, October and No
           ans: "Most universities provide comprehensive placement support services, including CV workshops, interview preparation, internship placements, and networking events to aid job searching."
         }
       ]
-
     },
   },
+
   spain: {
     name: "Spain",
     image: "/images/home/countries/uk.jpg",
     details: {
       intro: {
         headline: "Study in the Spain",
-        bannerImg: "/images/countries/usa/banner.jpg",
+        bannerImg: "/images/countries/spain/banner.jpg",
         content:
           `Spain, a major economic force in Europe, is fast becoming a magnet for young,
           creative talent. Hundreds of start-ups and entrepreneurs are embarking on new
@@ -2910,8 +2910,8 @@ Few universities offering multiple intakes (February, April, May, October and No
           `
       },
       features: {
-        bgImg: '/images/countries/dubai/map.png',
-        mainImg: '/images/countries/dubai/students.jpg',
+        bgImg: '/images/countries/spain/map.png',
+        mainImg: '/images/countries/spain/students.jpg',
         altText: 'spain',
 
         "points": [
@@ -2961,7 +2961,7 @@ Few universities offering multiple intakes (February, April, May, October and No
       },
       workRights: {
         title: "Workrights and Stayback",
-        bgImage: "/images/countries/dubai/workrights.jpg",
+        bgImage: "/images/countries/spain/workrights.jpg",
         altText: "Work rights and stay back",
         points: [
           "30 hours per week during the academic term",
@@ -2974,9 +2974,9 @@ Few universities offering multiple intakes (February, April, May, October and No
         title: "Intakes",
         descriptionHtml: `
         <strong>January / September</strong><br /> `,
-        leftBackgroundImage: "/images/countries/dubai/map.png",
+        leftBackgroundImage: "/images/countries/spain/map.png",
         rightImage: {
-          src: "/images/countries/dubai/office.jpg",
+          src: "/images/countries/spain/office.jpg",
           alt: "Student intake information",
         },
         sectionBg: "#F8F3F5",
