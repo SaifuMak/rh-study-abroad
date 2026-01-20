@@ -3498,4 +3498,139 @@ Finding suitable accommodation in Slovenia is generally simple and cost-effectiv
   },
 
 
+  slovakia: {
+    name: "Slovakia",
+    image: "/images/home/countries/uk.jpg",
+    details: {
+      intro: {
+        headline: "Study in the Slovakia",
+        bannerImg: "/images/countries/norway/banner.jpg",
+        content:
+          `Slovakia, a Central European gem, is an EU and Schengen member renowned 
+          for its stunning natural landscapes, including the majestic Tatra Mountains,
+           and its rich historical heritage, boasting the highest density of castles in Europe.
+            It offers an affordable cost of living compared to Western Europe and a safe, welcoming environment.
+             With a stable economy and growing industries such as automotive manufacturing, electronics, and information technology,
+              Slovakia presents an intriguing blend of culture, nature, and 
+          developing opportunities for students, professionals, and investors alike.
+          `
+      },
+      features: {
+        bgImg: '/images/countries/norway/map.png',
+        mainImg: '/images/countries/norway/students.jpg',
+        altText: 'norway',
+
+        "points": [
+          "Capital: Bratislava",
+          "Official Language: Slovak",
+          "Currency: Euro",
+          "Main Cities: Kosice, Presov, Zilina, Nitra, Banska Bystrica, Trnava"
+        ]
+
+      },
+      whyStudyIn: {
+        title: "Why study in Slovakia",
+        bgImg: "/images/countries/norway/banner.jpg",
+        description: `Slovakia offers Indian students an attractive blend of high-quality, English-taught
+                  programmes and affordable tuition fees. Its central European location allows easy
+                  travel, while reasonable living costs and a safe, welcoming environment ensure a
+                  rewarding academic and cultural experience.
+                      `,
+        gridClass: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3',
+        points: [
+          {
+            title: "High-quality, affordable education with internationally recognised degrees, enhancing global career prospects.",
+            icon: "/images/countries/usa/icons/scholar.svg",
+          },
+          {
+            title: "English-taught programmes widely available, ensuring easy academic and social integration for students.",
+            icon: "/images/countries/usa/icons/cash.svg",
+          },
+          {
+            title: "Central European location provides excellent, easy travel opportunities across the entire Schengen Area.",
+            icon: "/images/countries/usa/icons/world.svg",
+          },
+          {
+            title: "Lower living costs compared to Western Europe, making it a budget-friendly study destination.",
+            icon: "/images/countries/usa/icons/cash-in-bag.svg",
+          },
+          {
+            title: "Safe, welcoming environment with a rich culture, perfect for a rewarding international student experience.",
+            icon: "/images/countries/usa/icons/connectivity.svg",
+          }
+        ]
+
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/norway/workrights.jpg",
+        altText: "Work rights and stay back",
+        points: [
+          "20 hours during studies",
+          "40 hours during vacation and university holidays",
+          "9 months stay back",
+          "Study permit time counts as half towards Slovakia's 5-year permanent residence requirement. Job-seeking and subsequent employment permits count fully."
+        ]
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>February / September</strong><br /> `,
+        leftBackgroundImage: "/images/countries/norway/map.png",
+        rightImage: {
+          src: "/images/countries/norway/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+
+      faqItems: [
+        {
+          ques: "Why should Indian students consider studying in Slovakia?",
+          ans: "Slovakia offers a combination of affordable education, quality English-taught programmes, a safe environment, and a central European location for easy travel, making it an appealing choice."
+        },
+        {
+          ques: "Are there tuition fees for Indian students at Slovak universities?",
+          ans: "Yes, unlike in the past, most public universities in Slovakia now charge tuition fees for non-EU/EEA students. Fees vary by programme and institution,"
+        },
+        {
+          ques: "What are the typical living expenses for an Indian student in Slovakia?",
+          ans: "Monthly living costs, including accommodation, food, and transport, can range from €350 to €650, making it more affordable than many Western European countries. Bratislava is generally more expensive."
+        },
+        {
+          ques: "Are English-taught programmes widely available in Slovakia?",
+          ans: "Yes, many Slovak universities, particularly for Bachelors, Masters and PhD levels, offer a wide range of academic programmes completely taught in English, simplifying the language barrier for Indian students."
+        },
+        {
+          ques: "Can Indian students work part-time while studying in Slovakia?",
+          ans: "Yes, university students with a valid residence permit can work up to 80 hours per month during their studies and full-time (no hourly restriction) during official university holidays."
+        },
+        {
+          ques: "What are the \"stay back\" options for Indian graduates in Slovakia?",
+          ans: "Indian graduates can extend their residence permit for up to 9 months for job searching or starting a business. Upon securing a job, they can transition to a \"Single Permit\" for employment."
+        },
+        {
+          ques: "How does Slovakia's location benefit Indian students?",
+          ans: "As an EU and Schengen Area member, Slovakia offers easy and affordable travel access to explore numerous European countries without additional visa requirements, enriching cultural experience."
+        },
+        {
+          ques: "What are the general admission requirements for Indian students?",
+          ans: "Typically, applicants need recognised academic qualifications (e.g., higher secondary for Bachelor's), proof of English proficiency (like IELTS/TOEFL), a valid passport, and proof of financial means. Document legalisation may be required."
+        },
+        {
+          ques: "What are the main intake periods for admissions in Slovakia?",
+          ans: "The primary intake is the Autumn Intake (September/October start), with applications usually opening from March to July. A smaller Spring Intake (February start) is also available."
+        },
+        {
+          ques: "Are scholarships available for Indian students in Slovakia?",
+          ans: "Yes, various scholarships exist, including the National Scholarship Programme of the Slovak Republic, government scholarships for specific development aid, and some university-specific grants. These typically cover living costs or contribute to fees."
+        }
+      ]
+
+
+    },
+  },
+
+
 }
