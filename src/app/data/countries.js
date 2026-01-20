@@ -3045,5 +3045,157 @@ Few universities offering multiple intakes (February, April, May, October and No
       ]
 
     },
-  }
+  },
+
+  hungary: {
+    name: "Hungary",
+    image: "/images/home/countries/uk.jpg",
+    details: {
+      intro: {
+        headline: "Study in the Hungary",
+        bannerImg: "/images/countries/hungary/banner.jpg",
+        content:
+          `Hungary, a captivating Central European nation, joined the European Union in 2004
+          and the Schengen Area in 2007. This membership facilitates visa-free travel and
+          strengthens economic ties across the continent. Known for its rich history, vibrant
+          culture, and stunning architecture, particularly in its capital Budapest, Hungary offers
+          a high quality of life with universal healthcare and tuition-free secondary education.
+          Its export-oriented economy benefits from EU integration, attracting foreign
+          investment and providing access to a vast single market.
+          `
+      },
+      features: {
+        bgImg: '/images/countries/hungary/map.png',
+        mainImg: '/images/countries/hungary/students.jpg',
+        altText: 'spain',
+
+        "points": [
+          "Capital: Budapest",
+          "Official Language: Hungarian",
+          "Currency: Euro",
+          "Main Cities: Debrecen, Szeged, Miskolc, Eger, Pecs, Gyor"
+        ]
+
+      },
+      whyStudyIn: {
+        title: "Why study in Hungary",
+        bgImg: "/images/countries/hungary/banner.jpg",
+        description: `Hungary offers international students a compelling combination of academic
+                      excellence and affordability. With a rich higher education history spanning over 650
+                      years, its 65 institutions provide over 500 English, German, and French-taught
+                      programmes, leading to globally recognised degrees. Living costs and tuition fees
+                      are remarkably favourable compared to many competitors, ensuring accessibility.
+                      Students benefit from a vibrant multicultural environment, a safe atmosphere, and
+                      abundant historical and cultural experiences, making Hungary an outstanding choice
+                      for a well-rounded academic journey.
+                      `,
+        gridClass: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3',
+        points: [
+          {
+            title: "Many Hungarian universities offer joint degree programmes, allowing students to earn two internationally recognised degrees simultaneously, enhancing global career prospects",
+            icon: "/images/countries/usa/icons/scholar.svg",
+          },
+          {
+            title: "As per the QS World University Rankings 2026, 10 Hungarian universities have secured their places, reflecting Hungary’s growing reputation for academic excellence",
+            icon: "/images/countries/usa/icons/world.svg",
+          },
+          {
+            title: "Students can gain valuable professional experience through Erasmus internships in Hungary, combining academic studies with practical work in a European environment",
+            icon: "/images/countries/usa/icons/global-edu.png",
+          },
+          {
+            title: "Numerous local and international companies in Hungary actively offer internship opportunities, providing hands-on industry exposure and strong professional networking",
+            icon: "/images/countries/usa/icons/cash-in-bag.svg",
+          },
+          {
+            title: "IELTS is often not mandatory, with alternative language qualifications accepted, and Hungary also maintains a high student visa approval rate",
+            icon: "/images/countries/usa/icons/search.svg",
+          },
+          {
+            title: "Excellent public transportation systems are available at discounted student rates, making travel within cities and across Hungary affordable and convenient",
+            icon: "/images/countries/usa/icons/life.svg",
+          }
+        ]
+
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/hungary/workrights.jpg",
+        altText: "Work rights and stay back",
+        points: [
+          "30 hours per week during studies",
+          "Students can work full-time during academic breaks for a maximum of 90 days or 66 working days per year",
+          "Stay back 9 months"
+        ]
+
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>February / September</strong><br /> `,
+        leftBackgroundImage: "/images/countries/hungary/map.png",
+        rightImage: {
+          src: "/images/countries/hungary/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+      faqItems: [
+        {
+          ques: "What are the main advantages for Indian students choosing Hungary for higher education?",
+          ans: "Hungary offers high-quality, globally recognized degrees at affordable tuition fees and living costs compared to many Western countries, along with a rich cultural experience in an EU and Schengen nation."
+        },
+        {
+          ques: "Are there specific scholarship opportunities for Indian students in Hungary?",
+          ans: "Yes, the most prominent is the Stipendium Hungaricum Scholarship Programme, which provides comprehensive coverage including tuition, accommodation, and a monthly stipend for eligible students."
+        },
+        {
+          ques: "Is IELTS mandatory for Indian students applying to Hungarian universities?",
+          ans: "Not always. While many universities accept IELTS, some waive the requirement if your previous education was in English (Medium of Instruction certificate), or they might conduct their own English proficiency tests or interviews."
+        },
+        {
+          ques: "What are the most popular courses for Indian students in Hungary?",
+          ans: "Engineering (especially Computer Science), Medicine (MBBS, Nursing and Physiotherapy), Business Administration (MBA), Information Technology, and various Humanities and Social Science programs are highly sought after by Indian students."
+        },
+        {
+          ques: "What is the typical cost of living for an Indian student in Hungary?",
+          ans: "On average, living expenses for Indian students in Hungary range from €400 to €700 per month, depending on the city and lifestyle, making it quite affordable."
+        },
+        {
+          ques: "Can Indian students work part-time while studying in Hungary?",
+          ans: "Yes, International students with a student residence permit can work up to 30 hours per week during the academic term and full-time (max 90 days/66 working days per year) during academic breaks."
+        },
+        {
+          ques: "What are the post-study work opportunities for Indian graduates in Hungary?",
+          ans: "After graduation, Indian students can apply for a \"study-to-work\" residence permit, allowing them to stay for an additional 9 months to find employment or start a business relevant to their studies."
+        },
+        {
+          ques: "How is the Indian student community in Hungary?",
+          ans: "Hungary has a growing and supportive Indian student community. Indian student associations exist to help newcomers with adaptation, offer academic guidance, and organize cultural events."
+        },
+        {
+          ques: "Is Hungary a safe country for Indian international students?",
+          ans: "Yes, Hungary is generally considered a safe country with low crime rates. The government prioritises the safety of residents and visitors, and major student cities are well-regarded for their security."
+        },
+        {
+          ques: "What are the key visa requirements for Indian students applying to study in Hungary?",
+          ans: "Essential documents include a valid passport, acceptance letter from a Hungarian university, SOP, LOR, proof of funds for tuition and living expenses, health insurance, proof of accommodation, and often a demonstration of English proficiency."
+        },
+        {
+          ques: "What is the typical processing time for a Hungarian student visa from India?",
+          ans: "The processing time for a Hungarian student visa from India usually ranges from 4 to 9 weeks after submitting all documents and attending the interview. It's advisable to apply well in advance of your course start date."
+        },
+        {
+          ques: "Are Hungarian university degrees recognized in India and globally?",
+          ans: "Yes, Hungarian university degrees are highly respected and widely recognised internationally, including in India, due to their adherence to the Bologna Process and European quality assurance standards."
+        },
+        {
+          ques: "How is the connectivity from India to Hungary?",
+          ans: "There are direct and connecting flights from major Indian cities like Delhi and Mumbai to Budapest, making travel relatively convenient and accessible for Indian students."
+        }
+      ]
+    },
+  },
+  
 }
