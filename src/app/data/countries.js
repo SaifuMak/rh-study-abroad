@@ -315,7 +315,7 @@ Few universities offering multiple intakes (February, April, May, October and No
           `,
         leftBackgroundImage: "/images/countries/uk/map.jpg",
         rightImage: {
-          src: "/images/countries/uk/office.jpg",
+          src: "/images/countries/uk/office-11.jpg",
           alt: "Student intake information",
         },
         sectionBg: "#F8F3F5",
@@ -413,13 +413,10 @@ Few universities offering multiple intakes (February, April, May, October and No
         headline: "Study in the Canada",
         bannerImg: "/images/countries/usa/banner.jpg",
         content:
-          ` Canada is a top destination for international students because it offers a safe and welcoming environment,
-           a high-quality education system, and diverse opportunities for academic and personal growth.
-            Students benefit from world-class institutions while enjoying vibrant city life alongside breathtaking natural scenery.
-             Canada is a federation made up of ten provinces—British Columbia, Alberta, Manitoba,
-              New Brunswick, Newfoundland and Labrador, Ontario, Nova Scotia, Quebec, Prince Edward Island,
-               and Saskatchewan—and three territories: the Northwest Territories, Yukon, and Nunavut.
-                The capital city is Ottawa, the official languages are English and French, and the national currency is the Canadian Dollar (CAD).
+          ` Canada is a top destination for international students for several compelling reasons.
+It provides a safe and welcoming environment, a high-quality education system, and
+a variety of opportunities. Students can enjoy vibrant city life and stunning natural
+scenery. Here’s a summary of the benefits of studying in Canada.
             `
       },
       features: {
@@ -1017,7 +1014,7 @@ Few universities offering multiple intakes (February, April, May, October and No
           `
       },
       features: {
-        bgImg: '/images/countries/Ireland/map.png',
+        bgImg: '/images/countries/Ireland/map-1.jpg',
         mainImg: '/images/countries/Ireland/students.jpg',
         altText: 'finland',
         points: [
@@ -1096,7 +1093,7 @@ Few universities offering multiple intakes (February, April, May, October and No
         <strong>September / January</strong><br /> `,
         leftBackgroundImage: "/images/countries/Ireland/map.png",
         rightImage: {
-          src: "/images/countries/Ireland/office.jpg",
+          src: "/images/countries/Ireland/office-1.jpg",
           alt: "Student intake information",
         },
         sectionBg: "#F8F3F5",
@@ -1191,18 +1188,200 @@ Few universities offering multiple intakes (February, April, May, October and No
     image: "/images/home/countries/canada.jpg",
     details: {
       intro: {
-        headline: "Study in France",
-        bannerImg: "/images/banners/france.jpg",
+        headline: "Study in the France",
+        bannerImg: "/images/countries/france/banner.jpg",
         content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac diam sit amet quam vehicula."
+          `France has quickly become a top destination for international students, thanks to a
+          focused effort by its government and academic institutions. Its reputation is
+          supported by its academic strength, with more than 29 French universities listed in
+          the 2025 QS World Rankings.Beyond its academic prestige, France is one of
+          Europe's oldest and largest nations, having maintained its current form since the
+          15th century. It is a global leader in academia, the arts, and gastronomy, and ranks
+          as the world's fourth-wealthiest country. The country's appeal to Indian students has
+          been significantly strengthened by a landmark 2018 intergovernmental agreement on
+          the mutual recognition of academic qualifications. This historic accord, a first for
+          India, ensures that degrees from government-approved institutions in both countries
+          are officially recognised by the other. This facilitates a smoother educational journey
+          and enhances the career prospects of graduates returning to India. Additionally,
+          recent bilateral agreements are fostering closer ties in education and research,
+          making it even easier for Indian students to pursue their studies in France.
+          `
       },
-      features: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Vestibulum ac diam sit amet quam vehicula elementum.",
-        "Donec rutrum congue leo eget malesuada.",
-        "Cras ultricies ligula sed magna dictum porta."
+      features: {
+        bgImg: '/images/countries/france/map-1.jpg',
+        mainImg: '/images/countries/france/students.jpg',
+        altText: 'Ireland',
+        points: [
+          "France is divided into 18 administrative regions, 13 in metropolitan France and 5 in overseas territories.",
+          "Main Cities: Marseille, Lyon, Toulouse, Nice, Bordeaux, Lille, Strasbourg",
+          "Capital: Paris",
+          "Official Language: French",
+          "Currency: Euro"
+        ]
+
+      },
+      whyStudyIn: {
+        title: "Why study in France",
+        bgImg: "/images/countries/france/banner.jpg",
+        description: `Studying in France offers a multitude of benefits, including access to renowned
+          research laboratories, experienced professors dedicated to your academic success,
+          and globally recognised institutions with exceptional learning resources and
+          infrastructure. The capital, Paris, stands as a leading educational centre and a hub
+          for innovation, business, Wine Industry, fashion, and technology. It is a city where
+          Europe’s most astute entrepreneurs are pioneering exciting ventures to address
+          some of the world’s most significant challenges. Furthermore, France provides an
+          outstanding multicultural learning environment, bringing together students from
+          across the globe to create a rich and diverse academic community.
+                                    `,
+        gridClass: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4',
+        points: [
+          {
+            title: "68 Nobel Laureates and 13 Fields Medals",
+            icon: "/images/countries/usa/icons/scholar.svg",
+          },
+          {
+            title: "France is home to 3,500+ higher education institutions",
+            icon: "/images/countries/usa/icons/cash.svg",
+          },
+          {
+            title: "4 French universities in top 100 in the world (QS World Rankings 2024)",
+            icon: "/images/countries/usa/icons/world.svg",
+          },
+          {
+            title: "French is a popular language used all around the world",
+            icon: "/images/countries/usa/icons/cash-in-bag.svg",
+          },
+          {
+            title: "Paris – one among top 10 student cities globally",
+            icon: "/images/countries/usa/icons/connectivity.svg",
+          },
+          {
+            title: "Affordable and Subsidised Education",
+            icon: "/images/countries/usa/icons/globe-in-document.svg",
+          },
+          {
+            title: "Growing Opportunities in a Global Hub",
+            icon: "/images/countries/usa/icons/brain.svg",
+          },
+          {
+            title: "Mutual Recognition of Degrees",
+            icon: "/images/countries/usa/icons/search.svg",
+          },
+          {
+            title: "Exceptional Post-Study Career Prospects",
+            icon: "/images/countries/usa/icons/loop.svg",
+          }
+        ]
+
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/france/workrights.jpg",
+        altText: "Work rights and stay back",
+        points: [
+          "Part time work rights of 20 hours per week",
+          "During Vacation 40 hours per week",
+          "Undergraduates No Stay Back",
+          "Masters Post Study Work Visa up to 2 Years",
+          "5 Years Alumni Circulation Visa (Short Stay Visa)"
+        ]
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>September / January</strong><br /> `,
+        leftBackgroundImage: "/images/countries/france/map.png",
+        rightImage: {
+          src: "/images/countries/france/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+      faqItems: [
+        {
+          ques: "Why should an Indian student consider studying in France?",
+          ans: "France offers a top-notch education at a comparatively lower cost, with many state-funded universities having subsidised tuition fees. It has globally recognised universities, numerous programmes taught in English, and a rich, diverse culture."
+        },
+        {
+          ques: "What are the main differences between public and private universities in France regarding fees?",
+          ans: "Public universities are heavily subsidised by the French government, with tuition fees ranging from approximately €2,800 to €3,800 per year. Private universities and business schools have higher fees, typically ranging from €8,000 to €27,000 annually."
+        },
+        {
+          ques: "What are the living costs like for an Indian student in France?",
+          ans: "The average monthly living cost is estimated to be around €650, but this can vary significantly depending on whether the cities like Lyon, Nantes, and Bordeaux are more affordable."
+        },
+        {
+          ques: "What are the most popular courses for Indian students in France?",
+          ans: "Popular courses include Business and Management (especially MBA and Luxury Brand Management), Engineering and Technology (aerospace, mechanical, and computer science), Data Science and AI, Logistic and supply chain, Hospitality and Culinary Arts."
+        },
+        {
+          ques: "Do Indian students need to know French to study in France?",
+          ans: "No, all programmes, especially those taught in English, many universities and business schools offer programmes entirely in English."
+        },
+        {
+          ques: "What are the language proficiency requirements for an English-taught programme?",
+          ans: "For Indian students, many French business schools offer flexibility by accepting applications without mandatory English proficiency tests. Few top ranked public universities require proof of English proficiency IELTS, GMAT or GRE"
+        },
+        {
+          ques: "What are the different types of student visas available for Indian students?",
+          ans: "The main types are the short-stay visa (Schengen, for up to 90 days), the temporary long-stay visa (for 3-6 months), and the long-stay visa (VLS-TS, for more than 6 months), which is required for full degree programmes."
+        },
+        {
+          ques: "What are the key documents required for a France student visa?",
+          ans: "Essential documents include a valid passport, an admission letter from a French institution, proof of financial resources, proof of health insurance, and all academic documents."
+        },
+        {
+          ques: "What is the role of Campus France for Indian students?",
+          ans: "Campus France is the official French agency for the promotion of higher education. Indian students attend a mandatory academic interview before applying for their visa."
+        },
+        {
+          ques: "Are there any scholarships available for Indian students to study in France?",
+          ans: "Yes, there are several scholarships, (500) including the French Government's Eiffel Excellence Scholarship and the Charpak Scholarship programme, as well as scholarships offered by individual French institutions and joint scholarships with the French Embassy."
+        },
+        {
+          ques: "What is the Charpak Scholarship Programme?",
+          ans: "The Charpak Scholarship Programme is a French government scholarship for Indian students at the Bachelor's, Master's, and research levels. It can offer monthly stipends, a student visa fee waiver, and assistance with accommodation."
+        },
+        {
+          ques: "Can Indian students work part-time while studying in France?",
+          ans: "Yes, international students are allowed to work part-time for up to 964 hours per year, which is equivalent to about 20 hours per week. During vacation 40 hours this can help supplement living costs."
+        },
+        {
+          ques: "How can I find part-time work in France?",
+          ans: "Students can look for jobs in hospitality, retail, tutoring, logistics, delivery jobs, restaurants, supermarkets, or on-campus jobs."
+        },
+        {
+          ques: "What are the post-study work options for international students in France?",
+          ans: "After completing a Master's degree, Indian students can apply for a two-year temporary residence permit called the Autorisation Provisoire de Séjour (APS). This allows them to stay and look for a job."
+        },
+        {
+          ques: "What are some top universities in France for Indian students?",
+          ans: "Highly-ranked and popular institutions include Université PSL, Institut Polytechnique de Paris, Sorbonne University, and business schools like HEC Paris and INSEAD."
+        },
+        {
+          ques: "Is it easy to get a France student visa from India?",
+          ans: "Yes, the process is straightforward if you follow the procedure and provide all the required documents accurately. Timely application and a well-prepared visa file are key."
+        },
+        {
+          ques: "What is the cost of the student visa application and Campus France fee?",
+          ans: "The visa application fee is typically around €50, and the Campus France processing fee is approximately ₹18,500."
+        },
+        {
+          ques: "Can a student's spouse or family be permitted to join them in France?",
+          ans: "No, A student's spouse can only visit on a visitor visa, which is a short-stay visa. A long-term stay is generally not possible until the student secures a work permit after their studies, at which point they can apply to bring their spouse to France through a formal family reunion process."
+        },
+        {
+          ques: "Is France a high-visa refusal country?",
+          ans: "No. You will get your France visa if you submit correct academic documents, provide sufficient proof of funds, and present a clear study plan with a well-defined future plan."
+        },
+        {
+          ques: "What is the Campus France interview and is it mandatory for Indian students?",
+          ans: "Yes, the Campus France interview is a required step for Indian students applying for a long-stay student visa. During the interview, a Campus France Manager will ask you about your reasons for choosing France, Institution, course and your study plan. It's a simple way for them to check your application and your motivation. You just need to be prepared with your documents and be ready to explain your study and career goals clearly"
+        }
       ]
-    }
+
+    },
   },
   germany: {
     name: "Germany",
