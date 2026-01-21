@@ -2607,17 +2607,138 @@ Few universities offering multiple intakes (February, April, May, October and No
     details: {
       intro: {
         headline: "Study in the Netherlands",
-        bannerImg: "/images/banners/netherlands.jpg",
+        bannerImg: "/images/countries/netherlands/banner.jpg",
         content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu erat."
+          `The Netherlands, a proud EU and Schengen country, offers seamless travel across
+            much of Europe. Known for its innovative spirit and high quality of life, it consistently
+            ranks among the happiest nations. Despite its small size, it's the world's
+            second-largest agricultural exporter. Other positive facts include over 1,000 historic
+            windmills, extensive cycling paths (more bikes than people!), and a reputation for
+            tolerance. Its strong economy and English proficiency make it welcoming for
+            international visitors and residents alike.
+          `
       },
-      features: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Curabitur arcu erat, accumsan id imperdiet et.",
-        "Praesent sapien massa, convallis a pellentesque nec.",
-        "Nulla quis lorem ut libero malesuada feugiat."
+      features: {
+        bgImg: '/images/countries/netherlands/map.png',
+        mainImg: '/images/countries/netherlands/students.jpg',
+        altText: 'netherlands',
+
+        "points": [
+          "Capital: Amsterdam",
+          "Official Language: Dutch",
+          "Dutch people also have a high proficiency in English, German, and French",
+          "Currency: Euro",
+          "Main Cities: Rotterdam, The Hague, Utrecht, Eindhoven, Groningen, Breda, Tilburg, Nijmegen, Almere"
+        ]
+
+      },
+      whyStudyIn: {
+        title: "Why study in Netherlands",
+        bgImg: "/images/countries/netherlands/banner.jpg",
+        description: `Dutch universities offer cutting-edge courses and world-class facilities. Their
+                      teaching style fosters teamwork, developing crucial analytical and problem-solving
+                      skills for the global market. Curricula integrate practical elements and excellent
+                      industry partnerships, providing valuable internships. This student-centred approach
+                      ensures graduates are well-prepared for their careers, further enhanced by the
+                      Netherlands' high English proficiency and status as one of the world's safest and
+                      happiest nations.
+                      `,
+        gridClass: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3',
+        points: [
+          {
+            title: "9 Dutch universities rank among the world’s top 200 in QS Rankings, showcasing strong academic and research excellence.",
+            icon: "/images/countries/usa/icons/scholar.svg",
+          },
+          {
+            title: "The Dutch economy is driven by advanced industries such as food processing, chemicals, electronics, and engineering.",
+            icon: "/images/countries/usa/icons/cash.svg",
+          },
+          {
+            title: "As a global business hub and one of the world’s wealthiest nations, the Netherlands offers excellent professional growth opportunities.",
+            icon: "/images/countries/usa/icons/world.svg",
+          },
+          {
+            title: "Key sectors including petroleum refining, metal products, and electrical machinery provide diverse employment options.",
+            icon: "/images/countries/usa/icons/cash-in-bag.svg",
+          },
+          {
+            title: "International graduates enjoy strong post-study career opportunities supported by an innovation-driven economy.",
+            icon: "/images/countries/usa/icons/connectivity.svg",
+          },
+          {
+            title: "Over 2,000 English-taught programmes make Dutch higher education accessible to international students.",
+            icon: "/images/countries/usa/icons/globe-in-document.svg",
+          },
+        ]
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/netherlands/workrights.jpg",
+        altText: "Work rights and stay back",
+        points: [
+          "16 hours per week during studies",
+          "Full-time only during the summer months (June, July, and August).",
+          "Post-Study Work Visa"
+        ]
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>February / September</strong><br /> `,
+        leftBackgroundImage: "/images/countries/netherlands/map.png",
+        rightImage: {
+          src: "/images/countries/netherlands/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+
+      faqItems: [
+        {
+          ques: "Why should Indian students consider studying in the Netherlands?",
+          ans: "The Netherlands offers a high-quality, globally-recognised education system with numerous English-taught programmes. Its universities are known for their modern infrastructure, innovative teaching methods emphasising teamwork and critical thinking, and strong industry connections, providing excellent career prospects."
+        },
+        {
+          ques: "Are Netherlands universities globally recognised?",
+          ans: "Absolutely. The Netherlands boasts an impressive academic landscape, with several of its universities consistently ranking among the top 200 globally in prestigious rankings like the QS World University Rankings, reflecting their academic excellence and research prowess."
+        },
+        {
+          ques: "Is it easy to find English-taught programmes in the Netherlands?",
+          ans: "Yes, remarkably so! Dutch universities offer over 2,000 English-taught programmes across various disciplines, making it a very accessible destination for Indian students who wish to pursue higher education without a Dutch language barrier."
+        },
+        {
+          ques: "How multicultural is the student environment in the Netherlands?",
+          ans: "The Netherlands is a highly multicultural country, and this is reflected in its universities. Roughly one in every ten university students is an international student, creating a diverse and inclusive learning environment where Indian students can interact with peers from across the globe."
+        },
+        {
+          ques: "What are the typical application intakes for Netherlands universities?",
+          ans: "The main intake for Netherlands universities is in September offering the widest range of programmes. There's also a smaller February intake, primarily for certain Master's programmes. Indian students should apply well in advance, especially for the September intake due to visa processing times."
+        },
+        {
+          ques: "What is the estimated cost of living for Indian students in the Netherlands?",
+          ans: "The cost of living varies by city, but generally, Indian students can expect to spend between €680 to €900 (approximately INR 68,000 to INR 90,000) per month, excluding tuition fees. This covers accommodation, food, transportation."
+        },
+        {
+          ques: "Are there scholarships available for Indian students?",
+          ans: "Yes, numerous scholarships are available. Key scholarships include the NL Scholarship (formerly Holland Scholarship) and the Orange Tulip Scholarship, which is specifically aimed at Indian students. Many universities also offer their own merit-based scholarships. The Erasmus Mundus Joint Master's Degrees also provide excellent opportunities."
+        },
+        {
+          ques: "Can Indian students work part-time while studying in the Netherlands?",
+          ans: "Yes, Indian students (non-EU/EEA) are permitted to work up to 16 hours per week during the academic year and full-time during the summer months (June, July, August). An employer will typically need to apply for a work permit (TWV) on your behalf."
+        },
+        {
+          ques: "What is the post-study work visa situation for Indian graduates in the Netherlands?",
+          ans: "Indian graduates are eligible for a one-year This allows them to stay in the Netherlands for 12 months after graduation to search for a job as a highly skilled migrant or to start their own business."
+        },
+        {
+          ques: "How is the job market in the Netherlands for international graduates?",
+          ans: "The Netherlands offers excellent career opportunities for international graduates, particularly in sectors like industrial food processing, petroleum refining, chemicals, electrical machinery, metal products, and electronics. The country's status as a hub for international business and a wealthy nation contributes to a robust job market."
+        }
       ]
-    }
+
+
+    },
   },
   singapore: {
     name: "Singapore",
