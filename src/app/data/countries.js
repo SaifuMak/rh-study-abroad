@@ -1420,18 +1420,137 @@ Few universities offering multiple intakes (February, April, May, October and No
     image: "/images/home/countries/australia.jpg",
     details: {
       intro: {
-        headline: "Study in Switzerland",
-        bannerImg: "/images/banners/switzerland.jpg",
+        headline: "Study in the Switzerland",
+        bannerImg: "/images/countries/switzerland/banner.jpg",
         content:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin molestie malesuada."
+          `Switzerland, a landlocked European nation, is renowned for its stunning Alpine
+          landscapes, pristine lakes, and strict neutrality. A global financial hub, it boasts a
+          robust economy driven by banking, high-tech industries, and precision manufacturing
+          like watches. Known for its high quality of life, direct democracy, and multiculturalism
+          with multiple official languages, Switzerland consistently ranks among the world's
+          safest and most prosperous countries.
+          `
       },
-      features: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Donec sollicitudin molestie malesuada.",
-        "Curabitur aliquet quam id dui posuere blandit.",
-        "Sed porttitor lectus nibh."
+      features: {
+        bgImg: '/images/countries/switzerland/map.png',
+        mainImg: '/images/countries/switzerland/students.jpg',
+        altText: 'switzerland',
+
+        "points": [
+          "Capital: Bern",
+          "Official Languages: German, French, Italian, and Romansh",
+          "Currency: Swiss Franc (CHF)",
+          "Main Cities: Zürich, Geneva, Basel, Lausanne, Lucerne, St. Gallen, Lugano"
+        ]
+
+      },
+      whyStudyIn: {
+        title: "Why study in Switzerland",
+        bgImg: "/images/countries/switzerland/banner.jpg",
+        description: `Switzerland offers world-class education, home to top universities and CERN,
+                      showcasing research excellence. It's the birthplace of hospitality education and a
+                      global finance/banking hub. Studying here provides unparalleled international
+                      exposure within a highly innovative, multicultural environment. Graduates benefit
+                      from strong industry links and a reputation for precision, ensuring a significant
+                      investment in their future careers.
+                      `,
+        gridClass: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3',
+        points: [
+          {
+            title: "Top-ranked Swiss universities within QS World Rankings top 100",
+            icon: "/images/countries/usa/icons/scholar.svg",
+          },
+          {
+            title: "World-class education with highly respected global qualifications",
+            icon: "/images/countries/usa/icons/cash.svg",
+          },
+          {
+            title: "Strong academic learning combined with paid practical internships",
+            icon: "/images/countries/usa/icons/world.svg",
+          },
+          {
+            title: "Excellent networking opportunities with UN bodies and global corporations",
+            icon: "/images/countries/usa/icons/cash-in-bag.svg",
+          },
+          {
+            title: "Internships and scholarships covering up to 40% of study costs",
+            icon: "/images/countries/usa/icons/connectivity.svg",
+          },
+          {
+            title: "Multicultural environment with diverse languages and global exposure",
+            icon: "/images/countries/usa/icons/globe-in-document.svg",
+          }
+        ]
+
+      },
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/switzerland/workrights.jpg",
+        altText: "Work rights and stay back",
+        points: [
+          "Students' work is prohibited for the initial six months of their Swiss residency.",
+          "For the next six months, students are permitted to work 15 hours per week during the academic semester",
+          "6 Months Stay Back"
+        ]
+
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>February / September</strong><br /> `,
+        leftBackgroundImage: "/images/countries/switzerland/map.png",
+        rightImage: {
+          src: "/images/countries/switzerland/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+
+      faqItems: [
+        {
+          ques: "Why should Indian students consider Switzerland for higher education?",
+          ans: "Switzerland offers world-class universities, unparalleled research opportunities (like CERN), a strong economy, and a high quality of life, promising excellent international exposure and career foundations."
+        },
+        {
+          ques: "Are Swiss universities highly ranked globally?",
+          ans: "Absolutely. Several Swiss universities consistently rank within the top 100 globally (e.g., ETH Zurich, EPFL), ensuring a prestigious and highly regarded education."
+        },
+        {
+          ques: "Are programmes taught in English accessible for Indian students?",
+          ans: "Yes, many Bachelors, Masters and PhD programmes, particularly in engineering, sciences, and business, are widely offered in English, making them accessible to Indian students."
+        },
+        {
+          ques: "What are the typical tuition fees for international students in Switzerland?",
+          ans: "Tuition fees are generally much lower than in the UK or US, ranging from CHF 500 – 4,000 per semester at public universities, though private institutions are significantly more expensive."
+        },
+        {
+          ques: "What is the estimated monthly cost of living in Switzerland for students?",
+          ans: "Living costs are high, ranging from CHF 1,000 – 1,500 (€1,070 – €1,600 approx.) per month, primarily driven by accommodation and food expenses, varying by city."
+        },
+        {
+          ques: "Can Indian students work part-time while studying in Switzerland?",
+          ans: "Yes, non-EU/EFTA students can work up to 15 hours per week during the academic semester. However, work is generally prohibited for the initial six months of their stay."
+        },
+        {
+          ques: "Are there full-time work opportunities during holidays?",
+          ans: "Yes, during official university semester breaks and holidays, international students are permitted to work full-time (up to 100%) to gain experience and earn income."
+        },
+        {
+          ques: "What are the post-study work or \"stay back\" options for graduates?",
+          ans: "After graduation, you can apply for a short-term L permit for up to 6 months to search for a job. Securing a long-term work permit afterwards is highly competitive and depends on finding a skilled job."
+        },
+        {
+          ques: "What are the main intake periods for Swiss universities?",
+          ans: "The primary intake is starting September/October with application deadlines for non-EU/EFTA students typically between January and March. A smaller Spring Semester intake also exists."
+        },
+        {
+          ques: "Are scholarships available for Indian students in Switzerland?",
+          ans: "Yes, various scholarships are available, including the prestigious Swiss Government Excellence Scholarships (for PhD/research), university-specific scholarships (e.g., ETH Zurich, EPFL), and private grants."
+        }
       ]
-    }
+
+    },
   },
   austria: {
     name: "Austria",
