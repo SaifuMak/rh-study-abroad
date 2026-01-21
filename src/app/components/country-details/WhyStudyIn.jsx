@@ -35,7 +35,7 @@ export default function WhyStudyIn({ data }) {
                                 </h2>
 
                                 <p
-                                    className="xl:max-w-6xl lg:max-w-4xl xl:text-xl font-light text-white leading-relaxed mb-12"
+                                    className="xl:max-w-6xl lg:max-w-4xl xl:text-xl font-light text-white mb-12"
                                     dangerouslySetInnerHTML={{ __html: data?.description }}
                                 />
 

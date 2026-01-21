@@ -213,16 +213,16 @@ Few universities offering multiple intakes (February, April, May, October and No
   },
   canada: {
     name: "Canada",
-    image: "/images/home/countries/canada.jpg",
+    image: "/images/countries/canada/banner.jpg",
     details: {
       intro: {
         headline: "Study in the Canada",
         bannerImg: "/images/countries/usa/banner.jpg",
         content:
           ` Canada is a top destination for international students for several compelling reasons.
-It provides a safe and welcoming environment, a high-quality education system, and
-a variety of opportunities. Students can enjoy vibrant city life and stunning natural
-scenery. Here’s a summary of the benefits of studying in Canada.
+            It provides a safe and welcoming environment, a high-quality education system, and
+            a variety of opportunities. Students can enjoy vibrant city life and stunning natural
+            scenery. Here’s a summary of the benefits of studying in Canada.
             `
       },
       features: {
@@ -405,10 +405,10 @@ scenery. Here’s a summary of the benefits of studying in Canada.
       ],
     },
   },
- 
+
   'new-zealand': {
     name: "New Zealand",
-    image: "/images/home/countries/new-zealand.jpg",
+    image: "/images/countries/new-zealand/banner.jpg",
     details: {
       intro: {
         headline: "Study in the New Zealand",
@@ -601,7 +601,7 @@ scenery. Here’s a summary of the benefits of studying in Canada.
   },
   Ireland: {
     name: "Ireland",
-    image: "/images/home/countries/uk.jpg",
+    image: "/images/countries/Ireland/banner.jpg",
     details: {
       intro: {
         headline: "Study in the Ireland",
@@ -794,7 +794,7 @@ scenery. Here’s a summary of the benefits of studying in Canada.
   },
   france: {
     name: "France",
-    image: "/images/home/countries/canada.jpg",
+    image: "/images/countries/france/banner.jpg",
     details: {
       intro: {
         headline: "Study in the France",
@@ -995,7 +995,7 @@ scenery. Here’s a summary of the benefits of studying in Canada.
 
   sweden: {
     name: "Sweden",
-    image: "/images/home/countries/canada.jpg",
+    image: "/images/countries/sweden/banner.jpg",
     details: {
       intro: {
         headline: "Study in the Sweden",
@@ -1188,7 +1188,7 @@ scenery. Here’s a summary of the benefits of studying in Canada.
   },
   switzerland: {
     name: "Switzerland",
-    image: "/images/home/countries/australia.jpg",
+    image: "/images/countries/switzerland/banner.jpg",
     details: {
       intro: {
         headline: "Study in the Switzerland",
@@ -1325,7 +1325,7 @@ scenery. Here’s a summary of the benefits of studying in Canada.
   },
   austria: {
     name: "Austria",
-    image: "/images/home/countries/new-zealand.jpg",
+    image: "/images/countries/austria/banner.jpg",
     details: {
       intro: {
         headline: "Study in the Austria",
@@ -1355,7 +1355,7 @@ scenery. Here’s a summary of the benefits of studying in Canada.
         ]
       },
       whyStudyIn: {
-        title: "Why study in Ireland",
+        title: "Why study in Austria",
         bgImg: "/images/countries/austria/banner.jpg",
         description: `For Indian students, Austria presents a compelling study abroad option. It offers a
             relatively straightforward work permit system and a vibrant job market primarily
@@ -1512,7 +1512,7 @@ scenery. Here’s a summary of the benefits of studying in Canada.
   },
   denmark: {
     name: "Denmark",
-    image: "/images/home/countries/uk.jpg",
+    image: "/images/countries/denmark/banner.jpg",
     details: {
       intro: {
         headline: "Study in the Denmark",
@@ -1531,7 +1531,7 @@ scenery. Here’s a summary of the benefits of studying in Canada.
       features: {
         bgImg: '/images/countries/denmark/map.png',
         mainImg: '/images/countries/denmark/students.jpg',
-        altText: 'Sweden',
+        altText: 'Denmark',
         points: [
           "Capital: Copenhagen",
           "Official Language: Danish",
@@ -1541,7 +1541,7 @@ scenery. Here’s a summary of the benefits of studying in Canada.
 
       },
       whyStudyIn: {
-        title: "Why study in Sweden",
+        title: "Why study in Denmark",
         bgImg: "/images/countries/denmark/banner.jpg",
         description: `Denmark is home to top-tier universities, with several regularly featured in the QS
                         World University Rankings, including the University of Copenhagen, Technical
@@ -1711,7 +1711,7 @@ scenery. Here’s a summary of the benefits of studying in Canada.
   },
   finland: {
     name: "Finland",
-    image: "/images/home/countries/canada.jpg",
+    image: "/images/countries/finland/banner.jpg",
     details: {
       intro: {
         headline: "Study in the Finland",
@@ -1906,7 +1906,7 @@ scenery. Here’s a summary of the benefits of studying in Canada.
   },
   malta: {
     name: "Malta",
-    image: "/images/home/countries/australia.jpg",
+    image: "/images/countries/malta/banner.jpg",
     details: {
       intro: {
         headline: "Study in the Malta",
@@ -2068,18 +2068,18 @@ scenery. Here’s a summary of the benefits of studying in Canada.
   },
   Italy: {
     name: "Italy",
-    image: "/images/home/countries/new-zealand.jpg",
+    image: "/images/countries/Italy/banner.jpg",
     details: {
       intro: {
         headline: "Study in the Italy",
         bannerImg: "/images/countries/usa/banner.jpg",
         content:
           `Italy boasts a long and distinguished academic history, being home to some of the world's oldest universities, like the University of Bologna (founded in 1088). Its institutions offer high-quality, internationally recognised degrees, particularly strong in fields such as art, fashion, design, architecture, engineering, luxury brand management, automotive design, or culinary arts, and the humanities.
-            <br /><br/>
+            <br />
             Compared to other popular study destinations like the UK or USA, Italy generally offers significantly lower tuition fees, especially at public universities. Furthermore, the overall cost of living, including accommodation, food, and transport, is often more manageable, making it an economically attractive option.
-            <br /><br/>
+            <br />
             Studying in Italy provides an unparalleled opportunity to immerse yourself in a vibrant and historically rich culture. From ancient Roman ruins to Renaissance art, iconic architecture, and world-famous cuisine, every corner of Italy offers a unique and enriching experience that extends far beyond the classroom.
-            <br /><br/>
+            <br />
             While many programmes are now taught in English, studying in Italy provides an immersive environment to learn Italian, a beautiful and influential language. Becoming bilingual can significantly enhance future career prospects, particularly in sectors like tourism, international relations, and fashion.
 
           `
@@ -2215,7 +2215,7 @@ scenery. Here’s a summary of the benefits of studying in Canada.
   },
   latvia: {
     name: "Latvia",
-    image: "/images/home/countries/uk.jpg",
+    image: "/images/countries/Latvia/banner.jpg",
     details: {
       intro: {
         headline: "Study in the Latvia",
@@ -2374,7 +2374,7 @@ scenery. Here’s a summary of the benefits of studying in Canada.
   },
   netherlands: {
     name: "Netherlands",
-    image: "/images/home/countries/canada.jpg",
+    image: "/images/countries/netherlands/banner.jpg",
     details: {
       intro: {
         headline: "Study in the Netherlands",
@@ -2513,7 +2513,7 @@ scenery. Here’s a summary of the benefits of studying in Canada.
   },
   singapore: {
     name: "Singapore",
-    image: "/images/home/countries/australia.jpg",
+    image: "/images/countries/singapore/banner.jpg",
     details: {
       intro: {
         headline: "Study in the Singapore",
@@ -2681,7 +2681,7 @@ scenery. Here’s a summary of the benefits of studying in Canada.
 
   dubai: {
     name: "Dubai",
-    image: "/images/home/countries/uk.jpg",
+    image: "/images/countries/dubai/banner.jpg",
     details: {
       intro: {
         headline: "Study in the Dubai",
@@ -2707,7 +2707,7 @@ scenery. Here’s a summary of the benefits of studying in Canada.
       features: {
         bgImg: '/images/countries/dubai/map.png',
         mainImg: '/images/countries/dubai/students.jpg',
-        altText: 'Austria',
+        altText: 'Dubai',
 
         points: [
           "Dubai is internationally renowned for its record-breaking architecture and world-class attractions such as the Burj Khalifa, Palm Jumeirah, Dubai Mall, and Dubai Frame. At the same time, while Islam is the official religion, the city is widely recognised for its openness, religious tolerance, and multicultural environment, where people from diverse nationalities, cultures, and faiths live and work together harmoniously.",
@@ -2885,7 +2885,7 @@ scenery. Here’s a summary of the benefits of studying in Canada.
 
   spain: {
     name: "Spain",
-    image: "/images/home/countries/uk.jpg",
+    image: "/images/countries/dubai/banner.jpg",
     details: {
       intro: {
         headline: "Study in the Spain",
@@ -3043,7 +3043,7 @@ scenery. Here’s a summary of the benefits of studying in Canada.
 
   hungary: {
     name: "Hungary",
-    image: "/images/home/countries/uk.jpg",
+    image: "/images/countries/hungary/banner.jpg",
     details: {
       intro: {
         headline: "Study in the Hungary",
@@ -3194,7 +3194,7 @@ scenery. Here’s a summary of the benefits of studying in Canada.
 
   slovenia: {
     name: "Slovenia",
-    image: "/images/home/countries/uk.jpg",
+    image: "/images/countries/slovenia/banner.jpg",
     details: {
       intro: {
         headline: "Study in the Slovenia",
@@ -3334,7 +3334,7 @@ Finding suitable accommodation in Slovenia is generally simple and cost-effectiv
 
   norway: {
     name: "Norway",
-    image: "/images/home/countries/uk.jpg",
+    image: "/images/countries/norway/banner.jpg",
     details: {
       intro: {
         headline: "Study in the Norway",
@@ -3494,7 +3494,7 @@ Finding suitable accommodation in Slovenia is generally simple and cost-effectiv
 
   slovakia: {
     name: "Slovakia",
-    image: "/images/home/countries/uk.jpg",
+    image: "/images/countries/slovakia/banner.jpg",
     details: {
       intro: {
         headline: "Study in the Slovakia",
@@ -3627,7 +3627,7 @@ Finding suitable accommodation in Slovenia is generally simple and cost-effectiv
 
   lithuania: {
     name: "Lithuania",
-    image: "/images/home/countries/uk.jpg",
+    image: "/images/countries/lithuania/banner.jpg",
     details: {
       intro: {
         headline: "Study in the Lithuania",
