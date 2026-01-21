@@ -3871,4 +3871,150 @@ Finding suitable accommodation in Slovenia is generally simple and cost-effectiv
   },
 
 
+  lithuania: {
+    name: "Lithuania",
+    image: "/images/home/countries/uk.jpg",
+    details: {
+      intro: {
+        headline: "Study in the Lithuania",
+        bannerImg: "/images/countries/slovakia/banner.jpg",
+        content:
+          `Lithuania, a modern Northern European country, is a proud EU and Schengen
+            member, ensuring effortless European travel. Known for its picturesque landscapes
+            of forests and lakes, it offers a high quality of life. Foreigners are warmly welcomed,
+            with English widely spoken, complementing its status as an EU leader in fast,
+            affordable internet. The capital, Vilnius, boasts a stunning Baroque Old Town, and
+            Lithuanians are celebrated for their hospitality and the country's safety.
+          `
+      },
+      features: {
+        bgImg: '/images/countries/lithuania/map.png',
+        mainImg: '/images/countries/lithuania/students.jpg',
+        altText: 'lithuania',
+
+        "points": [
+          "Capital: Vilnius",
+          "Currency: Euro",
+          "Official Language: Lithuanian, English is widely spoken, especially by younger generations.",
+          "Main Cities: Kaunas, Klaipeda, Siauliai, Panevezys"
+        ]
+
+      },
+      whyStudyIn: {
+        title: "Why study in Lithuania",
+        bgImg: "/images/countries/lithuania/banner.jpg",
+        description: `Lithuania is an attractive study destination offering high-quality education at affordable tuition fees
+          and low living costs compared to many European countries. Universities provide a wide range of English-taught programmes
+          supported by modern infrastructure and strong academic standards. International students benefit from a straightforward
+          visa process, generous state scholarships, and high visa approval rates. With a safe, friendly society, vibrant student life,
+          and easy access to other European countries,
+          Lithuania delivers excellent value and a rewarding international education experience.
+                      `,
+        gridClass: 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3',
+        points: [
+          {
+            title: "Lithuania has a relatively straightforward visa application process compared to many other European countries.",
+            icon: "/images/countries/usa/icons/scholar.svg",
+          },
+          {
+            title: "International students can apply for Lithuanian state scholarships, including full tuition coverage and living stipends.",
+            icon: "/images/countries/usa/icons/cash.svg",
+          },
+          {
+            title: "Living costs in Lithuania are significantly lower than in Western Europe, making it a budget-friendly study destination.",
+            icon: "/images/countries/usa/icons/world.svg",
+          },
+          {
+            title: "Lithuanians are known for their friendly nature, with a high student visa approval rate of 98.7%, creating a welcoming environment.",
+            icon: "/images/countries/usa/icons/cash-in-bag.svg",
+          },
+          {
+            title: "High-quality education is offered at comparatively lower tuition fees, providing excellent value for international students.",
+            icon: "/images/countries/usa/icons/connectivity.svg",
+          },
+          {
+            title: "Lithuania offers a rich cultural experience, vibrant student life, and easy access to other European countries, with support services at many universities.",
+            icon: "/images/countries/usa/icons/globe-in-document.svg",
+          }
+        ]
+      },
+
+      workRights: {
+        title: "Workrights and Stayback",
+        bgImage: "/images/countries/lithuania/workrights.jpg",
+        altText: "Work rights and stay back",
+        points: [
+          "20 hours per week during studies",
+          "40 hours per week during vacation and university holidays",
+          "Post study work visa 1 year"
+        ]
+      },
+
+      intakes: {
+        title: "Intakes",
+        descriptionHtml: `
+        <strong>February / September</strong><br /> `,
+        leftBackgroundImage: "/images/countries/lithuania/map.png",
+        rightImage: {
+          src: "/images/countries/lithuania/office.jpg",
+          alt: "Student intake information",
+        },
+        sectionBg: "#F8F3F5",
+      },
+
+      faqItems: [
+        {
+          ques: "Why is Lithuania becoming an attractive study destination for Indian students?",
+          ans: "Lithuania offers high-quality, English-taught education at comparatively affordable tuition fees and living costs. Its vibrant culture, welcoming environment, fast internet, and straightforward visa process also make it appealing."
+        },
+        {
+          ques: "Are Lithuanian universities globally recognised?",
+          ans: "Yes, several Lithuanian universities, such as Vilnius University, Kaunas University of Technology, and Vilnius Gediminas Technical University (VILNIUS TECH), are consistently ranked among the top global universities by international ranking systems like QS World University Rankings."
+        },
+        {
+          ques: "How extensive are English-taught programmes in Lithuania?",
+          ans: "Lithuanian universities offer a growing number of Bachelors, Masters, and PhD programmes taught entirely in English across various fields, making them highly accessible for Indian students."
+        },
+        {
+          ques: "What are the main intake periods for universities in Lithuania?",
+          ans: "The primary intake is in September with a wider range of programmes. There's also a smaller February intake, typically for selected Masters programmes."
+        },
+        {
+          ques: "What is the estimated cost of living for Indian students in Lithuania?",
+          ans: "The cost of living is quite affordable compared to Western Europe, ranging from €350 to €450 per month (approximately INR 36,000 to INR 45,000), covering accommodation, food, transportation, and personal expenses."
+        },
+        {
+          ques: "What are the tuition fees like for international students in Lithuania?",
+          ans: "Tuition fees are generally lower than in many other EU countries. Bachelors programmes can range from €1,300 to €3,500 per year, while Masters programmes typically range from €2,300 to €8,500 per year, depending on the university and programme."
+        },
+        {
+          ques: "Are there scholarships available for Indian students in Lithuania?",
+          ans: "Yes, Indian students can apply for Lithuanian state scholarships, which can offer full tuition fee waivers and monthly stipends. Universities also provide their own scholarships, and the Erasmus Mundus Joint Master's Degrees are another excellent option."
+        },
+        {
+          ques: "What are the work rights for Indian students during their studies in Lithuania?",
+          ans: "Indian students (non-EU/EEA) are allowed to work part-time for up to 20 hours per week. Notably, Master's and PhD students with a Temporary Residence Permit for studies can work full-time (up to 40 hours per week) during their studies."
+        },
+        {
+          ques: "What is the post-study work visa duration for graduates in Lithuania?",
+          ans: "After graduation, non-EU/EEA students are eligible for a 12-month Temporary Residence Permit specifically for job search or self-employment purposes. No additional work permit is needed during this period if employment is secured."
+        },
+        {
+          ques: "What popular fields of study attract international students in Lithuania?",
+          ans: "Popular fields include Social Sciences, Business Management, IT and Computer Sciences, Engineering, Medicine, Nursing Law, and various arts and humanities programmes."
+        },
+        {
+          ques: "How safe is Lithuania for international students?",
+          ans: "Lithuania is generally considered a safe country. While petty crime like pickpocketing can occur in crowded areas, exercising normal precautions, as one would in any major city, is usually sufficient."
+        },
+        {
+          ques: "What kind of support services can Indian students expect from Lithuanian universities?",
+          ans: "Many universities offer comprehensive support, including assistance with visa and residence permit applications, scholarship guidance, pre-arrival information, orientation programmes, academic counselling, placement assistance and social activities to aid in integration."
+        }
+      ]
+
+    },
+  },
+
+
 }
