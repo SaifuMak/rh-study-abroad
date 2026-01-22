@@ -5,24 +5,24 @@ import useGsapOpacity from "@/app/hooks/gsap/useGsapOpacity"
 export default function StudyHighlights({ data }) {
 
     const contentRef = useGsapFadeIn()
-    const ImageRef = useGsapOpacity()
+    const ImageRef = useGsapFadeIn()
 
   return (
-    <section className="w-full flex  justify-end bg-[#F3F3F3] mb-10 xl:pt-12">
-      <div className=" max-md:max-w-11/12 lg:pl-10  2xl:w-11/12 max-lg:mx-auto ">
+    <section className="w-full flex   justify-end bg-[#F3F3F3] mb-10 max-md:pb-10 xl:pt-12">
+      <div className=" max-md:max-w-11/12 md:w-11/12 max-lg:mx-auto ">
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-12 max-lg:py-6 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-12 max-lg:py-6">
 
           {/* LEFT SIDE – Background Image + Content */}
           <div
-            className="relative  grayscale h-full max-lg:mt-8 max-lg:order-2 bg-contain bg-no-repeat bg-center"
+            className="relative   h-full max-lg:mt-4 max-lg:order-2 bg-contain  bg-no-repeat bg-center"
             style={{ backgroundImage: `url(${data?.bgImg})` }}
 
           >
             {/* Optional overlay for readability */}
-            <div className="absolute inset-0  bg-[#F3F3F3]/90 "></div>
+            <div className="absolute inset-0  bg-[#F3F3F3]/95 "></div>
 
-            <div ref={contentRef} className="relative flex-center  h-full z-10 lg:pb-10">
+            <div ref={contentRef} className="relative flex-center   h-full z-10 lg:pb-10">
               <ul className="xl:space-y-5 space-y-3 text-[#4A4A4A] xl:text-lg 2xl:text-xl leading-relaxed">
 
                 {data?.points?.map((item, index) => (
