@@ -15,7 +15,7 @@ export default function MainHeader() {
 
   const MENU_ITEMS = [
     { label: "HOME", href: "/" },
-    { label: "ABOUT", href: "/about-us" },
+    { label: "ABOUT", href: "/about" },
     { label: "STUDY ABROAD", href: "/countries" },
     { label: "STUDENT SERVICES", href: "/services" },
   ]

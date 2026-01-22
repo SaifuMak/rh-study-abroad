@@ -2,6 +2,7 @@
 import React from "react"
 import { sansita } from '../../fonts';
 import useGsapFadeIn from '@/app/hooks/gsap/useGsapFadeIn';
+import Link from "next/link";
 
 export default function ContactSection() {
 
@@ -33,12 +34,13 @@ export default function ContactSection() {
           </p>
 
           <div className="flex justify-center">
-            <button className="xl:mt-12 mt-7  rounded-full  bg-white text-[#7a1d2b] max-lg:text-sm font-medium btn-primary ">
-              CONTACT US
-            </button>
+            <Link href="/contact-us">
+              <button className="xl:mt-12 mt-7 cursor-pointer  rounded-full  bg-white text-[#7a1d2b] max-lg:text-sm font-medium btn-primary ">
+                CONTACT US
+              </button>
+            </Link>
           </div>
 
-      
         </div>
       </div>
     </section>

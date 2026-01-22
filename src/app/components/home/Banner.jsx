@@ -1,6 +1,7 @@
 import React from 'react'
 import { istokWeb, inriaSans } from '../../fonts';
 import useGsapFadeIn from '@/app/hooks/gsap/useGsapFadeIn';
+import Link from "next/link";
 
 function Banner() {
   const contentRef = useGsapFadeIn()
@@ -19,9 +20,17 @@ function Banner() {
           <h1 className={`${istokWeb.className} text-3xl  md:text-5xl lg:text-7xl xl:leading-20 `}>Study Abroad,<br />
             Live your Dream Life</h1>
           <div className="flex mt-5 items-center max-lg:text-xs  space-x-5">
-            <button className=" btn-primary flex-center  text-primary-red bg-white rounded-full">CONTACT US</button>
+            <Link href="/contact-us">
+              <button className="btn-primary flex-center cursor-pointer text-primary-red bg-white rounded-full">
+                CONTACT US
+              </button>
+            </Link>
 
-            <button className=" btn-primary flex-center bg-primary-red text-white rounded-full">OUR STORY</button>
+            <Link href="/about">
+              <button className="btn-primary flex-center cursor-pointer bg-primary-red text-white rounded-full">
+                OUR STORY
+              </button>
+            </Link>
           </div>
         </div>
 

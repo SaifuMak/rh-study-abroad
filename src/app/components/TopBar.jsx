@@ -16,7 +16,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger"
 
 gsap.registerPlugin(ScrollTrigger)
 
-export default function TopBar({isDark=false}) {
+export default function TopBar({ isDark = false }) {
   const barRef = useRef(null)
 
   useEffect(() => {
@@ -26,7 +26,7 @@ export default function TopBar({isDark=false}) {
         backgroundColor: "#771D40",
       })
 
-      if(isDark) return
+      if (isDark) return
 
       gsap.to(barRef.current, {
         backgroundColor: "rgba(255, 255, 255, 0.15)", // light glass
@@ -47,30 +47,41 @@ export default function TopBar({isDark=false}) {
   return (
     <div
       ref={barRef}
-      className={`w-full ${isDark && 'bg-[#771D40]'} text-white font-light backdrop-blur-md transition-colors z-999 max-sm:text-xs max-xl:text-sm`}
+      className={`w-full ${isDark && ' bg-primary-red'} text-white font-light backdrop-blur-md transition-colors z-999 max-sm:text-xs max-xl:text-sm`}
     >
       <div className="xl:max-w-10/12 lg:max-w-10/12 max-lg:px-5 mx-auto px-4 py-4 flex max-md:flex-col justify-between  md:items-center">
 
         {/* Left */}
         <div className="flex max-md:flex-col  justify-between md:items-center gap-2 md:gap-6">
           <span className="flex items-center">
-            <IoMdMail className="mr-1 md:text-xl " />
-            mail@rhstudyabroad.com
+            <a
+              href="mailto:mail@rhstudyabroad.com"
+              className="flex items-center hover:underline"
+            >
+              <IoMdMail className="mr-1 md:text-xl" />
+              mail@rhstudyabroad.com
+            </a>
           </span>
 
           <span className="flex md:items-center">
-            <HiLocationMarker className="mr-1 md:text-xl" />
-            Ambakkadan Jn, P.I.K Tower, St Thomas College Rd, Thrissur
+            <a
+              href="https://maps.app.goo.gl/tdSqLnxwkSDX57Y86"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center hover:underline"
+            >
+              <HiLocationMarker className="mr-1 md:text-xl" />
+              Ambakkadan Jn, P.I.K Tower, St Thomas College Rd, Thrissur
+            </a>
           </span>
         </div>
 
         {/* Right */}
         <div className="flex md:items-center text-base md:text-xl max-md:mt-2  gap-4">
-          <Link href="#"><IoLogoFacebook /></Link>
-          <Link href="#"><FaInstagram /></Link>
+          <Link href="https://www.facebook.com/rhstudy.in/"  target="_blank" rel="noopener noreferrer"><IoLogoFacebook /></Link>
+          <Link href="https://www.instagram.com/rhstudy.in/?hl=en" target="_blank" rel="noopener noreferrer" ><FaInstagram /></Link>
           <Link href="#"><FaWhatsapp /></Link>
-          <Link href="#"><SlSocialLinkedin /></Link>
-          <Link href="#"><SiGoogle /></Link>
+          <Link href="https://in.linkedin.com/company/rh-study" target="_blank" rel="noopener noreferrer"><SlSocialLinkedin /></Link>
         </div>
 
       </div>

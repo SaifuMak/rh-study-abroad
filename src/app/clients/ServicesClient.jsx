@@ -1,6 +1,4 @@
 'use client'
-
-
 import React from 'react'
 import TopBar from '../components/TopBar'
 import MainHeader from '../components/MainHeader'

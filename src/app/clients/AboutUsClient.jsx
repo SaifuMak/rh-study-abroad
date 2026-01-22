@@ -1,13 +1,13 @@
 'use client'
 
 import React from 'react'
-import IntroSection from '../components/about-us/IntroSection'
+import IntroSection from '../components/about/IntroSection'
 import TopBar from '../components/TopBar'
 import MainHeader from '../components/MainHeader'
 import SmoothScroll from '../components/SmoothScroll'
-import WhoWeAre from '../components/about-us/WhoWeAre'
-import MissionVision from '../components/about-us/MissionVision'
-import GallerySection from '../components/about-us/GallerySection'
+import WhoWeAre from '../components/about/WhoWeAre'
+import MissionVision from '../components/about/MissionVision'
+import GallerySection from '../components/about/GallerySection'
 import Footer from '../components/Footer'
 
 function AboutUsClient() {

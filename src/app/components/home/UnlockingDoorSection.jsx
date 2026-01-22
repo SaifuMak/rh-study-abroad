@@ -1,6 +1,7 @@
 import { sansita } from '../../fonts';
 import useGsapFadeIn from "@/app/hooks/gsap/useGsapFadeIn";
 import useGsapOpacity from "@/app/hooks/gsap/useGsapOpacity";
+import Link from 'next/link';
 
 function UnlockingDoorSection() {
 
@@ -51,9 +52,11 @@ function UnlockingDoorSection() {
                         networks, and top-tier education come together to shape a truly
                         international future.
                     </p>
+                     <Link href="/contact-us">
                     <button className="xl:mt-8 mt-5 btn-primary cursor-pointer  text-sm rounded-full bg-primary-red text-white">
                         CONTACT US
                     </button>
+                    </Link>
                 </div>
 
                 {/* Right image */}

@@ -2,6 +2,7 @@
 import React from "react"
 import { sansita } from '../../fonts';
 import useGsapFadeIn from '@/app/hooks/gsap/useGsapFadeIn';
+import Link from "next/link";
 
 export default function ContactSection() {
 
@@ -32,23 +33,24 @@ export default function ContactSection() {
             Take the first step toward global opportunities,
             world-class education, and life-changing experiences
           </p>
-
-          <div className="flex justify-center">
-            <button className="mt-8  rounded-full  bg-white text-[#7a1d2b] max-lg:text-sm font-medium btn-primary ">
-              CONTACT US
-            </button>
-          </div>
-
+          <Link href="/contact-us">
+            <div className="flex justify-center">
+              <button className="mt-8 cursor-pointer rounded-full  bg-white text-[#7a1d2b] max-lg:text-sm font-medium btn-primary ">
+                CONTACT US
+              </button>
+            </div>
+          </Link>
+ 
           {/* Icons */}
           <div className="lg:mt-10 mt-8 flex max-md:flex-col  w-full items-center justify-center  mx-auto md:gap-6 gap-3 text-sm">
             <span className="text-lg">Connect With Us:</span>
 
             <div className="flex gap-4">
-              <SocialIcon src="/images/social/fb.svg" alt="Facebook" />
-              <SocialIcon src="/images/social/insta.svg" alt="Instagram" />
-              <SocialIcon src="/images/social/whatsapp.svg" alt="WhatsApp" />
-              <SocialIcon src="/images/social/linkedin.svg" alt="LinkedIn" />
-              <SocialIcon src="/images/social/google.svg" alt="Google" />
+              <SocialIcon href="https://www.facebook.com/rhstudy.in/" src="/images/social/fb.svg" alt="Facebook" />
+              <SocialIcon href="https://www.instagram.com/rhstudy.in/?hl=en" src="/images/social/insta.svg" alt="Instagram" />
+              <SocialIcon href="#" src="/images/social/whatsapp.svg" alt="WhatsApp" />
+              <SocialIcon href="https://in.linkedin.com/company/rh-study" src="/images/social/linkedin.svg" alt="LinkedIn" />
+
             </div>
 
           </div>
@@ -59,14 +61,16 @@ export default function ContactSection() {
   )
 }
 
-function SocialIcon({ src, alt }) {
+function SocialIcon({href, src, alt }) {
   return (
-        <div className=" size-5 cursor-pointer">
-          <img
-            src={src}
-            alt={alt}
-            className="w-full h-full"
-          />
-        </div>
-      );
+    <div className=" size-5 cursor-pointer">
+      <Link href={href}  target="_blank" rel="noopener noreferrer">
+      <img
+        src={src}
+        alt={alt}
+        className="w-full h-full"
+      />
+      </Link>
+    </div>
+  );
 }

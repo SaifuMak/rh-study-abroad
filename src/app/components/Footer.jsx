@@ -1,6 +1,7 @@
 'use client';
 import React, { useState } from "react";
 import { RxCross2 } from "react-icons/rx";
+import Link from "next/link";
 
 export default function Footer() {
     const [email, setEmail] = useState("");
@@ -29,8 +30,10 @@ export default function Footer() {
                 {/* Top section */}
                 <div className="">
                     <div className=" font-medium  border-b border-white/20 mx-auto xl:py-10 py-5 flex flex-col md:flex-row items-center justify-between max-lg:space-y-5  md:space-x-5  lg:space-x-10 ">
-                        <img src="/images/logo.png" alt="RH Study Abroad" className="xl:h-16 lg:h-10 h-7" />
 
+                        <Link href="/">
+                            <img src="/images/logo.png" alt="RH Study Abroad" className="xl:h-16 lg:h-10 h-7" />
+                        </Link>
                         <div className="bg-white/50 h-12  max-md:hidden lg:h-20 lg:ml-20  w-[2px]"></div>
 
                         <div className=" flex-1 flex max-md:flex-col items-center text-white md:space-x-10 2xl:space-x-20 w-full md:w-auto">
@@ -71,15 +74,48 @@ export default function Footer() {
                         <div>
                             <h4 className={subtileStyle}>Contact</h4>
                             <p>
-                                Ambakkadan Jn, P.I.K Tower,
-                                <br />
-                                St Thomas College Rd, Thrissur,
-                                <br />
-                                Kerala 680001
+                                <a
+                                    href="https://maps.app.goo.gl/tdSqLnxwkSDX57Y86"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="hover:underline cursor-pointer"
+                                >
+                                    Ambakkadan Jn, P.I.K Tower,
+                                    <br />
+                                    St Thomas College Rd, Thrissur,
+                                    <br />
+                                    Kerala 680001
+                                </a>
                             </p>
+
                             <p className="mt-4 flex items-center">
-                                <img src="/Icons/mail.svg" alt="" className=" size-4 md:size-5 mr-2 " />info@rhstudyabroad.com</p>
-                            <p className="mt-2 flex items-center"> <img src="/Icons/phone.svg" alt="" className=" size-4 md:size-5 mr-2 " />+91 9544 22 11 55</p>
+                                <a
+                                    href="mailto:info@rhstudyabroad.com"
+                                    className="flex items-center hover:underline cursor-pointer"
+                                >
+                                    <img
+                                        src="/Icons/mail.svg"
+                                        alt="Email"
+                                        className="size-4 md:size-5 mr-2"
+                                    />
+                                    info@rhstudyabroad.com
+                                </a>
+                            </p>
+
+                            <p className="mt-2 flex items-center">
+                                <a
+                                    href="tel:+919544221155"
+                                    className="flex items-center hover:underline cursor-pointer"
+                                >
+                                    <img
+                                        src="/Icons/phone.svg"
+                                        alt="Phone"
+                                        className="size-4 md:size-5 mr-2"
+                                    />
+                                    +91 9544 22 11 55
+                                </a>
+                            </p>
+
                         </div>
 
                         <div className=" 2xl:space-x-42 lg:space-x-28 md:space-x-10 justify-between max-md:flex-col max-md:space-y-8 flex  ">
@@ -87,11 +123,11 @@ export default function Footer() {
                             <div className="">
                                 <h4 className={subtileStyle}>Explore</h4>
                                 <ul className="space-y-2">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Study Abroad</a></li>
-                                    <li><a href="#">Student Services</a></li>
-                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="about">About</a></li>
+                                    <li><a href="/countries">Study Abroad</a></li>
+                                    <li><a href="/services">Student Services</a></li>
+                                    <li><a href="/contact-us">Contact</a></li>
                                 </ul>
                             </div>
 
@@ -99,11 +135,10 @@ export default function Footer() {
                             <div>
                                 <h4 className={subtileStyle}>Top Countries</h4>
                                 <ul className="space-y-2">
-                                    <li><a href="#">United States of America</a></li>
-                                    <li><a href="#">United Kingdom</a></li>
-                                    <li><a href="#">Canada</a></li>
-                                    <li><a href="#">Australia</a></li>
-                                    <li><a href="#">New Zealand</a></li>
+                                    <li><a href="/countries/uk">United Kingdom</a></li>
+                                    <li><a href="/countries/canada">Canada</a></li>
+                                    <li><a href="/countries/austria">austria</a></li>
+                                    <li><a href="/countries/new-zealand">New Zealand</a></li>
                                 </ul>
                             </div>
 
@@ -111,11 +146,10 @@ export default function Footer() {
                             <div>
                                 <h4 className={subtileStyle}>MBBS Abroad</h4>
                                 <ul className="space-y-2">
-                                    <li><a href="#">UK</a></li>
-                                    <li><a href="#">Poland</a></li>
-                                    <li><a href="#">Romania</a></li>
-                                    <li><a href="#">Lithuania</a></li>
-                                    <li><a href="#">Bulgaria</a></li>
+                                    <li><a href="/countries/uk">UK</a></li>
+                                    {/* <li><a href="/countries/uk">Poland</a></li> */}
+                                    <li><a href="/countries/lithuania">Lithuania</a></li>
+
                                 </ul>
                             </div>
 
@@ -149,11 +183,11 @@ export default function Footer() {
 
                         {/* Social icons */}
                         <div className="flex gap-4">
-                            <SocialIcon src="/images/social/fb.svg" alt="Facebook" />
-                            <SocialIcon src="/images/social/insta.svg" alt="Instagram" />
-                            <SocialIcon src="/images/social/whatsapp.svg" alt="WhatsApp" />
-                            <SocialIcon src="/images/social/linkedin.svg" alt="LinkedIn" />
-                            <SocialIcon src="/images/social/google.svg" alt="Google" />
+                            <SocialIcon href="https://www.facebook.com/rhstudy.in/" src="/images/social/fb.svg" alt="Facebook" />
+                            <SocialIcon href="https://www.instagram.com/rhstudy.in/?hl=en" src="/images/social/insta.svg" alt="Instagram" />
+                            <SocialIcon href="#" src="/images/social/whatsapp.svg" alt="WhatsApp" />
+                            <SocialIcon href="https://in.linkedin.com/company/rh-study" src="/images/social/linkedin.svg" alt="LinkedIn" />
+
                         </div>
                     </div>
                 </div>
@@ -163,10 +197,12 @@ export default function Footer() {
 }
 
 
-function SocialIcon({ src, alt }) {
+function SocialIcon({ href, src, alt }) {
     return (
-        <div className="md:size-5 size-4 cursor-pointer">
-            <img src={src} alt={alt} className="w-full h-full" />
-        </div>
+        <Link href={href} target="_blank" rel="noopener noreferrer">
+            <div className="md:size-5 size-4 cursor-pointer">
+                <img src={src} alt={alt} className="w-full h-full" />
+            </div>
+        </Link>
     );
 }
