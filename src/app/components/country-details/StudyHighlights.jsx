@@ -4,14 +4,14 @@ import useGsapOpacity from "@/app/hooks/gsap/useGsapOpacity"
 
 export default function StudyHighlights({ data }) {
 
-    const contentRef = useGsapFadeIn()
-    const ImageRef = useGsapFadeIn()
+  const contentRef = useGsapFadeIn()
+  const ImageRef = useGsapFadeIn()
 
   return (
     <section className="w-full flex   justify-end bg-[#F3F3F3] mb-10 max-md:pb-10 xl:pt-12">
       <div className=" max-md:max-w-11/12 md:w-11/12 max-lg:mx-auto ">
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-12 max-lg:py-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-12 max-lg:py-6 overflow-hidden">
 
           {/* LEFT SIDE – Background Image + Content */}
           <div

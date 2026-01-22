@@ -27,9 +27,9 @@ export default function WhyStudyIn({ data }) {
                         {/* Overlay */}
                         <div className="absolute inset-0 bg-[#3B3F7A]/50  " />
 
-                        <div className="relative z-10 py-10 lg:py-16 xl:py-20  2xl:py-24 text-white ">
+                        <div ref={contentRef} className="relative z-10 py-10 lg:py-16 xl:py-20  2xl:py-24 text-white overflow-hidden ">
 
-                            <div ref={contentRef} className=" w-full  ">
+                            <div  className=" w-full  ">
                                 <h2 className=" heading mb-4 lg:mb-6">
                                     {data?.title}
                                 </h2>

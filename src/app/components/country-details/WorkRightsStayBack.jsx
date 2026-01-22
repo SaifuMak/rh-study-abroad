@@ -4,7 +4,7 @@ import useGsapFadeIn from "@/app/hooks/gsap/useGsapFadeIn"
 
 export default function WorkRightsStayBack({ data }) {
 
-    // const contentRef = useGsapFadeIn()
+    const contentRef = useGsapFadeIn()
 
     return (
         <section className="w-full pt-10 xl:pt-16 ">
@@ -24,8 +24,8 @@ export default function WorkRightsStayBack({ data }) {
 
                     <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-[#720024]/50" />
 
-                    <div className="relative z-10 h-full flex items-center justify-center text-center px-6 py-9 py-12">
-                        <div className="max-w-6xl text-white">
+                    <div  className="relative  overflow-hidden z-10 h-full flex items-center justify-center text-center px-6 py-9 py-12">
+                        <div  ref={contentRef} className="max-w-6xl text-white">
 
                             <h2 className="heading  font-semibold mb-2 md:mb-4">
                                 {data?.title}
