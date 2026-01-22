@@ -2,7 +2,7 @@ export const countries = {
 
   uk: {
     name: "UK",
-    image: "/images/home/countries/uk.jpg",
+    image: "/images/countries/uk/card.jpg",
     details: {
       intro: {
         headline: "Study in the UK",
@@ -213,7 +213,7 @@ Few universities offering multiple intakes (February, April, May, October and No
   },
   canada: {
     name: "Canada",
-    image: "/images/countries/canada/banner.jpg",
+    image: "/images/countries/canada/card.jpg",
     details: {
       intro: {
         headline: "Study in the Canada",
@@ -408,7 +408,7 @@ Few universities offering multiple intakes (February, April, May, October and No
 
   'new-zealand': {
     name: "New Zealand",
-    image: "/images/countries/new-zealand/banner.jpg",
+    image: "/images/countries/new-zealand/card.jpg",
     details: {
       intro: {
         headline: "Study in the New Zealand",
@@ -601,7 +601,7 @@ Few universities offering multiple intakes (February, April, May, October and No
   },
   Ireland: {
     name: "Ireland",
-    image: "/images/countries/Ireland/banner.jpg",
+    image: "/images/countries/Ireland/card.jpg",
     details: {
       intro: {
         headline: "Study in the Ireland",
@@ -794,7 +794,7 @@ Few universities offering multiple intakes (February, April, May, October and No
   },
   france: {
     name: "France",
-    image: "/images/countries/france/banner.jpg",
+    image: "/images/countries/france/card.jpg",
     details: {
       intro: {
         headline: "Study in the France",
@@ -995,7 +995,7 @@ Few universities offering multiple intakes (February, April, May, October and No
 
   sweden: {
     name: "Sweden",
-    image: "/images/countries/sweden/banner.jpg",
+    image: "/images/countries/sweden/card.jpg",
     details: {
       intro: {
         headline: "Study in the Sweden",
@@ -1188,7 +1188,7 @@ Few universities offering multiple intakes (February, April, May, October and No
   },
   switzerland: {
     name: "Switzerland",
-    image: "/images/countries/switzerland/banner.jpg",
+    image: "/images/countries/switzerland/card.jpg",
     details: {
       intro: {
         headline: "Study in the Switzerland",
@@ -1325,7 +1325,7 @@ Few universities offering multiple intakes (February, April, May, October and No
   },
   austria: {
     name: "Austria",
-    image: "/images/countries/austria/banner.jpg",
+    image: "/images/countries/austria/card.jpg",
     details: {
       intro: {
         headline: "Study in the Austria",
@@ -1512,7 +1512,7 @@ Few universities offering multiple intakes (February, April, May, October and No
   },
   denmark: {
     name: "Denmark",
-    image: "/images/countries/denmark/banner.jpg",
+    image: "/images/countries/denmark/card.jpg",
     details: {
       intro: {
         headline: "Study in the Denmark",
@@ -1711,7 +1711,7 @@ Few universities offering multiple intakes (February, April, May, October and No
   },
   finland: {
     name: "Finland",
-    image: "/images/countries/finland/banner.jpg",
+    image: "/images/countries/finland/card.jpg",
     details: {
       intro: {
         headline: "Study in the Finland",
@@ -1906,7 +1906,7 @@ Few universities offering multiple intakes (February, April, May, October and No
   },
   malta: {
     name: "Malta",
-    image: "/images/countries/malta/banner.jpg",
+    image: "/images/countries/malta/card.jpg",
     details: {
       intro: {
         headline: "Study in the Malta",
@@ -2068,7 +2068,7 @@ Few universities offering multiple intakes (February, April, May, October and No
   },
   Italy: {
     name: "Italy",
-    image: "/images/countries/Italy/banner.jpg",
+    image: "/images/countries/Italy/card.jpg",
     details: {
       intro: {
         headline: "Study in the Italy",
@@ -2215,7 +2215,7 @@ Few universities offering multiple intakes (February, April, May, October and No
   },
   latvia: {
     name: "Latvia",
-    image: "/images/countries/Latvia/banner.jpg",
+    image: "/images/countries/Latvia/card.jpg",
     details: {
       intro: {
         headline: "Study in the Latvia",
@@ -2374,7 +2374,7 @@ Few universities offering multiple intakes (February, April, May, October and No
   },
   netherlands: {
     name: "Netherlands",
-    image: "/images/countries/netherlands/banner.jpg",
+    image: "/images/countries/netherlands/card.jpg",
     details: {
       intro: {
         headline: "Study in the Netherlands",
@@ -2513,7 +2513,7 @@ Few universities offering multiple intakes (February, April, May, October and No
   },
   singapore: {
     name: "Singapore",
-    image: "/images/countries/singapore/banner.jpg",
+    image: "/images/countries/singapore/card.jpg",
     details: {
       intro: {
         headline: "Study in the Singapore",
@@ -2681,7 +2681,7 @@ Few universities offering multiple intakes (February, April, May, October and No
 
   dubai: {
     name: "Dubai",
-    image: "/images/countries/dubai/banner.jpg",
+    image: "/images/countries/dubai/card.jpg",
     details: {
       intro: {
         headline: "Study in the Dubai",
@@ -2885,7 +2885,7 @@ Few universities offering multiple intakes (February, April, May, October and No
 
   spain: {
     name: "Spain",
-    image: "/images/countries/dubai/banner.jpg",
+    image: "/images/countries/spain/card.jpg",
     details: {
       intro: {
         headline: "Study in the Spain",
@@ -3043,7 +3043,7 @@ Few universities offering multiple intakes (February, April, May, October and No
 
   hungary: {
     name: "Hungary",
-    image: "/images/countries/hungary/banner.jpg",
+    image: "/images/countries/hungary/card.jpg",
     details: {
       intro: {
         headline: "Study in the Hungary",
@@ -3194,7 +3194,7 @@ Few universities offering multiple intakes (February, April, May, October and No
 
   slovenia: {
     name: "Slovenia",
-    image: "/images/countries/slovenia/banner.jpg",
+    image: "/images/countries/slovenia/card.jpg",
     details: {
       intro: {
         headline: "Study in the Slovenia",
@@ -3334,7 +3334,7 @@ Finding suitable accommodation in Slovenia is generally simple and cost-effectiv
 
   norway: {
     name: "Norway",
-    image: "/images/countries/norway/banner.jpg",
+    image: "/images/countries/norway/card.jpg",
     details: {
       intro: {
         headline: "Study in the Norway",
@@ -3494,7 +3494,7 @@ Finding suitable accommodation in Slovenia is generally simple and cost-effectiv
 
   slovakia: {
     name: "Slovakia",
-    image: "/images/countries/slovakia/banner.jpg",
+    image: "/images/countries/slovakia/card.jpg",
     details: {
       intro: {
         headline: "Study in the Slovakia",
@@ -3627,7 +3627,7 @@ Finding suitable accommodation in Slovenia is generally simple and cost-effectiv
 
   lithuania: {
     name: "Lithuania",
-    image: "/images/countries/lithuania/banner.jpg",
+    image: "/images/countries/lithuania/card.jpg",
     details: {
       intro: {
         headline: "Study in the Lithuania",

@@ -33,7 +33,7 @@ function FaqItem({ item, index }) {
         <div key={index} className="border-b  border-black/15 pb-4">
             <button
                 onClick={() => setIsOpened(!isOpened)}
-                className="w-full flex items-start gap-1 lg:gap-2 text-left"
+                className="w-full flex  cursor-pointer items-start gap-1 lg:gap-2 text-left"
             >
                 {/* Number */}
                 <span className="text-black max-md:font-semibold font-medium lg:text-xl text-lg 2xl:text-2xl">

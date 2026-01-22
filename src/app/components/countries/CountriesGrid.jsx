@@ -9,14 +9,14 @@ export default function CountriesGrid() {
                 <Link  key={index} href={`/countries/${key}`}>
                     <div
                        
-                        className="relative  h-[350px] lg:h-[350px] xl:h-[420px] rounded-3xl overflow-hidden group"
+                        className="relative  h-[350px] lg:h-[350px] xl:h-[490px] rounded-3xl overflow-hidden group"
                     >
                         {/* Image */}
                         <Image
                             src={country.image}
                             alt={country.name}
                             fill
-                            className="duration-500 group-hover:scale-105"
+                            className="duration-500 object-cover group-hover:scale-105"
                         />
 
                         {/* Overlay */}
