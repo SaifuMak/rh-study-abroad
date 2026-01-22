@@ -36,7 +36,7 @@ export default function StudyHighlights({ data }) {
           </div>
 
           {/* RIGHT SIDE – Image */}
-          <div ref={ImageRef} className="relative w-full xl:h-full md:max-h-[600px] h-[300px] md:min-h-[450px] max-lg:rounded-2xl max-lg:mb-5 lg:rounded-tl-3xl overflow-hidden shadow-xl">
+          <div ref={ImageRef} className="relative w-full xl:h-full md:max-h-[600px]  md:min-h-[350px] xl:min-h-[450px] h-[300px] max-lg:rounded-2xl max-lg:mb-5 lg:rounded-tl-3xl overflow-hidden shadow-xl">
             <Image
               src={data?.mainImg}
               alt={data?.altText}

@@ -1,7 +1,6 @@
 
 import Image from "next/image"
 import useGsapFadeIn from "@/app/hooks/gsap/useGsapFadeIn";
-import useGsapOpacity from "@/app/hooks/gsap/useGsapOpacity";
 
 import CountriesGrid from "./CountriesGrid";
 import { faqItems } from "@/app/data/faqItems";
@@ -10,7 +9,6 @@ import FAQ from "./FAQ";
 export default function ContentSection() {
 
     const contentRef = useGsapFadeIn()
-    const imagesContainerRef = useGsapOpacity()
 
     return (
         <section className="relative w-full pt-24 mt-24 lg:mt-36 2xl:mt-48 overflow-hidden">
@@ -24,25 +22,29 @@ export default function ContentSection() {
                 />
             </div>
 
-            <div className="lg:max-w-10/12 mx-auto px-4">
-                {/* Heading */}
-                <div ref={contentRef} className="text-center opacity-0 xl:mb-16 mb-10">
-                    <h2 className="heading font-semibold text-[#7A0026] mb-4">
-                        Top Countries to Study Abroad
-                    </h2>
-                    <p className="description">
-                        Explore the world’s most sought-after study destinations—offering world-class education, vibrant cultures, career opportunities,
-                        and a gateway to global success.
-                    </p>
+            <div ref={contentRef} className="opacity-0">
+
+                <div className="lg:max-w-10/12 mx-auto px-4">
+                    {/* Heading */}
+                    <div className="text-center  xl:mb-16 mb-10">
+                        <h2 className="heading font-semibold text-[#7A0026] mb-4">
+                            Top Countries to Study Abroad
+                        </h2>
+                        <p className="description">
+                            Explore the world’s most sought-after study destinations—offering world-class education, vibrant cultures, career opportunities,
+                            and a gateway to global success.
+                        </p>
+                    </div>
                 </div>
+
+                {/* countries list  */}
+                <div className=" mb-12 lg:mb-20  w-10/12 mx-auto">
+                    <CountriesGrid />
+                </div>
+
             </div>
 
-            {/* countries list  */}
-            <div ref={imagesContainerRef} className=" mb-12 lg:mb-20 opacity-0 w-10/12 mx-auto">
-                <CountriesGrid />
-            </div>
-
-            <FAQ items={faqItems}/>
+            <FAQ items={faqItems} />
 
         </section>
     )

@@ -47,7 +47,7 @@ export default function WhyStudyIn({ data }) {
                                     return (
                                         <div
                                             key={index}
-                                            className="bg-[#B1275D] rounded-2xl max-md:py-6 max-md:px-4 md:p-5 xl:p-6 flex flex-col justify-center  2xl:p-9 text-center shadow-lg hover:scale-[1.02] transition"
+                                            className="bg-[#B1275D] rounded-2xl max-md:py-6 max-md:px-10 md:p-8 lg:p-5 xl:p-6 flex flex-col justify-center  2xl:p-9 text-center shadow-lg hover:scale-[1.02] transition"
                                         >
                                             <div className="flex justify-center mb-2 xl:mb-4">
                                                 <img src={feature.icon} alt="" className=" size-9" />

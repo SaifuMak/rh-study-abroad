@@ -40,7 +40,7 @@ function FaqItem({ item, index }) {
                     className="w-full flex items-start gap-1 lg:gap-2 text-left"
                 >
                     {/* Number */}
-                    <span className="text-black  font-medium lg:text-xl text-lg 2xl:text-2xl">
+                    <span className="text-black   font-medium lg:text-xl  2xl:text-2xl">
                         {index + 1}.
                     </span>
 
