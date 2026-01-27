@@ -13,7 +13,7 @@ export default function ContactSection() {
 
       <div
         className="absolute inset-0 bg-no-repeat bg-cover bg-center"
-        style={{ backgroundImage: "url('images/services/girl-with-books.jpg')" }}
+        style={{ backgroundImage: "url('/images/services/girl-with-books.jpg')" }}
       />
 
 

@@ -11,7 +11,7 @@ function Banner() {
       id='banner'
       className="w-full text-white h-[60vh] lg:h-dvh bg-slate-200 overflow-hidden bg-cover bg-center"
       style={{
-        backgroundImage: "url('images/home/banner.jpg')",
+        backgroundImage: "url('/images/home/banner.jpg')",
       }}
     >
       {/* Banner content can go here */}
