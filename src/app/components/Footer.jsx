@@ -18,7 +18,7 @@ export default function Footer() {
                         </Link>
                         <div className="bg-white/50 h-12  max-md:hidden lg:h-20 lg:ml-20  w-[2px]"></div>
 
-                       <Brochure/>
+                        <Brochure />
                     </div>
                 </div>
 

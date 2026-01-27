@@ -4,7 +4,7 @@ import useGsapFadeIn from '@/app/hooks/gsap/useGsapFadeIn';
 import Link from "next/link";
 
 function Banner() {
-  const contentRef = useGsapFadeIn()
+  const contentRef = useGsapFadeIn({ delay: '0.2' })
 
   return (
     <div
@@ -16,7 +16,7 @@ function Banner() {
     >
       {/* Banner content can go here */}
       <div className={`${inriaSans.className} w-11/12 xl:w-9/12  flex items-end mx-auto  h-full`}>
-        <div ref={contentRef} className="  xl:pb-28 lg:pb-20 pb-6   font-semibold w-full">
+        <div ref={contentRef} className=" opacity-0  xl:pb-28 lg:pb-20 pb-6   font-semibold w-full">
           <h1 className={`${istokWeb.className} text-3xl  md:text-5xl lg:text-7xl xl:leading-20 `}>Study Abroad,<br />
             Live your Dream Life</h1>
           <div className="flex mt-5 items-center max-lg:text-xs  space-x-5">
