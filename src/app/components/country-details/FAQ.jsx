@@ -10,7 +10,7 @@ export default function FAQ({ data }) {
 
     return (
         <section className="w-full  bg-white py-12 lg:py-16 xl:py-20 2xl:py-28 ">
-            <div className=" lg:max-w-11/12 2xl:max-w-9/12 mx-auto">
+            <div className=" max-w-11/12  lg:max-w-10/12 2xl:max-w-9/12 mx-auto">
                 {/* Title */}
                 <h2 ref={titleRef} className="text-center heading font-semibold  mb-10 2xl:mb-14">
                     Frequently Asked Questions
