@@ -2215,7 +2215,7 @@ Few universities offering multiple intakes (February, April, May, October and No
   },
   latvia: {
     name: "Latvia",
-    image: "/images/countries/Latvia/card.jpg",
+    image: "/images/countries/latvia/card.jpg",
     details: {
       intro: {
         headline: "Study in the Latvia",
