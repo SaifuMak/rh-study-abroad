@@ -1,28 +1,10 @@
 'use client';
-import React, { useState } from "react";
-import { RxCross2 } from "react-icons/rx";
 import Link from "next/link";
+import Brochure from "./footer/Brochure";
 
 export default function Footer() {
-    const [email, setEmail] = useState("");
 
     const subtileStyle = ' text-xl lg:text-2xl mb-2 md:mb-5'
-
-    const handleBrochureDownload = () => {
-        if (!email) return;
-
-        console.log("Brochure email:", email);
-
-        // reset if needed
-        // setEmail("");
-    };
-
-    const handleKeyDown = (e) => {
-        if (e.key === "Enter") {
-            handleBrochureDownload();
-        }
-    };
-
 
     return (
         <footer className="bg-[#3B3B3D] pt-5  md:pt-10 text-white">
@@ -36,33 +18,7 @@ export default function Footer() {
                         </Link>
                         <div className="bg-white/50 h-12  max-md:hidden lg:h-20 lg:ml-20  w-[2px]"></div>
 
-                        <div className=" flex-1 flex max-md:flex-col items-center text-white md:space-x-10 2xl:space-x-20 w-full md:w-auto">
-                            <span className="2xl:text-2xl text-xl mb-2 whitespace-nowrap">
-                                Download Brochure
-                            </span>
-
-                            <div className=" flex  w-full ">
-                                <div className=" flex text-black  items-center w-full justify-between lg:px-4 px-2  rounded-sm w-full bg-white">
-                                    <input
-                                        type="email"
-                                        placeholder="Email Address"
-                                        value={email}
-                                        onChange={(e) => setEmail(e.target.value)}
-                                        onKeyDown={handleKeyDown}
-                                        className=" lg:py-3 py-2 outline-none w-full"
-                                    />
-                                    {email && <span onClick={() => setEmail('')} className=" ml-2 lg:ml-5 p-1 hover:bg-slate-50 cursor-pointer text-xl"><RxCross2 /></span>}
-
-                                </div>
-
-                                <button
-                                    onClick={handleBrochureDownload}
-                                    className="bg-primary-red cursor-pointer ml-4 xl:px-10 px-5 lg:py-3 py-2 max-md:text-xs rounded-sm"
-                                >
-                                    DOWNLOAD
-                                </button>
-                            </div>
-                        </div>
+                       <Brochure/>
                     </div>
                 </div>
 

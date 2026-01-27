@@ -1,6 +1,6 @@
 import "./globals.css";
 import {inriaSans} from './fonts';
-
+import { Toaster } from "sonner";
 
 export const metadata = {
   title: "RH STUDY ABROAD",
@@ -12,6 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={` ${inriaSans.className} `}>
         {children}
+              <Toaster position="bottom-right" richColors />
       </body>
     </html>
   );
