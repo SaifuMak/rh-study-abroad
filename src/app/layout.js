@@ -3,7 +3,7 @@ import {inriaSans} from './fonts';
 import { Toaster } from "sonner";
 
 export const metadata = {
-  title: "RH STUDY ABROAD",
+  title: "RH Study Abroad",
   description: "A platform for studying abroad resources and information.",
 };
 

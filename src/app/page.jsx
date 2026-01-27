@@ -18,7 +18,7 @@ export default function Home() {
     <SmoothScroll>
       <div className=" fixed top-0 w-full z-999">
         <TopBar />
-        <MainHeader/>
+        <MainHeader />
       </div>
       <div className=" overflow-x-hidden">
         <Banner />
