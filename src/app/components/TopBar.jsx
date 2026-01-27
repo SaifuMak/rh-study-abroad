@@ -10,14 +10,18 @@ import { HiLocationMarker } from "react-icons/hi";
 import { IoLogoFacebook } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa6";
 import { SlSocialLinkedin } from "react-icons/sl";
-import { SiGoogle } from "react-icons/si";
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { useMediaQuery } from 'react-responsive';
+
 
 gsap.registerPlugin(ScrollTrigger)
 
 export default function TopBar({ isDark = false }) {
   const barRef = useRef(null)
+  const lastScrollY = useRef(0)
+  const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
+
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -41,6 +45,27 @@ export default function TopBar({ isDark = false }) {
     })
 
     return () => ctx.revert()
+  }, [])
+
+
+  /* hide / show topbar on scroll */
+  useEffect(() => {
+    if (!isMobile) return
+
+    const handleScroll = () => {
+      if (!barRef.current) return
+
+      const current = window.scrollY
+      if (current > lastScrollY.current + 15) {
+        barRef.current.style.opacity = "0"
+      } else if (lastScrollY.current > current + 15) {
+        barRef.current.style.opacity = "1"
+      }
+      lastScrollY.current = current
+    }
+
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
 
@@ -74,6 +99,7 @@ export default function TopBar({ isDark = false }) {
               Ambakkadan Jn, P.I.K Tower, St Thomas College Rd, Thrissur
             </a>
           </span>
+
         </div>
 
         {/* Right */}

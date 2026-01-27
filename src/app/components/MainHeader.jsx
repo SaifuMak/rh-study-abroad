@@ -5,7 +5,6 @@ import { useEffect, useRef, useState } from "react"
 import { IoIosMenu, IoIosClose } from "react-icons/io"
 import { usePathname } from "next/navigation"
 
-
 export default function MainHeader() {
   const navRef = useRef(null)
   const lastScrollY = useRef(0)
