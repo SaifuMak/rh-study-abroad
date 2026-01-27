@@ -123,7 +123,7 @@ export default function Footer() {
                 <div className=" xl:w-10/12 w-11/12  mx-auto pt-8 pb-10 ">
                     <div className="  flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
                         <p className=" lg:text-lg font-light">
-                            <span className=" text-[#DE0046]">©</span> 2025 Rayon Hoffnu Edu. Pvt.Ltd. Designed by
+                            <span className=" text-[#DE0046]">©</span> {new Date().getFullYear()} Rayon Hoffnu Edu. Pvt.Ltd. Designed by
                             <span className="ml-1">
                                 <a
                                     href="https://maktalseo.com/"
