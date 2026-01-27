@@ -98,7 +98,7 @@ export default function MainHeader() {
         className={`
           fixed inset-0 bg-white z-[999]
           transform transition-transform duration-700
-          ${isMenuOpen ? "translate-y-0 " : "-translate-y-full"}
+          ${isMenuOpen ? "translate-y-0 pointer-events-auto " : "-translate-y-full pointer-events-none"}
           md:hidden
         `}
       >

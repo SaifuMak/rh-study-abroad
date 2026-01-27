@@ -51,7 +51,7 @@ export default function IntroSection() {
                         {/* middle image for above xl  */}
                         <div className="col-span-12 md:col-span-2 max-2xl:hidden row-span-2 relative h-[260px] xl:h-[400px] 2xl:h-[460px] rounded-2xl overflow-hidden">
                             <Image
-                                src="/images/contact-us/studens-with-tab.jpg
+                                src="/images/contact-us/studens-studying.jpg
                                 "
                                 alt="Students exploring"
                                 fill
