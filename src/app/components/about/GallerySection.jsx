@@ -42,7 +42,7 @@ function GallerySection() {
     const leftContentRef = useGsapOpacity()
 
     return (
-        <section className="w-full  py-12 flex justify-end lg:py-20 lg:mt-10 bg-[#F3F3F3]">
+        <section className="w-full   py-8 flex justify-end lg:py-20 lg:mt-10 bg-[#F3F3F3]">
             <div className="w-11/12 relative max-lg:mx-auto xl:pl-10 lg:pr-5 ">
 
                 {/* Top Content */}

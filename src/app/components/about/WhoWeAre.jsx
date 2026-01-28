@@ -30,7 +30,7 @@ export default function WhoWeAre() {
 
     return (
         <section className="w-full lg:pr-6">
-            <div className="bg-[#771D400D] lg:rounded-r-xl xl:py-20 py-12 lg:mt-10 px-4 sm:px-6 lg:px-8">
+            <div className="bg-[#771D400D] lg:rounded-r-xl xl:py-20 lg:py-12 py-8 lg:mt-10 px-4 sm:px-6 lg:px-8">
                 <div className="2xl:max-w-5xl md:max-w-10/12 max-w-11/12 mx-auto">
                     {/* Header */}
                     <h2 ref={firstRef} className="heading xl:mb-8 mb-4 text-center  font-semibold text-[#7A0026]">

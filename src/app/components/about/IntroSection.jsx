@@ -13,7 +13,7 @@ export default function IntroSection() {
     const leftContentRef = useGsapOpacity()
 
     return (
-        <section className="relative w-full py-24 mt-22 lg:mt-28 2xl:mt-36 overflow-hidden">
+        <section className="relative w-full py-12 lg:py-24 mt-20 lg:mt-28 2xl:mt-36 overflow-hidden">
             {/* Background illustration */}
             <div className="absolute inset-0 -z-10 bg-white">
                 <Image
@@ -26,7 +26,7 @@ export default function IntroSection() {
 
             <div className="max-w-10/12 mx-auto px-4">
                 {/* Heading */}
-                <div ref={contentRef} className="text-center opacity-0 mb-16">
+                <div ref={contentRef} className="text-center opacity-0 mb-10 lg:mb-16">
                     <h2 className="heading font-semibold text-[#7A0026] mb-4">
                         About Us
                     </h2>
