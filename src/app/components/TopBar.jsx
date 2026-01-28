@@ -78,7 +78,7 @@ export default function TopBar({ isDark = false }) {
 
         {/* Left */}
         <div className="flex max-md:flex-col  justify-between md:items-center gap-2 md:gap-6 max-md:hidden">
-          <span className="flex items-center">
+          <div className="flex items-center">
             <a
               href="mailto:mail@rhstudyabroad.com"
               className="flex items-center hover:underline "
@@ -86,9 +86,9 @@ export default function TopBar({ isDark = false }) {
               <IoMdMail className="mr-1 md:text-xl" />
               mail@rhstudyabroad.com
             </a>
-          </span>
+          </div>
 
-          <span className="flex md:items-center">
+          <div className="flex md:items-center">
             <a
               href="https://maps.app.goo.gl/tdSqLnxwkSDX57Y86"
               target="_blank"
@@ -98,12 +98,26 @@ export default function TopBar({ isDark = false }) {
               <HiLocationMarker className="mr-1 md:text-xl " />
               Ambakkadan Jn, P.I.K Tower, St Thomas College Rd, Thrissur
             </a>
-          </span>
+          </div>
+
+          <div className=" flex items-center ">
+            <a
+              href="tel:+919544221155"
+              className="flex items-center hover:underline cursor-pointer"
+            >
+              <img
+                src="/Icons/phone.svg"
+                alt="Phone"
+                className="size-3 md:size-4 mr-2"
+              />
+              +91 9544 22 11 55
+            </a>
+          </div>
 
         </div>
 
         {/* Right */}
-        <div className="flex md:items-center justify-end   text-base md:text-xl max-md:mt-2  gap-4">
+        <div className="flex md:items-center  justify-center   text-base md:text-xl max-md:mt-2  gap-4">
           <a
             href="mailto:mail@rhstudyabroad.com"
             className="flex items-center hover:underline md:hidden"
@@ -118,6 +132,16 @@ export default function TopBar({ isDark = false }) {
           >
             <HiLocationMarker className="mr-1 md:text-xl" />
           </a>
+           <a
+              href="tel:+919544221155"
+              className="flex items-center hover:underline cursor-pointer"
+            >
+              <img
+                src="/Icons/phone.svg"
+                alt="Phone"
+                className="size-3 md:size-4 mr-2"
+              />
+            </a>
           <Link href="https://www.facebook.com/rhstudy.in/" target="_blank" rel="noopener noreferrer"><IoLogoFacebook /></Link>
           <Link href="https://www.instagram.com/rhstudy.in/?hl=en" target="_blank" rel="noopener noreferrer" ><FaInstagram /></Link>
           <Link href="#"><FaWhatsapp /></Link>
