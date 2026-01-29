@@ -10,7 +10,7 @@ export default function IntroSection() {
     const rightContentRef = useGsapFadeIn({ start: "top 100%" })
 
     return (
-        <section className="relative w-full pt-24 mt-20 lg:mt-28 2xl:mt-36 overflow-hidden">
+        <section className="relative w-full pt-16 lg:pt-24 mt-16 lg:mt-28 2xl:mt-36 overflow-hidden">
             {/* Background illustration */}
             <div className="absolute inset-0 h-[50%] lg:h-[70%] -z-10 bg-white">
                 <Image

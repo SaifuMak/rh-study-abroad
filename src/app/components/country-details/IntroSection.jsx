@@ -7,7 +7,7 @@ function IntroSection({ data, country }) {
     const contentRef = useGsapFadeIn()
 
     return (
-        <section className="relative w-full pt-22 2xl:pt-24 mt-22 lg:mt-28 xl:mt-36 2xl:mt-44 overflow-hidden">
+        <section className="relative w-full pt-12 lg:pt-22 2xl:pt-24 mt-22 lg:mt-28 xl:mt-36 2xl:mt-44 overflow-hidden">
             <div className=" ">
 
                 {/* Image Section */}
@@ -35,7 +35,7 @@ function IntroSection({ data, country }) {
 
                     {/* Play Button */}
                     <button className="absolute inset-0 flex items-center justify-center z-10">
-                        <span className="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center shadow-lg hover:scale-105 transition">
+                        <span className="w-16 h-16 max-sm:mt-8 bg-white/80 rounded-full flex items-center justify-center shadow-lg hover:scale-105 transition">
                             ▶
                         </span>
                     </button>

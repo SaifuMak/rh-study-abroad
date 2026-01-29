@@ -40,12 +40,12 @@ function FaqItem({ item, index }) {
                     className="w-full flex items-start gap-1 lg:gap-2 text-left"
                 >
                     {/* Number */}
-                    <span className="text-black   font-medium lg:text-xl  2xl:text-2xl">
+                    <span className="text-black   font-medium lg:text-xl max-sm:font-semibold  2xl:text-2xl">
                         {index + 1}.
                     </span>
 
                     {/* Question */}
-                    <span className="lg:text-xl  text-base 2xl:text-2xl font-medium text-black flex-1">
+                    <span className="lg:text-xl  text-base 2xl:text-2xl font-medium max-sm:font-semibold text-black flex-1">
                         {item.ques}
                     </span>
 

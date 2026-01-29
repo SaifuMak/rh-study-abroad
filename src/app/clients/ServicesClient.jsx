@@ -19,7 +19,7 @@ function ServicesClient() {
             <div className="overflow-x-hidden">
                 <IntroSection />
                 <ServiceSection />
-                <ContactSection/>
+                <ContactSection />
 
                 <Footer />
             </div>

@@ -12,7 +12,7 @@ export default function IntroSection() {
 
 
     return (
-        <section className="relative w-full pt-22 pb-5 2xl:pt-24 mt-22 lg:mt-28 2xl:mt-44 overflow-hidden">
+        <section className="relative w-full pt-10 lg:pt-22 pb-5 2xl:pt-24 mt-22 lg:mt-28 2xl:mt-44 overflow-hidden">
             {/* Background illustration */}
             <div className="absolute inset-0 -z-10 bg-white">
                 <div className=" lg:h-[50%] h-[80%] w-full  relative ">

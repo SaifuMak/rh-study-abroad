@@ -18,9 +18,9 @@ function ContactClient() {
             </div>
             <div className="overflow-x-hidden">
                 <IntroSection />
-                <GetInTouch/>
-                <Map/>
-                
+                <GetInTouch />
+                <Map />
+
                 <Footer />
             </div>
         </SmoothScroll>

@@ -11,7 +11,7 @@ export default function ContentSection() {
     const contentRef = useGsapFadeIn()
 
     return (
-        <section className="relative w-full pt-24 mt-24 lg:mt-36 2xl:mt-48 overflow-hidden">
+        <section className="relative w-full pt-12 lg:pt-24 mt-20 lg:mt-24 lg:mt-36 2xl:mt-48 overflow-hidden">
             {/* Background illustration */}
             <div className="absolute inset-0 h-[600px] -z-10  bg-white">
                 <Image

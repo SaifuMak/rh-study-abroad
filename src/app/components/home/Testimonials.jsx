@@ -10,7 +10,7 @@ function Testimonials() {
     const contentRef = useGsapFadeIn();
 
     return (
-        <div className=" w-full max-md:w-11/12 mx-auto my-10 lg:my-12 2xl:my-20  ">
+        <div className=" w-full max-md:w-11/12 mx-auto my-8 lg:my-12 2xl:my-20  ">
             <div ref={contentRef} className="mx-auto text-center ">
                 {/* Add content here */}
                 <h2 className={`${sansita.className} text-center mb-4   heading `}>
